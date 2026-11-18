@@ -4,7 +4,7 @@
 `threat-model-{project-slug}-{YYYY-MM-DD}.md` in the client's `created/docs/security/`.*
 
 
-> **Agentic name warning (2026-11-08).** The ASI01-ASI10 names below came from the DDD research
+> **Agentic name warning (2026-11-08).** The ASI01-ASI10 names below came from the practice research
 > file, not from an OWASP page. An internal review found OWASP's own press release naming ASI01
 > "Agent Behavior Hijacking" where we have "Agent Goal Hijack", and a second-source variant for
 > ASI04. The ten names are therefore `PENDING_VERIFICATION`: cite the ID in client work and verify
@@ -22,7 +22,7 @@
 
 
 OWASP Top 10 lists are **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/). We cite **IDs only** (LLM01:2026, ASI01) and write our own test
-descriptions. Never paste OWASP descriptions, examples or mitigations into a DDD file or a client
+descriptions. Never paste OWASP descriptions, examples or mitigations into a the practice file or a client
 deliverable; link to the source instead:
 - OWASP Top 10 for LLM Applications 2025: https://genai.owasp.org/llm-top-10/ (register INT-9)
 - OWASP Top 10 for Agentic Applications 2026: https://genai.owasp.org/2025/12/09/owasp-top-10-for-agentic-applications-the-benchmark-for-agentic-security-in-the-age-of-autonomous-ai/ (register INT-10)
@@ -40,7 +40,7 @@ and every place untrusted text enters a prompt. Mark each boundary B1, B2 ... Un
 
 ### OWASP LLM Top 10 2025 (IDs only; names as listed in the research file)
 
-| ID | Short name | DDD question for this architecture |
+| ID | Short name | The practice question for this architecture |
 |---|---|---|
 | LLM01:2026 | Prompt Injection | Where does untrusted text enter a prompt, and what can the model do afterwards? |
 | LLM02:2026 | Sensitive Information Disclosure | Can any user get data they are not entitled to through the model or its logs? |
@@ -55,7 +55,7 @@ and every place untrusted text enters a prompt. Mark each boundary B1, B2 ... Un
 
 ### OWASP Agentic Top 10 2026 (only if the system plans, uses tools or acts)
 
-| ID | Short name | DDD question |
+| ID | Short name | The practice question |
 |---|---|---|
 | ASI01 | Agent Goal Hijack | Can retrieved or tool content redirect the agent's objective? |
 | ASI02 | Tool Misuse and Exploitation | Is every tool allow-listed, parameter-validated and least-privilege? |
@@ -89,7 +89,7 @@ Reconnaissance (TA0002), Resource Development (TA0003), Initial Access (TA0004),
 (TA0009), Exfiltration (TA0010), Impact (TA0011), Privilege Escalation (TA0012), Credential
 Access (TA0013), Command and Control (TA0014), Lateral Movement (TA0015).
 
-Techniques most relevant to DDD architectures:
+Techniques most relevant to the practice architectures:
 
 | Architecture element | ATLAS technique (2026.10) |
 |---|---|
@@ -117,7 +117,7 @@ Materials; AML.M0025 Maintain AI Dataset Provenance; AML.M0018 User Training.
 
 - ACSC "Careful adoption of agentic AI services" (May 2026, AU-23) is the Australian reference for
   agent designs. Map agent service accounts to Essential Eight controls (application control,
-  patching, restricting admin privileges, MFA, backups); this mapping is DDD interpretation.
+  patching, restricting admin privileges, MFA, backups); this mapping is the practice interpretation.
 - APRA-regulated clients: APRA's AI letter names prompt injection, data leakage and agent misuse
   (AU-15). The threat model is assurance evidence.
 

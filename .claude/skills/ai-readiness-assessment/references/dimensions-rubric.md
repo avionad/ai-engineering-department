@@ -1,7 +1,7 @@
 # Seven dimensions and scoring rubric
 
 *v0.1.0, 2026-11-08. Level descriptors adapted from OneWave-AI `ai-readiness-assessment`
-(MIT; six dimensions, 1-5 levels) and reorganised into DDD's seven dimensions; governance scored
+(MIT; six dimensions, 1-5 levels) and reorganised into the practice's seven dimensions; governance scored
 against the National AI Centre's Guidance for AI Adoption six practices and the APP 1.7 ADM duty
 (research file A1). See `vendored-provenance.md`.*
 
@@ -107,7 +107,7 @@ file A1). This assessment identifies the consideration; the client's legal advis
 | 2 | Informal rules or a draft policy; some awareness of shadow AI; no register; ADM not yet assessed. |
 | 3 | Acceptable use policy published; accountable executive named; AI register started; use cases screened; ADM inventory under way or done. (Most practices at least 1, accountability 2.) |
 | 4 | Risk register and tiering in use; impact assessments for higher-risk uses; evaluation and monitoring standard; privacy policy discloses ADM; incident process. (Most practices 2.) |
-| 5 | AI management system aligned to ISO/IEC 42001 (readiness, not certification by DDD); AI council operating; regular review of register and risks; board oversight; all six practices at 2. |
+| 5 | AI management system aligned to ISO/IEC 42001 (readiness, not certification by the practice); AI council operating; regular review of register and risks; board oversight; all six practices at 2. |
 
 ## 7. Security and privacy [`security_privacy`]
 

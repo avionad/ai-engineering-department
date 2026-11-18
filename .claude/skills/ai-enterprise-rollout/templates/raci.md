@@ -1,11 +1,11 @@
 <!-- Audience: client. Save as {client}/created/docs/strategy/ai-rollout-raci-{YYYY-MM-DD}.md.
 R = responsible (does it), A = accountable (one per row, signs off), C = consulted, I = informed.
-Exactly one A per row. DDD is never A for a client decision. Adjust columns to the client's
+Exactly one A per row. The practice is never A for a client decision. Adjust columns to the client's
 actual roles. -->
 
 # AI rollout RACI: {Client}
 
-| Activity | Accountable exec | Program owner | AI council | Function leads | IT / security | Privacy / legal | HR | Champions | DDD |
+| Activity | Accountable exec | Program owner | AI council | Function leads | IT / security | Privacy / legal | HR | Champions | The practice |
 |---|---|---|---|---|---|---|---|---|---|
 | Set AI strategy and risk appetite | A | R | C | C | C | C | C | I | C |
 | Approve tool tiers and AUP | I | R | A | C | C | C | C | I | C |
@@ -29,11 +29,11 @@ actual roles. -->
 
 Notes:
 - "A/R" means the same role is accountable and does the work.
-- Build row: DDD is responsible for the build; the client's function lead is accountable for
+- Build row: the practice is responsible for the build; the client's function lead is accountable for
   accepting it. Go-live is always approved by the client (conventions stage 7).
 
 ---
 
 *Adapted, with changes, from "How to build an AI-powered workforce: GitHub's playbook", GitHub,
-licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for DDD's
-engagement stages, Australian regulatory obligations added, DDD measurement and RACI added.*
+licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for the practice's
+engagement stages, Australian regulatory obligations added, the practice measurement and RACI added.*

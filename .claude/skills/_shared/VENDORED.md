@@ -19,14 +19,14 @@ documents about LLM security discussing "system prompt", and deliberate attack e
 promptfoo and garak red-team documentation, which are test data. None was an instruction addressed
 to an agent.
 
-**Python files: the 8 scripts DDD runs, and 23 upstream files we never execute.**
+**Python files: the 8 scripts the practice runs, and 23 upstream files we never execute.**
 
 | | Where they live | Count | Imports | Do we run them |
 |---|---|---|---|---|
-| DDD scripts we run | in the department itself, not in the vendor folder | 8 | stdlib only: `argparse`, `calendar`, `collections`, `csv`, `datetime`, `json`, `math`, `os`, `re`, `sys`, `typing`. No network, no `subprocess`, nothing to install | Yes |
+| The practice scripts we run | in the department itself, not in the vendor folder | 8 | stdlib only: `argparse`, `calendar`, `collections`, `csv`, `datetime`, `json`, `math`, `os`, `re`, `sys`, `typing`. No network, no `subprocess`, nothing to install | Yes |
 | Upstream reference files | `ai-kb/vendor/` | 23 | 18 (all under `alirezarezvani__claude-skills/`) import stdlib only: `argparse`, `json`, `sys`, `textwrap`, `typing`. The other 5 are upstream Presidio recogniser modules under `data-privacy-stack__presidio/presidio-analyzer/.../country_specific/australia/`: four import `presidio_analyzer` and `__init__.py` relative-imports those four, so they cannot run without Presidio installed | **No, never** |
 
-The 8 DDD scripts are `_shared/check_freshness.py` plus one each in `ai-proposal-pricing`,
+The 8 the practice scripts are `_shared/check_freshness.py` plus one each in `ai-proposal-pricing`,
 `ai-compliance-risk`, `ai-readiness-assessment`, `ai-governance-program`,
 `ai-evals-security-testing`, `ai-optimisation-llmops` and `ai-use-case-portfolio`
 (`engagement-conventions.md` s6b lists them with their exit codes). The Presidio recognisers are
@@ -75,7 +75,7 @@ source). Licence MIT (c) Presidio Contributors, read from the repo LICENSE file,
 https://github.com/data-privacy-stack/presidio/blob/main/LICENSE.
 
 We harvested from `ai-kb/vendor/data-privacy-stack__presidio/` at the pinned SHA above (SHA
-unchanged). Asked whose PII library DDD uses, the correct answer is "Microsoft's Presidio, now
+unchanged). Asked whose PII library the practice uses, the correct answer is "Microsoft's Presidio, now
 maintained in the `data-privacy-stack` organisation". Nothing was copied from it, so there is no
 licence exposure either way.
 

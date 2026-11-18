@@ -51,7 +51,7 @@ eval harness and for distillation labelling.
 | Custom architecture not found | `--trust-remote-code`, **only for reviewed repositories pinned to a commit** |
 | Low throughput | Raise `--max-num-seqs`; check GPU utilisation |
 
-## DDD rules
+## House rules
 
 - Never expose the port publicly; private interface or localhost behind an authenticating proxy
   with TLS (`../hosting-and-operations.md` s4). The source's examples bind to `0.0.0.0` for

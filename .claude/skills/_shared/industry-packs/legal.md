@@ -1,7 +1,7 @@
 # Industry pack: legal
 
 *v0.1.0, 2026-11-08. Law firms and in-house legal teams. Rules point at `../regulatory-register.md`.
-DDD never gives legal advice to lawyers either: we build and govern the tooling.*
+The practice never gives legal advice to lawyers either: we build and govern the tooling.*
 
 ## High-ROI use cases
 
@@ -11,8 +11,8 @@ DDD never gives legal advice to lawyers either: we build and govern the tooling.
 | 2 | Contract clause extraction and comparison | 2 | Confidential; lawyer reviews |
 | 3 | Research memos | 2 | Fabricated-citation risk; lawyer must verify every authority |
 | 4 | Matter intake (conflict checks, triage) | 2 | Prospective client PI; 3 if it declines matters automatically |
-| 5 | Precedent and know-how search over the firm's own documents `[DDD addition]` | 2 | Confidential; permission-aware retrieval needed (matter walls) |
-| 6 | Time narrative and billing draft clean-up `[DDD addition]` | 1 to 2 | Internal; client names present |
+| 5 | Precedent and know-how search over the firm's own documents `[House addition]` | 2 | Confidential; permission-aware retrieval needed (matter walls) |
+| 6 | Time narrative and billing draft clean-up `[House addition]` | 1 to 2 | Internal; client names present |
 
 ## Key risks
 

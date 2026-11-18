@@ -1,6 +1,6 @@
 ---
 name: ai-solution-architecture
-description: "Use when an AI or automation project needs a solution design before quote or build, or when a client's IT team asks how it will work. The method skill the ai-architect agent follows for DDD's ai-automation department: requirement restatement, the cheapest-rung ladder (SaaS or configuration, no-code workflow, prompt plus tools, RAG, custom agent or app, model customisation), architecture views (context, container, data flow with trust boundaries and personal-data paths, sequence) in Mermaid, ADRs, build vs buy over total cost of ownership with sourced prices only, a non-functional requirements checklist (security, privacy, residency, availability, latency, cost, observability, exit), integration design (system of record per entity, sync direction, error handling), effort drivers for ai-proposal-pricing, and plain-English answers to end-customer technical questions."
+description: "Use when an AI or automation project needs a solution design before quote or build, or when a client's IT team asks how it will work. The method skill the ai-architect agent follows for this AI automation department: requirement restatement, the cheapest-rung ladder (SaaS or configuration, no-code workflow, prompt plus tools, RAG, custom agent or app, model customisation), architecture views (context, container, data flow with trust boundaries and personal-data paths, sequence) in Mermaid, ADRs, build vs buy over total cost of ownership with sourced prices only, a non-functional requirements checklist (security, privacy, residency, availability, latency, cost, observability, exit), integration design (system of record per entity, sync direction, error handling), effort drivers for ai-proposal-pricing, and plain-English answers to end-customer technical questions."
 when_to_use: "design the solution, solution architecture, ai architecture, how should we build this, draw the architecture, architecture diagram, data flow diagram, trust boundaries, sequence diagram, which platform, build vs buy ai, buy or build, prompt vs rag vs fine-tune, adr, architecture decision record, non-functional requirements, nfr checklist, integration design, system of record, sync direction, effort drivers for the quote, explain this to the client's it team, technical questions from the customer, solution design document"
 trigger: "design the solution, solution architecture, ai architecture, how should we build this, draw the architecture, architecture diagram, data flow diagram, trust boundaries, sequence diagram, which platform, build vs buy ai, buy or build, prompt vs rag vs fine-tune, adr, architecture decision record, non-functional requirements, nfr checklist, integration design, system of record, sync direction, effort drivers for the quote, explain this to the client's it team, technical questions from the customer, solution design document"
 version: 0.1.0
@@ -30,7 +30,7 @@ build-vs-buy decision and at least one ADR. The output is a design, never a buil
   `ai-rag-engineering`, `ai-model-customisation`, `ai-deployment-platforms` for
   specialist depth; `ai-evals-security-testing` for the
   eval and test plan; `ai-optimisation-llmops` for run and monitoring needs.
-- **Live DDD skills it can hand to**: `product/app-stack-decision` (stack and hosting for an app
+- **Live the practice skills it can hand to**: `product/app-stack-decision` (stack and hosting for an app
   with a UI), `product/documentation-and-adrs` (ADR conventions in a code repository),
   `product/product-builder` (any app build), `n8n/n8n-architect` (workflow builds).
 
@@ -60,7 +60,7 @@ distil). Fine-tuning does not reliably add fresh facts.
 
 ### 3. Build vs buy
 
-Compare at most three options over the same period (DDD default three years) on total cost of
+Compare at most three options over the same period (House default three years) on total cost of
 ownership and on the things money does not capture: residency, control, lock-in, exit path,
 operational burden, time to value. Method and worksheet: `references/build-vs-buy.md` (approach
 adapted from the alirezarezvani chief-ai-officer-advisor calculator, MIT, credited there). Every

@@ -1,6 +1,6 @@
 ---
 name: ai-agents-automation
-description: "Use when a DDD client wants a business process automated, or an AI agent, customer support agent or voice receptionist built, covering document intake, email triage, CRM automation, data enrichment and finance and back-office work, customer support agents or voice agents. Chooses rules-based automation first and AI only where judgement or unstructured input needs it, designs agents under least agency (scoped credentials, tool allow-lists, human approval for irreversible, financial or customer-facing actions, spend caps, kill switch, logging, idempotency, retries and error queues) mapped to OWASP Agentic Top 10 IDs, designs human-in-the-loop, covers voice agent build and buy options with recording consent flagged, and hands workflow builds to n8n-architect and UI apps to product-builder. Ships the agent control spec and runbook templates."
+description: "Use when a the practice client wants a business process automated, or an AI agent, customer support agent or voice receptionist built, covering document intake, email triage, CRM automation, data enrichment and finance and back-office work, customer support agents or voice agents. Chooses rules-based automation first and AI only where judgement or unstructured input needs it, designs agents under least agency (scoped credentials, tool allow-lists, human approval for irreversible, financial or customer-facing actions, spend caps, kill switch, logging, idempotency, retries and error queues) mapped to OWASP Agentic Top 10 IDs, designs human-in-the-loop, covers voice agent build and buy options with recording consent flagged, and hands workflow builds to n8n-architect and UI apps to product-builder. Ships the agent control spec and runbook templates."
 when_to_use: "automate this process, ai agent for the business, build an agent, process automation, back-office automation, document intake automation, email triage, inbox automation, crm automation, data enrichment, invoice capture, accounts payable automation, reconciliation automation, quote generation automation, voice agent, ai receptionist, phone agent, human in the loop design, agent guardrails, least agency, agent control spec, kill switch, automation runbook, should this use ai or rules"
 trigger: "automate this process, ai agent for the business, build an agent, process automation, back-office automation, document intake automation, email triage, inbox automation, crm automation, data enrichment, invoice capture, accounts payable automation, reconciliation automation, quote generation automation, voice agent, ai receptionist, phone agent, human in the loop design, agent guardrails, least agency, agent control spec, kill switch, automation runbook, should this use ai or rules"
 version: 0.1.0
@@ -98,7 +98,7 @@ in `ai-compliance-risk` mode (c).
 Every agent and every automation with write access gets, at minimum: its own scoped, short-lived
 credential stored in Doppler; a tool allow-list with parameter validation; human approval for
 irreversible, financial or customer-facing actions; spend, rate and loop caps; a kill switch the
-client can use without DDD; full action logging; idempotent writes; retries with backoff; an
+client can use without the practice; full action logging; idempotent writes; retries with backoff; an
 error queue with a named owner. Detail and the OWASP ASI mapping: `references/agent-controls.md`.
 ACSC "Careful adoption of agentic AI services" (May 2026, register AU-23) is the Australian
 reference to cite to clients.
@@ -106,7 +106,7 @@ reference to cite to clients.
 ## Voice agents
 
 Inbound first. Build options Pipecat (BSD-2-Clause) or LiveKit Agents (Apache-2.0) on Australian
-infrastructure; buy options are hosted voice platforms (DDD's own receptionist runs on Retell
+infrastructure; buy options are hosted voice platforms (the practice's own receptionist runs on Retell
 with a Twilio AU number via SIP import). Every voice agent has an AI disclosure and recording
 notice at the start of the call, an escalation path to a human, and a public-safe knowledge base.
 Recording consent requirements by state are **PENDING_VERIFICATION** (no register row yet): no
@@ -151,6 +151,6 @@ synthesis; never quote a saving from them. Get the client's own numbers.
 
 - Call recording and listening-device rules per state: no register row (GitHub research gap 9).
 - Outbound AI calling (telemarketing rules) not covered; inbound only until a register row exists.
-- No worked client example yet beyond DDD's own receptionist.
+- No worked client example yet beyond the practice's own receptionist.
 
 Provenance: `references/vendored-provenance.md`.

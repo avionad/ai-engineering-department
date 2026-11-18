@@ -33,7 +33,7 @@ incident plan rather than running a parallel process.*
 | Medium | Isolated wrong output caught before harm; near miss; policy breach without data exposure | Within 2 business days |
 | Low | Quality issue, no external impact | Next review cycle |
 
-Response times are DDD defaults; set the client's own in the charter.
+Response times are House defaults; set the client's own in the charter.
 
 ## Steps
 
@@ -44,7 +44,7 @@ Response times are DDD defaults; set the client's own in the charter.
    outbound sends; preserve logs (prompts, outputs, actions, model version).
 4. **Assess data breach.** If personal information may be involved, the privacy officer runs the
    NDB assessment within the client's breach process (AU-6). For APRA-regulated clients, check
-   CPS 234 incident notification duties with the risk team (AU-14; specifics not in DDD's register).
+   CPS 234 incident notification duties with the risk team (AU-14; specifics not in the practice's register).
 5. **Notify.** Internal escalation per severity; affected customers where appropriate; vendor;
    regulators only through the client's legal or privacy lead.
 6. **Fix.** Root cause across categories: data, model or vendor change, prompt or retrieval,

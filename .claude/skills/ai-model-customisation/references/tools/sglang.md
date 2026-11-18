@@ -29,7 +29,7 @@ python -m sglang.launch_server --model-path <model> --tp 4 --port 30000   # tens
 It exposes an OpenAI-compatible API, so the same gateway and client code can sit in front of vLLM or
 SGLang.
 
-## DDD rules
+## House rules
 
 - Same security baseline as vLLM: private binding, authenticating proxy, TLS, pinned revisions.
 - Validate structured output against the schema in the application as well; constrained decoding

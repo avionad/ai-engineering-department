@@ -1,7 +1,7 @@
 # AI cost and usage trend
 
 Source: samples/usage-sample-2026-11-08.csv. Money = sums of the cost_aud column as supplied; no token prices applied.
-Flag threshold: cost per task up >20% month on month (DDD default 20%, set per client). Volume swing context flag: >30% (DDD default).
+Flag threshold: cost per task up >20% month on month (House default 20%, set per client). Volume swing context flag: >30% (House default).
 
 | System | Month | Tasks | Cost AUD | Cost/task | MoM cost/task | MoM tasks | In tok/task | Out tok/task | Mix in/out | Cache share | Top model (cost share) | Flags |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|

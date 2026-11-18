@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """portfolio.py -- rank an organisation's AI use-case portfolio and flag governance gaps.
 
-DDD ai-automation department, ai-use-case-portfolio skill, v0.1.0 (2026-11-08).
-Stdlib only. No network. DDD's own code (no harvested code adapted).
+The practice ai-automation department, ai-use-case-portfolio skill, v0.1.0 (2026-11-08).
+Stdlib only. No network. The practice's own code (no harvested code adapted).
 
 Reads a CSV with these required columns:
     id, name, owner, value_low, value_high, value_source, feasibility, risk_tier,

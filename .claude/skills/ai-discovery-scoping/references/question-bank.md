@@ -62,7 +62,7 @@ Ask for a screen-share or a walk-through of a real example.
     365 or Google Workspace), phones, line-of-business apps? Which version or plan?
 23. Do those systems have an API or export we could use? Who administers them (internal IT,
     an MSP, the vendor)?
-24. Can we get a test or sandbox environment? (DDD builds in sandbox or staging only.)
+24. Can we get a test or sandbox environment? (the practice builds in sandbox or staging only.)
 25. Do you already run any automation (Power Automate, Zapier, n8n, scripts, macros)?
 26. Is there a system of record the output must land in (for example purchase orders in the ERP)?
 

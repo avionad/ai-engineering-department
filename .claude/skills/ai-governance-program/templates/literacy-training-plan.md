@@ -19,13 +19,13 @@ board.*
 | Managers and decision-makers | Know when a decision is ADM and what human review really means | APP 1.7 three-limb test in plain language; automation bias; designing review steps; contestability | 60 min workshop with their own processes | Within first quarter of the program | Attendance; one ADM item each brought for the register |
 | Power users and use-case owners | Write good prompts, evaluate output, own a register entry | Prompting and grounding; evaluation basics; data classes; register and screening duties | Half day | Before they own a system | Register entry created |
 | Builders (internal devs, admins, integrators) | Build to least agency and test for known weaknesses | OWASP LLM01-LLM10 and ASI01-ASI10 (by ID, our own material); scoped credentials; logging; eval baselines; permission-aware retrieval | 1 day + lab | Before first build | Lab completion; threat model on first project |
-| Privacy, risk, legal | Run screens, impact assessments, vendor DD | Register walk-through; the tier model; mode (a)-(h) of `ai-compliance-risk` | Half day | Program start | First screen co-run with DDD |
+| Privacy, risk, legal | Run screens, impact assessments, vendor DD | Register walk-through; the tier model; mode (a)-(h) of `ai-compliance-risk` | Half day | Program start | First screen co-run with the practice |
 | Executive team | Set direction, appetite and accountability | Value cases from their discovery numbers; the risk tiers; accountability; what good looks like at 6 and 12 months | 90 min | Program start | Charter approved |
 | Board (M where relevant; L and XL; any APRA-regulated client) | Oversee AI risk with informed challenge | AI risk appetite; questions to ask management; the client's register and top risks; supplier concentration and exit plans (APRA area); cyber exposure from AI (prompt injection, data leakage, agent misuse); regulatory horizon from the register (in force vs proposed) | 60-90 min session + one-page question card | Annually and on major change | Board minutes; appetite statement |
 
 ## Size band scaling
 
-- **S:** one 60-minute all-staff session run by DDD, AUP signed, owner gets a 30-minute decision-
+- **S:** one 60-minute all-staff session run by the practice, AUP signed, owner gets a 30-minute decision-
   maker briefing. No separate board.
 - **M:** all staff + managers + power users; executive briefing; board if one exists.
 - **L:** full matrix; champions in each department deliver refreshers.

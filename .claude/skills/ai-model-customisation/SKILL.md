@@ -25,7 +25,7 @@ correct outcome, not a lost sale. This skill deepens solution pattern **P9**
 - **Used by** the `ai-architect` agent at stage 3 for the "prompt vs RAG vs fine-tune" rung of the
   ladder and the model and hosting ADRs.
 - **Built from** by the `ai-engineer` agent: training runs, exports and serving set
-  up in sandbox or DDD-controlled environments only, never on client production.
+  up in sandbox or the practice-controlled environments only, never on client production.
 - **Tested by** `ai-evals-security-testing`: baseline, checkpoint comparison, drift
   suite, red-team of the tuned model.
 - **Screened by** `ai-compliance-risk`: risk tier, privacy (APP 3 and APP 6 limits on using
@@ -75,7 +75,7 @@ flowchart TD
   J --> K{Beats baseline, within<br/>drift budget, owner approves?}
   K -- no --> S3[Reject checkpoint.<br/>Keep prompt + RAG]
   K -- yes --> L[Host + monitor + retraining plan]
-  P[Pretrain from scratch] -. never for DDD clients .-> X[Out of scope]
+  P[Pretrain from scratch] -. never for the practice clients .-> X[Out of scope]
 ```
 
 **The eval-first gate (non-negotiable).** No method selection, no training plan and no quote line

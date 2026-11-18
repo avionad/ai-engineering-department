@@ -12,8 +12,8 @@
 | 2 | Fraud flagging | 3 | Flags drive investigation and possible denial; significant effect |
 | 3 | Policy wording Q&A (customer or staff) | 2 | Customer-facing; misstatement risk under ACL (AU-22) |
 | 4 | Underwriting submission extraction | 3 if it feeds pricing or acceptance; 2 if broker-side data entry only | Underwriting decisions significantly affect customers |
-| 5 | Claims correspondence drafting with handler review `[DDD addition]` | 2 | Customer PI; human sends |
-| 6 | Internal knowledge assistant for claims handlers over procedures `[DDD addition]` | 1 to 2 | Internal; 2 if it surfaces customer files |
+| 5 | Claims correspondence drafting with handler review `[House addition]` | 2 | Customer PI; human sends |
+| 6 | Internal knowledge assistant for claims handlers over procedures `[House addition]` | 1 to 2 | Internal; 2 if it surfaces customer files |
 
 ## Key risks
 

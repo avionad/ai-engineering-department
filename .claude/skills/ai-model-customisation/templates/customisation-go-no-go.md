@@ -60,7 +60,7 @@ versions and licences carry a model-card URL and date read, or `PENDING_VERIFICA
 - [ ] Consent or permitted secondary use basis recorded (for the legal adviser)
 - [ ] Redaction applied and tested (recall on sample): ____
 - [ ] Golden IDs excluded; de-duplication done
-- [ ] Dataset card complete (all fields incl. DDD privacy and approval fields)
+- [ ] Dataset card complete (all fields incl. The practice privacy and approval fields)
 - [ ] Teacher-model output-use terms checked (distillation only): ____
 - [ ] Storage of weights: location, encryption, access, retention date
 
@@ -91,6 +91,6 @@ versions and licences carry a model-card URL and date read, or `PENDING_VERIFICA
 
 | Role | Name | Date | Decision |
 |---|---|---|---|
-| DDD (ai-architect / owner) | | | |
+| The practice (ai-architect / owner) | | | |
 | ai-compliance-officer review | | | |
 | Client accountable owner | | | |

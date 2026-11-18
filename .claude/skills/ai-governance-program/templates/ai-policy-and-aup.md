@@ -5,7 +5,7 @@ created/docs/security/ai-policy-{client}-{YYYY-MM-DD}.md and ai-acceptable-use-p
 
 *v0.1.0, 2026-11-08. Practices 1 and 6 (AU-4); ISO/IEC 42001 Clause 5 and 7; NIST Govern.
 Start from the NAIC AI policy guide and template (free, AU-4) when the client wants the government
-format; this template is what DDD adds on top: size-band tailoring, Australian legal hooks (APP 1.7,
+format; this template is what the practice adds on top: size-band tailoring, Australian legal hooks (APP 1.7,
 OAIC guidance), the client's own tool list and data classes, and links to the register and incident
 playbook. Do not charge for re-typing the free template; charge for the tailoring.*
 

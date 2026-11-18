@@ -63,5 +63,5 @@ Measurement notes: {data revisions, tracking gaps, seasonality; only where they 
 ---
 
 *Adapted, with changes, from "How to build an AI-powered workforce: GitHub's playbook", GitHub,
-licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for DDD's
-engagement stages, Australian regulatory obligations added, DDD measurement and RACI added.*
+licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for the practice's
+engagement stages, Australian regulatory obligations added, the practice measurement and RACI added.*

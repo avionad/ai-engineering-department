@@ -1,8 +1,8 @@
 # Architecture views and Mermaid conventions
 
-*v0.1.0, 2026-11-08. DDD conventions. The four views follow the common context, container,
+*v0.1.0, 2026-11-08. House conventions. The four views follow the common context, container,
 data-flow and sequence split used in software architecture practice; nothing harvested is
-copied. Mermaid renders in Markdown, Google Docs exports and the DDD report renderer
+copied. Mermaid renders in Markdown, Google Docs exports and the practice report renderer
 (conventions s7).*
 
 ## 1. Mermaid conventions
@@ -39,7 +39,7 @@ The deployable parts and how they communicate.
 
 ```mermaid
 flowchart LR
-  subgraph DV ["DDD-managed VPS, Australia"]
+  subgraph DV ["the practice-managed VPS, Australia"]
     W["Workflow engine<br/>(n8n)"]
     Q[(Error queue)]
     L[(Run log)]
@@ -73,7 +73,7 @@ flowchart LR
     F[Web form]
     CRM[(CRM)]
   end
-  subgraph DM ["DDD-managed, Australia"]
+  subgraph DM ["the practice-managed, Australia"]
     W[Workflow]
     LG[("Logs, retention per design<br/>PI redacted")]
   end

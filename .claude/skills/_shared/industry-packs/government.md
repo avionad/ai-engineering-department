@@ -14,8 +14,8 @@ lesson for ADM affecting entitlements.
 | 2 | FOI triage | 2 to 3 | Affects access rights; 3 if it decides release or exemption |
 | 3 | Policy summarisation | 1 | Public or internal documents |
 | 4 | Service-centre chat | 2 (3 if it advises on eligibility) | Citizen-facing; entitlement information |
-| 5 | Internal knowledge assistant over procedures `[DDD addition]` | 1 to 2 | Classification of source material decides |
-| 6 | Grant application pre-screening `[DDD addition]` | 3 | Substantially and directly related to an entitlement decision |
+| 5 | Internal knowledge assistant over procedures `[House addition]` | 1 to 2 | Classification of source material decides |
+| 6 | Grant application pre-screening `[House addition]` | 3 | Substantially and directly related to an entitlement decision |
 
 ## Key risks
 

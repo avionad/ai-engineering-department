@@ -53,7 +53,7 @@ Unused hours: {policy set : PENDING}.
 ## 6. Costs outside the fee
 
 Model tokens, hosting and SaaS seats are paid by you directly where possible (cleaner for data
-residency and accountability). Where DDD pays them, they are passed through at cost and shown on
+residency and accountability). Where the practice pays them, they are passed through at cost and shown on
 the invoice. We report cost per task each month from the billed amounts.
 
 ## 7. How changes go live

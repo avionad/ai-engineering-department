@@ -8,9 +8,9 @@ created/docs/security/adm-privacy-policy-draft-{client}-{YYYY-MM-DD}.md -->
 [Allens, Oct 2026](https://www.allens.com.au/insights-news/insights/2026/10/mandatory-automated-decision-making-disclosure-requirements-are-coming-key-takeaways-from-the-oaic-guidance/),
 [Gilbert + Tobin](https://www.gtlaw.com.au/insights/automated-decision-making-transparency-under-the-privacy-act).*
 
-> **DDD drafts; the legal adviser decides.** This guide and any wording produced from it identify
+> **The practice drafts; the legal adviser decides.** This guide and any wording produced from it identify
 > regulatory considerations for review by the client's legal adviser. It is not legal advice.
-> OAIC-prescribed wording or format, if any, is not in DDD's register: the adviser checks the
+> OAIC-prescribed wording or format, if any, is not in the practice's register: the adviser checks the
 > OAIC guidance directly. Penalty exposure is `PENDING_VERIFICATION`; do not mention a figure.
 
 ## Inputs (from `ai-compliance-risk` mode c)

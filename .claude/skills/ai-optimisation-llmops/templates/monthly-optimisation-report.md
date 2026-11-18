@@ -50,7 +50,7 @@ negative feedback {x}. Source: eval_compare output {path}; trace export {path}.
 
 ## 3. Cost and usage
 
-From `cost_trend.py` on {usage export path}. Costs are as billed in the export; DDD does not
+From `cost_trend.py` on {usage export path}. Costs are as billed in the export; the practice does not
 estimate token prices.
 
 | System | Month | Tasks | Cost (AUD) | Cost per task | Change vs last month | Cache share | Flags |

@@ -31,7 +31,7 @@ phase help to ask the right questions and design the solution and help me quote 
    number is missing, write `PENDING` in the field and add the question to the follow-up list.
 3. **Every scope line lands in exactly one delivery bucket** (`references/delivery-buckets.md`),
    because each bucket has a different cost shape and the estimator rejects anything else.
-4. **No DDD prices here.** This skill produces hours and assumptions. Fees come only from
+4. **No the practice prices here.** This skill produces hours and assumptions. Fees come only from
    `ai-proposal-pricing`, which is CFO-gated and owner-approved.
 
 ## Playbook

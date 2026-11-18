@@ -1,6 +1,6 @@
 ---
 name: ai-evals-security-testing
-description: "Use when an AI system DDD built or is authorised to test needs proving before go-live, after a material change, or in the monthly loop. Designs the eval suite (golden set from the client's real examples, masked; test types per pattern for RAG, extraction, agents and chat; pass thresholds set with the client and recorded; baseline; regression rule), red-teams it against OWASP LLM and Agentic Top 10 IDs and MITRE ATLAS 2026.10 (prompt injection, leakage, PII, jailbreak, excessive agency, unbounded consumption, output handling, supply chain), compares guardrail options, runs promptfoo as the default harness, and writes the PASS / PASS WITH CONDITIONS / FAIL test report. Written authorisation first, always."
+description: "Use when an AI system the practice built or is authorised to test needs proving before go-live, after a material change, or in the monthly loop. Designs the eval suite (golden set from the client's real examples, masked; test types per pattern for RAG, extraction, agents and chat; pass thresholds set with the client and recorded; baseline; regression rule), red-teams it against OWASP LLM and Agentic Top 10 IDs and MITRE ATLAS 2026.10 (prompt injection, leakage, PII, jailbreak, excessive agency, unbounded consumption, output handling, supply chain), compares guardrail options, runs promptfoo as the default harness, and writes the PASS / PASS WITH CONDITIONS / FAIL test report. Written authorisation first, always."
 when_to_use: "eval the AI, test the chatbot, red team the AI, AI security test, prompt injection test, jailbreak test, pre-launch AI test, golden set, eval baseline, regression test the prompt, permission leak test, PII leakage test, guardrails, NeMo Guardrails, Bedrock Guardrails, promptfoo, garak, PyRIT, OWASP LLM test, OWASP agentic test, MITRE ATLAS test, is the AI ready for go-live, AI test report, compare eval runs"
 trigger: "eval the AI, test the chatbot, red team the AI, AI security test, prompt injection test, jailbreak test, pre-launch AI test, golden set, eval baseline, regression test the prompt, permission leak test, PII leakage test, guardrails, NeMo Guardrails, Bedrock Guardrails, promptfoo, garak, PyRIT, OWASP LLM test, OWASP agentic test, MITRE ATLAS test, is the AI ready for go-live, AI test report, compare eval runs"
 version: 0.1.1
@@ -43,7 +43,7 @@ Two jobs, one report:
 ## Hard rules
 
 1. **Written authorisation before any test** (system, environment, window, test accounts, who
-   approved, date) recorded in the engagement state and the test plan. Default target is DDD's
+   approved, date) recorded in the engagement state and the test plan. Default target is the practice's
    sandbox or staging. **Production only with the client's written approval** recorded first, and
    never destructive tests against real data.
 2. **No client data outside the data-handling agreement.** Golden-set examples come from the
@@ -131,7 +131,7 @@ Finding nothing is a valid result **if coverage was real**: state what was and w
 
 Options and selection: `references/guardrails-options.md`. NeMo Guardrails (Apache-2.0),
 Guardrails AI (Apache-2.0), platform guardrails such as Amazon Bedrock Guardrails (available in
-Sydney per research B4), and DDD's own deterministic checks (allow-lists, schema validation,
+Sydney per research B4), and the practice's own deterministic checks (allow-lists, schema validation,
 Presidio redaction). A guardrail is a control; it is tested like every other control, and a
 guardrail that blocks attacks but also blocks legitimate golden-set items has failed.
 
@@ -163,7 +163,7 @@ your engagement activity log (conventions s8).
 | S | One promptfoo config, golden set from the owner's examples, smoke red-team; report in plain terms |
 | M | Per-role tests, permission-leak suite where RAG, monthly re-run in the retainer |
 | L | Client security team sees the plan first; tests in their staging under their change control |
-| XL | Tests per use case feed the org AI register; findings go to the AI council; consider an independent tester for Tier 3 (conflict of interest when DDD built it) |
+| XL | Tests per use case feed the org AI register; findings go to the AI council; consider an independent tester for Tier 3 (conflict of interest when the practice built it) |
 
 ## Do not
 

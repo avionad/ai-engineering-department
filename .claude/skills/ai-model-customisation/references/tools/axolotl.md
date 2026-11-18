@@ -19,7 +19,7 @@ area 4). The source is a set of doc excerpts; read the Axolotl docs at the pinne
   the source.
 - **Check interconnect bandwidth** with NCCL tests before blaming the config for slow multi-GPU runs.
 
-## DDD rules
+## House rules
 
 - Config files are versioned with the dataset card and eval results so a run can be reproduced.
 - Same data residency and eval-first rules as every training tool.

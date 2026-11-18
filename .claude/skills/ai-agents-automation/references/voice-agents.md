@@ -2,8 +2,8 @@
 
 *v0.1.0, 2026-11-08. Sources: solution pattern P4 in `ai-discovery-scoping`; GitHub research
 area 6 (Pipecat BSD-2-Clause, LiveKit Agents Apache-2.0) and gap 9 (nothing public covers call
-recording consent, disclosure scripts and escalation under Australian law); DDD's own receptionist
-build (`DDD Clients/Projects/ai-receptionist/CLAUDE.md`, verified 2026-08-13). No platform
+recording consent, disclosure scripts and escalation under Australian law); the practice's own receptionist
+build (`the practice Clients/Projects/ai-receptionist/CLAUDE.md`, verified 2026-08-13). No platform
 prices or features are stated here: check vendor docs at design time (R1).*
 
 ## 1. Where voice agents fit
@@ -12,19 +12,19 @@ Missed calls that cost leads or bookings; after-hours and overflow; simple enqui
 message capture. Inbound only for now. Outbound AI calling raises telemarketing and consent rules
 that have no register row: **PENDING_VERIFICATION**, out of scope until a row exists.
 
-Avoid legal, health and government callers until a sovereign stack exists (DDD product decision
+Avoid legal, health and government callers until a sovereign stack exists (the practice product decision
 recorded in P4). Typical risk tier 2 (personal data, recordings, customer-facing).
 
 ## 2. Build or buy
 
 | Option | What it is | When | Notes |
 |---|---|---|---|
-| Buy: hosted voice platform | Vendor hosts speech-to-text, the model and text-to-speech; you supply prompt, knowledge and tools | Speed; S and M clients; low-sensitivity calls | DDD runs Retell (agent) with a Twilio AU number via elastic SIP import, plus an n8n post-call pipeline. Retell's own number purchase was US/CA only when verified (2026-08-13), so AU numbers come via SIP import. Vapi is DDD's noted fallback. Check each vendor's data region and retention terms (vendor due diligence, `ai-compliance-risk` mode g) |
-| Build: Pipecat (BSD-2-Clause) | Open-source voice agent framework | Data sovereignty, custom logic, cost control at volume | Hosted on Australian infrastructure; DDD's phase 3 sovereignty plan (with a self-hosted telephony gateway under evaluation) |
+| Buy: hosted voice platform | Vendor hosts speech-to-text, the model and text-to-speech; you supply prompt, knowledge and tools | Speed; S and M clients; low-sensitivity calls | The practice runs Retell (agent) with a Twilio AU number via elastic SIP import, plus an n8n post-call pipeline. Retell's own number purchase was US/CA only when verified (2026-08-13), so AU numbers come via SIP import. Vapi is the practice's noted fallback. Check each vendor's data region and retention terms (vendor due diligence, `ai-compliance-risk` mode g) |
+| Build: Pipecat (BSD-2-Clause) | Open-source voice agent framework | Data sovereignty, custom logic, cost control at volume | Hosted on Australian infrastructure; the practice's phase 3 sovereignty plan (with a self-hosted telephony gateway under evaluation) |
 | Build: LiveKit Agents (Apache-2.0) | Open-source realtime voice agents with telephony | As Pipecat; examples include receptionist-style agents | Same hosting considerations |
 
 The prompt, knowledge base and post-call workflow should be platform-neutral so a platform swap
-is days, not a rebuild (DDD receptionist decision).
+is days, not a rebuild (the practice receptionist decision).
 
 ## 3. Call design
 
@@ -65,7 +65,7 @@ signals; emergency language (direct to emergency services per the client's scrip
 confidence twice in a row; anything about price commitments, refunds, legal or medical matters;
 repeated misunderstanding.
 
-**Never**: transfer to a number that forwards back to the agent (call loop; DDD's receptionist
+**Never**: transfer to a number that forwards back to the agent (call loop; the practice's receptionist
 rule); let the agent quote prices or commitments not provided by a rule-backed tool; put client
 names, fees or internal systems in a knowledge base that is spoken to the public.
 
@@ -73,7 +73,7 @@ names, fees or internal systems in a knowledge base that is spoken to the public
 
 - Public-safe knowledge base only; reviewed by the client before go-live.
 - Booking tools confirm details back to the caller before writing; current date injected before
-  any date reasoning (DDD receptionist queued upgrade).
+  any date reasoning (the practice receptionist queued upgrade).
 - Recordings and transcripts: retention period set with the client; stored in the region the
   design states; access limited.
 - Eval calls covering every call type, escalation trigger and an attempt to make the agent

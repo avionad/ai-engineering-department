@@ -11,7 +11,7 @@ rewritten to the depth of sections 1 and 2, after a review found the founder had
 deployment options and only two were treated properly. Every factual claim added in those three
 sections was verified live on 2026-11-08 against the vendor's own documentation, with the URL
 inline; the URLs are also recorded in `verify-live.md` so the next person checks the same pages.
-Two corrections fell out of the checks: DDD's own VPS instances are not in Australia (section 6),
+Two corrections fell out of the checks: the practice's own VPS instances are not in Australia (section 6),
 and Text Generation Inference is archived upstream (section 7). Sections 1, 2, 4, 5 and 8 are
 unchanged from v0.1.0 and still carry the research date, not a live check.*
 
@@ -157,11 +157,11 @@ configuration change: get Australian availability, the minimum footprint and the
 confirmed by Google in writing before it enters a proposal.
 
 **Operational burden, and who carries it.** Google patches and scales the models and search
-service; the client's cloud team owns IAM, VPC-SC perimeters, budgets and quotas; DDD owns the
-application, prompts, eval set and index. Two parts cost DDD more here than on the other clouds:
+service; the client's cloud team owns IAM, VPC-SC perimeters, budgets and quotas; the practice owns the
+application, prompts, eval set and index. Two parts cost the practice more here than on the other clouds:
 producing and maintaining the `acl_info` metadata for access-controlled data stores, and tracking
 which Gemini models are still processed in Sydney as the table moves. On GDC the client's
-infrastructure team carries the platform and DDD should not take uptime responsibility for it.
+infrastructure team carries the platform and the practice should not take uptime responsibility for it.
 
 **Exit and portability.** Model calls behind our own gateway port to Bedrock or Azure with prompt
 work only. The costly parts to leave are Vector Search indexes, access-controlled data stores (not
@@ -267,12 +267,12 @@ application, which reaches the model. Full control list: `security-baseline.md` 
 **Assurance position: we have none, and that is the headline.** A hosting provider is not IRAP
 assessed unless it says so and shows the report, and most do not. There is no vendor attestation to
 inherit, no SOC 2 covering our configuration, no shared-responsibility model doing work for us. The
-client is assessing DDD, not a hyperscaler. Say that plainly in the decision record: "this option
-carries no third-party assurance; the controls are the ones DDD implements and the client audits."
+client is assessing the practice, not a hyperscaler. Say that plainly in the decision record: "this option
+carries no third-party assurance; the controls are the ones the practice implements and the client audits."
 Any provider certification goes in the record only after it is verified with the issuer, with the
 date (matrix condition K7).
 
-**Operational burden, and who carries it.** DDD, and it is continuous: operating system and
+**Operational burden, and who carries it.** the practice, and it is continuous: operating system and
 dependency patching, kernel reboots, model server upgrades, certificate renewal, disk and GPU
 monitoring, log rotation, backup verification with tested restores, and being the person who gets
 called when inference stops at 7pm. There is no managed autoscaling and no multi-zone failover
@@ -289,7 +289,7 @@ rebuilt on another provider in a day, and keep backups somewhere that is not the
 
 **Cost drivers** (no prices here): GPU class and count, and whether the instance runs always-on or
 is stopped between batches; vCPU, RAM and disk for a CPU-only or workflow host; egress; snapshot and
-backup storage; a second host if availability matters; and DDD's run hours, which on this option
+backup storage; a second host if availability matters; and the practice's run hours, which on this option
 usually exceed the hosting cost. A GPU VPS kept always-on for low volume is almost always dearer
 than per-token API pricing: run that comparison with the client's own volumes before recommending
 it.
@@ -300,7 +300,7 @@ it.
 |---|---|---|
 | 1 | "Australian" provider with no verified data-centre location | Resold or offshore capacity destroys the residency claim that justified the whole option. Get it in writing |
 | 2 | Public inference port | A model server bound to `0.0.0.0` with no auth is an open API on someone else's bill, and a data leak. Private interface plus authenticating proxy, always |
-| 3 | No GPU where one was assumed | General-purpose VPS plans have no GPU (DDD's own two do not). Confirm GPU availability and quota with the provider before scoping |
+| 3 | No GPU where one was assumed | General-purpose VPS plans have no GPU (the practice's own two do not). Confirm GPU availability and quota with the provider before scoping |
 | 4 | Offshore calls inside an "onshore" design | Embeddings, document parsing, OCR or a fallback model quietly going to an offshore API breaks the claim. Audit every outbound call |
 | 5 | Model supply chain | Weights pulled unpinned, or `trust-remote-code` on an unreviewed repository, is arbitrary code execution. Pin by revision or checksum |
 | 6 | Licence assumed to be permissive | Open weights are not automatically commercially usable, and some carry acceptable-use terms. Read the licence on the model card per engagement |
@@ -340,7 +340,7 @@ endpoint, which is what keeps the exit plan cheap.
 
 **Identity and network controls.** The client's own: their directory for user identity, their
 network segmentation to put the GPU hosts in a restricted zone, their jump hosts and privileged
-access management for admin access, their TLS and certificate authority. DDD's job is to specify
+access management for admin access, their TLS and certificate authority. The practice's job is to specify
 what the AI system needs (a service identity per application, per-application keys at the gateway,
 no direct user access to the model port, egress rules that permit nothing by default) and to let the
 client's security team implement it in their own controls. Do not stand up a parallel identity
@@ -352,7 +352,7 @@ Essential Eight, the GPU hosts and the model server are in scope like any other 
 application control, patching applications and operating systems, restricting administrative
 privileges, multi-factor authentication and backups all apply to them (register AU-23, checked
 2026-11-08; the Essential Eight maturity model page is the source for the current wording and the
-maturity levels, and the client sets the target level, not DDD). For Commonwealth entities and their
+maturity levels, and the client sets the target level, not the practice). For Commonwealth entities and their
 suppliers the ISM applies: the current release at the time of checking is the September 2026 ISM on
 cyber.gov.au, which has added AI-specific controls since December 2025 covering a general-purpose AI
 usage policy, verifying the source and integrity of models, weights and training data, fine-grained
@@ -365,11 +365,11 @@ reaches a client deliverable, and route the ISM and IRAP conclusions themselves 
 security assessor, not to us.
 
 **Operational burden, and who carries it.** The heaviest of any option, and it is the client's, not
-DDD's. Hardware procurement with long lead times, rack space, power and cooling, GPU driver and
+The practice's. Hardware procurement with long lead times, rack space, power and cooling, GPU driver and
 CUDA-stack upgrades (the most common source of breakage), model server upgrades, capacity planning
 for concurrency, monitoring, spares and a hardware failure plan, and someone who can debug a model
 that has stopped loading. The honest MLOps reality for an Australian SMB: most clients in the S and
-M size bands do not have this skill in-house and will not hire it, and DDD does not sell 24/7
+M size bands do not have this skill in-house and will not hire it, and the practice does not sell 24/7
 infrastructure support. So the decision record names the person or vendor who owns the hosts, or the
 recommendation is not on-premises. Where the client wants on-premises sovereignty without the skill,
 Google Distributed Cloud or a managed sovereign provider is the more honest recommendation than an
@@ -391,7 +391,7 @@ alternative once, in staging) rather than asserting it.
 **Cost drivers** (no prices here, and hardware prices come from the client's supplier): GPU model,
 count and memory; server, network and rack; power and cooling; vendor support contracts; spares and
 refresh cycle; the client's engineering time; storage for weights, documents and the vector store;
-backup and disaster recovery; and DDD's build and tuning hours. Utilisation decides whether this
+backup and disaster recovery; and the practice's build and tuning hours. Utilisation decides whether this
 option is sane: a box at low utilisation is the most expensive way to run inference, and the
 break-even calculation uses the client's own measured volumes, never a vendor's.
 

@@ -29,7 +29,7 @@ Collects traces, eval runs, cost and usage, error queues and user overrides (Lan
 | `references/monthly-loop.md` | **The monthly loop in detail.** v0.1.0, 2026-11-08. Steps 1 to 6 of `ai-optimisation-llmops`, run by `ai-optimiser`. |
 | `references/observability-stack.md` | **Observability stack: traces, evals, cost.** v0.1.0, 2026-11-08. Source: GitHub research area 7 (repo, licence, last push as at. |
 | `references/vendored-provenance.md` | **Vendored provenance: ai-optimisation-llmops.** v0.1.0, 2026-11-08. Every harvested file this skill read or adapted, with repo, licence and. |
-| `references/workflow-optimisation.md` | **Workflow optimisation (not only the AI).** v0.1.0, 2026-11-08. The AI step is often not where the time goes. the practice owner's brief for this skill:. |
+| `references/workflow-optimisation.md` | **Workflow optimisation (not only the AI).** v0.1.0, 2026-11-08. The AI step is often not where the time goes. The practice owner's brief for this skill:. |
 
 ## Templates
 

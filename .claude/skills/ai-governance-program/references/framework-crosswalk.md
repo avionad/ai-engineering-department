@@ -23,7 +23,7 @@ to ISO/IEC 42001 and NIST AI RMF for clients who need international alignment.*
 
 ## Crosswalk
 
-| DDD artefact | Template / skill | GfAA practice(s) | ISO/IEC 42001 clause (sub-clause per harvested source, unverified) | NIST AI RMF function (category per harvested source) |
+| House artefact | Template / skill | GfAA practice(s) | ISO/IEC 42001 clause (sub-clause per harvested source, unverified) | NIST AI RMF function (category per harvested source) |
 |---|---|---|---|---|
 | AI policy | `templates/ai-policy-and-aup.md` | 1, 6 | Clause 5 Leadership (5.2 AI policy) | Govern (GOVERN 1) |
 | Acceptable use policy | `templates/ai-policy-and-aup.md` | 1, 3, 6 | Clause 5; Clause 7 Support (7.3 awareness) | Govern (GOVERN 1, GOVERN 5) |
@@ -52,7 +52,7 @@ scores well on the crosswalk can still breach APP 1.7. Always run `ai-compliance
 
 ## Optional mapping for DTA-covered agencies (AU-17)
 
-| DTA requirement | DDD artefact |
+| DTA requirement | House artefact |
 |---|---|
 | Accountable officials | Governance charter (accountable executive) |
 | AI transparency statement | Transparency statement template |

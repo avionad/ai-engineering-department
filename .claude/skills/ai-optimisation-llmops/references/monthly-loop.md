@@ -4,7 +4,7 @@
 (read-only), with ai-engineer and ai-security-tester for step 5. Sources: web research B6
 (golden sets, regression runs, drift signals, cost levers, feedback loops); GitHub research area 7
 and gap 6; harvested alirezarezvani `llm-cost-optimizer` (MIT) for the instrument-first rule and
-proactive flags; DDD decision-focused reporting rules (`.claude/rules/communication-style.md`).*
+proactive flags; the practice decision-focused reporting rules (`.claude/rules/communication-style.md`).*
 
 ## Step 0. Preconditions (first cycle only)
 

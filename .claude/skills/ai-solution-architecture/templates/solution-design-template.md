@@ -6,7 +6,7 @@ numbers. -->
 
 # AI solution design: {use case}, {Client}
 
-*Prepared by Design Data Dynamics, {date}. Version {n}. Engagement stage 3 (Design). Risk tier
+*Prepared by {your practice}, {date}. Version {n}. Engagement stage 3 (Design). Risk tier
 {n} (screened {date}). Size band {S/M/L/XL}. This is a design, not a build.*
 
 ## 1. Summary and recommendation
@@ -109,7 +109,7 @@ ai-proposal-pricing, not here. No hours or prices in this document.
 
 | Risk | Effect | Mitigation in the design | Goes to |
 |---|---|---|---|
-| | | | ai-compliance-officer / client / DDD |
+| | | | ai-compliance-officer / client / the practice |
 
 ## 12. Client-facing FAQ answers for this design
 

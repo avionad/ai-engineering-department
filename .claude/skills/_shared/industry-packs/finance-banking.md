@@ -3,7 +3,7 @@
 *v0.1.0, 2026-11-08. Covers banks, credit providers, super funds, financial advisers, and the
 finance function of any business. Rules point at `../regulatory-register.md`. Enriched from the
 retired `ai-engineer-finance` skill (2026-08 material); anything from it not in the research is
-tagged `[retired DDD material, not re-verified]`.*
+tagged `[retired the practice material, not re-verified]`.*
 
 **This is where enforcement teeth are.** APRA's AI letter (AU-15) says boards lack AI literacy,
 AI widens the cyber attack surface, entities depend on single AI suppliers and assurance lags
@@ -18,9 +18,9 @@ adoption, and signals stronger supervisory action and, where appropriate, enforc
 | 3 | Adviser file notes and SOA drafting | 3 | Regulated advice; human adviser must own the advice |
 | 4 | Call summarisation | 2 | Customer PI and recording consent; output used by staff |
 | 5 | Credit memo drafting | 3 | Substantially and directly related to a credit decision (AU-8) |
-| 6 | AP invoice coding suggestions with human review `[DDD addition, from retired material]` | 1 to 2 | Internal; supplier PI only if sole traders |
-| 7 | AR collection email drafts, human review before send `[DDD addition, from retired material]` | 2 | Customer PI; outbound communication |
-| 8 | Month-end variance explanation drafts from accounting exports `[DDD addition, from retired material]` | 1 | Internal, no PI if exports are masked |
+| 6 | AP invoice coding suggestions with human review `[House addition, from retired material]` | 1 to 2 | Internal; supplier PI only if sole traders |
+| 7 | AR collection email drafts, human review before send `[House addition, from retired material]` | 2 | Customer PI; outbound communication |
+| 8 | Month-end variance explanation drafts from accounting exports `[House addition, from retired material]` | 1 | Internal, no PI if exports are masked |
 
 Reject-list (from retired material, still sound practice): automated journal posting without
 human review; any communication to the auditor, ATO or a major customer without human review;
@@ -33,7 +33,7 @@ accounting-standard judgements (lease, revenue recognition) handed to AI.
 - Prompt injection, data leakage and agent misuse on customer channels (AU-15 cyber area).
 - No contestability arrangements and no AI-disclosure policy (AU-16 found none of 23 licensees
   had contestability arrangements).
-- Override culture: staff bypass the reviewed workflow after a few months `[retired DDD material]`.
+- Override culture: staff bypass the reviewed workflow after a few months `[retired the practice material]`.
 
 ## Governing rules
 
@@ -46,7 +46,7 @@ accounting-standard judgements (lease, revenue recognition) handed to AI.
 | APRA/ASIC frontier AI statement | AU-26 | Supervisory expectation (`PENDING_VERIFICATION`) | Cite title only until verified |
 | ADM disclosure | AU-8 | Commenced later (10 Dec 2026) | Credit, KYC and complaint routing are prime ADM candidates |
 | CPG 230, "efficiently, honestly and fairly", DDO, anti-discrimination in credit | Overlay (no row) | Named in research, not row-verified | Discovery prompts; legal adviser confirms |
-| ATO recordkeeping, AUSTRAC AML/CTF program, ASIC audit, AASB judgements | none | `[retired DDD material, not re-verified]` `PENDING_VERIFICATION` | Ask about them in discovery; do not cite specifics (e.g. retention periods) until verified |
+| ATO recordkeeping, AUSTRAC AML/CTF program, ASIC audit, AASB judgements | none | `[retired the practice material, not re-verified]` `PENDING_VERIFICATION` | Ask about them in discovery; do not cite specifics (e.g. retention periods) until verified |
 
 ## Controls
 

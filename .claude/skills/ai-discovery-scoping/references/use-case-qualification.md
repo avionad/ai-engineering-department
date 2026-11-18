@@ -2,7 +2,7 @@
 
 *v0.1.0, 2026-11-08. Gate questions adapted from anthropics/financial-services `ai-readiness`
 (Apache-2.0); ranking idea (dollar impact, speed, probability) from the same source. Scoring
-scales and DDD rules are our own. See `vendored-provenance.md`.*
+scales and House rules are our own. See `vendored-provenance.md`.*
 
 ## 1. Score each candidate on four things
 
@@ -65,7 +65,7 @@ All three yes = **Go**. Any no = **Wait**, with what unblocks it.
    starts with "first we would need to...", it is not the pilot. (For L/XL, procurement and
    security review time is counted separately and stated, not used to excuse a large pilot.)
 
-Plus DDD's fourth gate: **risk tier assigned and not 4.**
+Plus the practice's fourth gate: **risk tier assigned and not 4.**
 
 ## 3. Pick the pilot
 

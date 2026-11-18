@@ -1,6 +1,6 @@
 ---
 name: ai-governance-program
-description: Use when an organisation needs an AI policy, acceptable use policy, AI council or AI register written, or AI governance set up or improved across the whole business rather than one project. Builds the organisation-level program for DDD's ai-automation department, sized from 5 to 500+ staff. Covers AI policy and acceptable use policy, governance charter (owner plus reviewer up to a cross-functional AI council), AI register including shadow AI discovery, ISO/IEC 42001 readiness gap (readiness only, DDD cannot certify), AI literacy plan by role including the board, AI incident response playbook, transparency statement and model card, and ADM-ready privacy policy wording for the legal adviser. Every artefact maps to the Guidance for AI Adoption six practices and cross-maps to ISO 42001 and NIST AI RMF. Australia first; not legal advice.
+description: Use when an organisation needs an AI policy, acceptable use policy, AI council or AI register written, or AI governance set up or improved across the whole business rather than one project. Builds the organisation-level program for this AI automation department, sized from 5 to 500+ staff. Covers AI policy and acceptable use policy, governance charter (owner plus reviewer up to a cross-functional AI council), AI register including shadow AI discovery, ISO/IEC 42001 readiness gap (readiness only, the practice cannot certify), AI literacy plan by role including the board, AI incident response playbook, transparency statement and model card, and ADM-ready privacy policy wording for the legal adviser. Every artefact maps to the Guidance for AI Adoption six practices and cross-maps to ISO 42001 and NIST AI RMF. Australia first; not legal advice.
 when_to_use: ai governance, ai policy, acceptable use policy ai, ai aup, ai governance charter, ai council, ai committee terms of reference, ai register, ai inventory, shadow ai, unapproved ai tools, iso 42001, iso 42001 readiness, aims gap analysis, ai literacy training, board ai training, ai incident response, ai incident playbook, ai transparency statement, model card, system card, privacy policy adm wording, guidance for ai adoption, six practices, nist ai rmf alignment, responsible ai program
 trigger: ai governance, ai policy, acceptable use policy ai, ai aup, ai governance charter, ai council, ai committee terms of reference, ai register, ai inventory, shadow ai, unapproved ai tools, iso 42001, iso 42001 readiness, aims gap analysis, ai literacy training, board ai training, ai incident response, ai incident playbook, ai transparency statement, model card, system card, privacy policy adm wording, guidance for ai adoption, six practices, nist ai rmf alignment, responsible ai program
 version: 0.1.0
@@ -30,10 +30,10 @@ council and register depend on.
 - **Hands to** `ai-proposal-pricing` (scope by size band) and Phase 2 `ai-enterprise-rollout` for
   500+ staff change management.
 
-## Where DDD adds value (be honest about this)
+## Where the practice adds value (be honest about this)
 
 The National AI Centre gives basic templates away free (AI policy guide and template, AI register
-template, AI screening tool; register row AU-4). Clients should not pay DDD to re-type them. DDD's
+template, AI screening tool; register row AU-4). Clients should not pay the practice to re-type them. The practice's
 value is: **tailoring** to the client's size, tools, data and sector; **ADM mapping** for the
 binding APP 1.7 duty from 10 December 2026 (AU-8), which the voluntary frameworks do not cover;
 **alignment** so one set of artefacts satisfies the six practices, ISO 42001 readiness and NIST AI
@@ -100,7 +100,7 @@ good practice for everyone; EU Art 50 if EU-facing, EU-1) and a system card per 
 
 **10. ISO 42001 readiness (L and XL, or when a customer contract asks).** Evidence inventory, run
 the script, review Annex A against the client's own copy of the standard, roadmap. Say plainly:
-DDD prepares; only ISO/IEC 42006 certification bodies certify (INT-4).
+The practice prepares; only ISO/IEC 42006 certification bodies certify (INT-4).
 
 **11. Operate.** Council cadence, quarterly management review, register review, policy review.
 The monthly improvement loop for systems is Phase 3 (`ai-optimisation-llmops`).
@@ -133,8 +133,8 @@ Durations are indicative for scoping conversations only; effort and price come f
 
 ## Do not
 
-- Do not sell the free government templates as DDD work.
-- Do not claim DDD can certify ISO 42001, or predict an auditor's findings.
+- Do not sell the free government templates as the practice work.
+- Do not claim the practice can certify ISO 42001, or predict an auditor's findings.
 - Do not install monitoring on client systems for shadow AI discovery without written approval
   and a surveillance-law check.
 - Do not write final privacy policy wording as if approved: it is a draft for the legal adviser.

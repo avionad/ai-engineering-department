@@ -11,7 +11,7 @@
 | Staff (approx.) and provisional size band (S/M/L/XL) | | LinkedIn / website / referrer |
 | Locations | | |
 | What they sell, to whom | | |
-| Referrer and relationship (DDD direct / Telco ICT) | | |
+| Referrer and relationship (the practice direct / Telco ICT) | | |
 | Contact and role; likely decision-maker | | |
 | Known systems (from website, job ads, referrer) | | |
 

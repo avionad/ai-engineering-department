@@ -2,7 +2,7 @@ Audience: client ({Client} leadership). Passes a client-facing tone review befor
 
 # AI readiness assessment: {Client}
 
-*{Month YYYY}. Prepared by Design Data Dynamics. File as
+*{Month YYYY}. Prepared by {your practice}. File as
 `{client}/reports/adhoc-report/ai-readiness-assessment-{YYYY-MM-DD}.md` and render to .html and
 .pdf with `tools/report-renderer/render_report.py`. Every number in this report traces to the
 scorecard input or the client's own figures; R2 verifier in `scripts/verifiers/`.*

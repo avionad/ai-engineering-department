@@ -58,7 +58,7 @@ Lead capture, de-duplication, activity logging, follow-up tasks, pipeline hygien
 ## 4. Data enrichment (P6)
 
 Cleaning, classifying, de-duplicating and enriching CRM records, product catalogues, supplier
-lists. DDD's own CRM enrichment pipeline is the working reference.
+lists. The practice's own CRM enrichment pipeline is the working reference.
 
 - **Batch, not real time**, where possible: cheaper and easier to sample (research B6 notes
   batch pricing as a cost lever; check the vendor's current terms).

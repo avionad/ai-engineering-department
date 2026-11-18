@@ -10,8 +10,8 @@
 | 2 | Virtual staging | 2 | Misleading-image risk; NSW rental disclosure (AU-25) |
 | 3 | Tenant enquiry handling | 2 | Applicant PI; discrimination risk in responses |
 | 4 | Lease abstraction | 1 to 2 | Commercial terms; tenant PI in residential leases |
-| 5 | Tenant application pre-screening `[DDD addition]` | 3 | Substantially and directly related to a tenancy decision (AU-8); discrimination risk |
-| 6 | Maintenance request triage and trade dispatch `[DDD addition]` | 2 | Tenant PI; urgency misclassification risk |
+| 5 | Tenant application pre-screening `[House addition]` | 3 | Substantially and directly related to a tenancy decision (AU-8); discrimination risk |
+| 6 | Maintenance request triage and trade dispatch `[House addition]` | 2 | Tenant PI; urgency misclassification risk |
 
 ## Key risks
 

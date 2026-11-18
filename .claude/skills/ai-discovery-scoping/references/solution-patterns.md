@@ -50,7 +50,7 @@ flowchart LR
 
 **Deployment.** Any option; regulated documents (KYC, health, claims) point to Bedrock `au.*`,
 Azure Australia East standard deployment, or self-hosted. Workflow layer often n8n on an Australian VPS, which
-DDD does not currently hold (see P5 deployment note: our own VPS instances are offshore).
+The practice does not currently hold (see P5 deployment note: our own VPS instances are offshore).
 
 **Typical risk tier.** 1-2. Tier 3 if the extracted data drives a decision about a person
 (claims, credit, eligibility).
@@ -150,8 +150,8 @@ existing consumer law; that is why we design handoff and evals.) Will customers 
 ## P4. Voice receptionist
 
 **When it fits.** Missed calls cost leads or bookings; after-hours or overflow calls; simple
-booking and enquiry capture. DDD runs its own build: Retell agent, Twilio AU number via SIP
-import, n8n post-call pipeline (`DDD Clients/Projects/ai-receptionist/CLAUDE.md`).
+booking and enquiry capture. The practice runs its own build: Retell agent, Twilio AU number via SIP
+import, n8n post-call pipeline (`the practice Clients/Projects/ai-receptionist/CLAUDE.md`).
 
 ```mermaid
 flowchart LR
@@ -166,10 +166,10 @@ flowchart LR
 ```
 
 **Deployment.** Hosted voice platforms (Retell, Vapi) for speed; Pipecat or LiveKit Agents on
-Australian infrastructure for sovereignty (GitHub research area 6; DDD's phase 3 plan).
+Australian infrastructure for sovereignty (GitHub research area 6; the practice's phase 3 plan).
 
 **Typical risk tier.** 2 (personal data, recordings, customer-facing). Avoid legal, health and
-government until a sovereign stack exists (DDD's own product decision).
+government until a sovereign stack exists (the practice's own product decision).
 
 **Build components.** Number and carrier routing, agent prompt and persona, public-safe knowledge
 base, call recording consent and AI disclosure script, escalation rules, booking or CRM tool,
@@ -211,7 +211,7 @@ retries, approvals for irreversible actions, credentials in Doppler, execution l
 docs.
 
 **Effort drivers.** Number of systems and steps; write actions; error handling; volume and rate
-limits; client-owned vs DDD-hosted instance.
+limits; client-owned vs the practice-hosted instance.
 
 **Client questions.** What happens when a step fails? (Retries, alerts, a human queue.) Who owns
 the workflow if we part ways? (Exported workflows and documentation are part of handover.)
@@ -219,7 +219,7 @@ the workflow if we part ways? (Exported workflows and documentation are part of 
 ## P6. Data enrichment
 
 **When it fits.** Lists or records need cleaning, classifying, de-duplicating or enriching (CRM
-records, product catalogues, supplier data, lead lists). DDD's own CRM enrichment pipeline is a
+records, product catalogues, supplier data, lead lists). The practice's own CRM enrichment pipeline is a
 working reference (GitHub research area 6).
 
 ```mermaid

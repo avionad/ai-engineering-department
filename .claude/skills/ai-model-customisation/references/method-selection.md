@@ -87,5 +87,5 @@ model) is fine-tuned on it; both are compared on the same harness. Rules:
 ## 6. Continued pretraining and pretraining
 
 Continued pretraining on a very large stable domain corpus is guidance-only here and needs the practice owner's
-approval as a scope exception. Pretraining a model from scratch is out of scope for every DDD
+approval as a scope exception. Pretraining a model from scratch is out of scope for every the practice
 client: the data, compute and expertise required are outside any engagement we sell.

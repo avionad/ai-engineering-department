@@ -98,7 +98,7 @@ Agent Platform" on these pages while the client's console and procurement papers
 |---|---|---|---|
 | Essential Eight mitigation strategies, maturity levels and target level | ASD ACSC. Held in the register as AU-23 (checked 2026-11-08) | https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight/essential-eight-maturity-model | **Failed**: cyber.gov.au did not respond to automated fetches. Cite register AU-23 for the framework and read this page before stating strategy names, level numbering or a target level |
 | ISM current release and the AI-specific controls added since December 2025 (general-purpose AI usage policy, source and integrity of models, weights and training data, fine-grained access control, content filtering, distinct AI agent identities, board accountability) | ASD ACSC ISM guidelines | https://www.cyber.gov.au/ism/latest | **Failed**: three automated fetches timed out. The release at the time of checking was the September 2026 ISM. **Control identifiers and wording are `PENDING_VERIFICATION`** and must be read from the ISM guidelines before appearing in a client deliverable |
-| ISM and IRAP conclusions for a specific client environment | The client's own IRAP assessor | not a DDD output | By rule: DDD identifies controls, the client's assessor concludes |
+| ISM and IRAP conclusions for a specific client environment | The client's own IRAP assessor | not a the practice output | By rule: the practice identifies controls, the client's assessor concludes |
 
 ### Anthropic
 

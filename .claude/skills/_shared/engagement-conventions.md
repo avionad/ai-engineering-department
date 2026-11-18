@@ -3,7 +3,7 @@
 *Every skill and agent in the `ai-automation` department reads this first. Owner: ai-manager.
 v0.1.0, 2026-11-08. Blueprint: the department's original research files (internal, not included in this repo).*
 
-## 1. What DDD sells here
+## 1. What the practice sells here
 
 AI automation across the whole business (CRM, data, voice, finance, operations, knowledge), with
 compliance and risk management built in, for organisations from 5 to 500+ staff in any industry.
@@ -33,7 +33,7 @@ manual steps eliminated, systems connected and risk controlled.
   Never in files, chat or client documents.
 - Least agency for every agent we build: scoped credentials, human approval for irreversible
   actions, kill switch, spend cap, logging.
-- Telco-referred clients: Telco ICT billing and branding rules apply, not DDD's.
+- Telco-referred clients: Telco ICT billing and branding rules apply, not the practice's.
 
 ## 3. Ground truth order (R1)
 
@@ -48,14 +48,14 @@ manual steps eliminated, systems connected and risk controlled.
 Training data is never a source for a regulation, a date, a model name, a price or a region.
 Anything unverified is written `PENDING_VERIFICATION` and does not go to a client.
 
-## 4. Legal framing (DDD is not a law firm)
+## 4. Legal framing (the practice is not a law firm)
 
 - Compliance outputs identify obligations, risks and controls. They do not give legal advice.
 - Every client-facing compliance deliverable carries: "This assessment identifies regulatory
   considerations for review by your legal adviser. It is not legal advice."
 - Distinguish **in force**, **commenced on a later date**, **proposed** and **voluntary** in every
   statement about a rule. Never call voluntary guidance a requirement.
-- Professional indemnity cover for AI governance advice is PENDING_VERIFICATION with DDD's insurer;
+- Professional indemnity cover for AI governance advice is PENDING_VERIFICATION with the practice's insurer;
   until confirmed, ai-manager flags it on any compliance-led engagement.
 
 ## 5. Size bands (they change the method, not just the volume)

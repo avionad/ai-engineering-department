@@ -2,11 +2,11 @@
 
 Size band: L | Date: 2026-11-08 | Scope: Internal copilots, customer email triage, route optimisation vendor AI
 
-Readiness assessment only. Design Data Dynamics prepares organisations for ISO/IEC 42001; certification is performed only by accredited certification bodies (ISO/IEC 42006). This is not an audit and does not predict audit findings.
+Readiness assessment only. The practice prepares organisations for ISO/IEC 42001; certification is performed only by accredited certification bodies (ISO/IEC 42006). This is not an audit and does not predict audit findings.
 
 Weighted readiness: 19.5% across 25 requirements (documented 3, partial 5, missing 17). Weights: critical 4, major 2, minor 1 (heuristic from the adapted upstream tool).
 
-| Priority | Clause | Requirement | Status | DDD artefact that closes it | GfAA practice |
+| Priority | Clause | Requirement | Status | House artefact that closes it | GfAA practice |
 |---|---|---|---|---|---|
 | critical | 4.3 | AIMS scope statement | missing | AI register (incl. vendor AI) + scope statement | 1 |
 | critical | 5.3 | Roles, responsibilities, authorities | missing | Charter RACI | 1 |

@@ -35,7 +35,7 @@ Masking is checked by a human on a sample before the set is used.
 edge / production-failure / synthetic), `masked` (yes/no), `owner`, `added_on`, `set_version`.
 
 **Coverage.** Every intent the system serves, every user role, every source system, unanswerable
-or out-of-scope requests, and each High threat from the threat model. DDD v0.1 starting point
+or out-of-scope requests, and each High threat from the threat model. The practice v0.1 starting point
 (uncalibrated, not an industry figure): at least 10 items per category before a baseline is
 called, more where the risk tier is higher. Agree the final size with the client and record it.
 
@@ -81,7 +81,7 @@ with the client's accountable owner, per metric or category, informed by:
 Record each threshold in the test plan and in `thresholds.json` with `agreed_by`, `agreed_on`
 and a one-line reason. Some categories are **blocking**: any single failure fails the run
 regardless of pass rate. Permission leak, PII leakage and agent approval-gate bypass are always
-blocking (DDD rule, derived from the permission-leak plan and conventions s2 least agency).
+blocking (House rule, derived from the permission-leak plan and conventions s2 least agency).
 
 `scripts/eval_compare.py` refuses to return PASS when `agreed_by` or `agreed_on` is missing.
 

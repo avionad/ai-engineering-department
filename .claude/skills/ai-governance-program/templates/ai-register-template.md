@@ -1,4 +1,4 @@
-<!-- Audience: client (system owners, council). Keep as a sheet the client owns; DDD seeds it.
+<!-- Audience: client (system owners, council). Keep as a sheet the client owns; the practice seeds it.
 Save the seed as created/docs/security/ai-register-{client}-{YYYY-MM-DD}.csv (+ .md summary) -->
 
 # AI register template
@@ -10,9 +10,9 @@ AI and AI features inside bought software.*
 **Field alignment status.** The NAIC AI register template (AU-4, copies dated 2026-05 and
 2026-06 on ai.gov.au) and the DTA use-case register (AU-17) are the government formats. The
 research does not list their fields, and the template could not be downloaded on 2026-11-08 (site
-timeout). The fields below are DDD's design, built so an export can be mapped to either format;
+timeout). The fields below are the practice's design, built so an export can be mapped to either format;
 **exact field alignment is `PENDING_VERIFICATION`**. When the template is retrieved, add a
-column-mapping table here and keep DDD-only fields at the end.
+column-mapping table here and keep the practice-only fields at the end.
 
 ## Fields
 

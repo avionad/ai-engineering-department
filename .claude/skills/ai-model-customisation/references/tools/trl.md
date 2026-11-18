@@ -39,7 +39,7 @@ SFTConfig(
 - wshobson's rule applies: inspect the reward function against 50-100 sampled outputs before
   training, and only use RL once the model already succeeds sometimes.
 
-## DDD rules
+## House rules
 
 - The huggingface-llm-trainer skill runs training on Hugging Face Jobs infrastructure. Its
   processing region is unverified (`PENDING_VERIFICATION`): do not send client personal or

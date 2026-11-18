@@ -1,6 +1,6 @@
 # Size-band scaling
 
-*v0.1.0, 2026-11-08. Bands from `_shared/engagement-conventions.md` s5. Durations are DDD's
+*v0.1.0, 2026-11-08. Bands from `_shared/engagement-conventions.md` s5. Durations are the practice's
 planning defaults for shaping the scope, not commitments; `ai-proposal-pricing` turns the scope
 into hours and a fee.*
 
@@ -21,7 +21,7 @@ into hours and a fee.*
 - **M**: growth often outpaces process documentation and creates data silos between departments;
   look for both. SSO is likely; check it.
 - **L**: procurement and vendor due diligence run in parallel; expect a supplier security
-  questionnaire before DDD gets document access. An AI council or steering group is a realistic
+  questionnaire before the practice gets document access. An AI council or steering group is a realistic
   recommendation.
 - **XL**: security, privacy, legal and procurement must be engaged from week one, not after the
   business interviews. Data classification, DLP, permission-aware retrieval and change management

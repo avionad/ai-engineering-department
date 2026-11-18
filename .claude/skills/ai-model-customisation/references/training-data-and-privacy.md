@@ -74,8 +74,8 @@ Silent-failure checks before any run:
 | De-duplication method | Exact, semantic, or both |
 | Chat template | Exact identifier, matched at eval and inference |
 | Packing | On or off, max sequence length, manual inspection done |
-| Privacy (DDD addition) | PIA reference, APP 3/6 outcome, redaction applied and its test result, data class, storage location, retention and deletion date, owner |
-| Approval (DDD addition) | Client data owner sign-off and date |
+| Privacy (House addition) | PIA reference, APP 3/6 outcome, redaction applied and its test result, data class, storage location, retention and deletion date, owner |
+| Approval (House addition) | Client data owner sign-off and date |
 
 ## 5. Model card (for the tuned model, owned with ai-governance-program)
 

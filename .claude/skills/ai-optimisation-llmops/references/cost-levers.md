@@ -1,7 +1,7 @@
 # Cost levers
 
 *v0.1.0, 2026-11-08. Used at step 4 of the loop. **Pricing rule:** the only vendor pricing
-statements DDD may repeat are the ones quoted below, with their source and the date they were
+statements the practice may repeat are the ones quoted below, with their source and the date they were
 checked. For anything else (other vendors, cache write pricing, per-model rates, Bedrock, Azure or
 Vertex equivalents) write "check the vendor's pricing page live" or `PENDING_VERIFICATION`. Lever
 list adapted from harvested alirezarezvani `llm-cost-optimizer` (MIT); its percentage savings
@@ -17,7 +17,7 @@ claims are **not** adopted because they are unsourced.*
 
 Re-check the live page before these appear in a client deliverable if the row is more than
 60 days old (conventions s3). Cache **write** pricing is not in the research: check live. Whether
-the same discounts apply through AWS Bedrock (DDD's default route for Australian residency) is
+the same discounts apply through AWS Bedrock (the practice's default route for Australian residency) is
 `PENDING_VERIFICATION`.
 
 ## Levers (measure first, then pick one per cycle)

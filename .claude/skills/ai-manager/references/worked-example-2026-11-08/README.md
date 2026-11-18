@@ -1,7 +1,7 @@
 # Worked example: one engagement end to end (FICTIONAL CLIENT)
 
 **Every file in this folder is a dry run against an invented client. "Coastal Health Partners" does
-not exist. No number here is an approved DDD price, and no figure came from a real client.** The
+not exist. No number here is an approved the practice price, and no figure came from a real client.** The
 folder exists because the department had no committed example of a full engagement, so nobody could
 see what good output looks like before doing it for the first time.
 

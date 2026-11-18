@@ -8,9 +8,9 @@ the place to look up a risk's source. Licences and SHAs: `vendored-provenance.md
 
 Verified against the primary PDF (https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf, section
 2) on 2026-11-08. NIST AI 600-1 is **voluntary** (register INT-6). Names are NIST's; the
-"when it applies" column is DDD guidance.
+"when it applies" column is the practice guidance.
 
-| # | NIST risk | When it usually applies to a DDD project |
+| # | NIST risk | When it usually applies to a the practice project |
 |---|---|---|
 | 1 | CBRN Information or Capabilities | Rare for business automation; consider only for open-ended public chat on frontier models |
 | 2 | Confabulation | Every GenAI system |
@@ -30,9 +30,9 @@ Verified against the primary PDF (https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.6
 From `cosai-oasis/secure-ai-tooling` `risk-map/yaml/risks.yaml` (Apache-2.0, commit
 622605a13fafaa2784acbdbe3f8d23ee22da4be7). IDs, titles, categories and mappings are CoSAI's.
 OWASP mappings are CoSAI's own (IDs only). CoSAI pins ATLAS IDs to ATLAS v5.0.1; check them in
-`threat-model.md` before citing. Short descriptions are DDD paraphrase.
+`threat-model.md` before citing. Short descriptions are the practice paraphrase.
 
-| CoSAI ID | Title | CoSAI category | OWASP LLM (CoSAI map) | DDD flag |
+| CoSAI ID | Title | CoSAI category | OWASP LLM (CoSAI map) | The practice flag |
 |---|---|---|---|---|
 | riskDataPoisoning | Data Poisoning | Supply chain and development | LLM05:2026 | fine_tune |
 | riskUnauthorizedTrainingData | Unauthorized Training Data | Supply chain and development | - | fine_tune |
@@ -76,7 +76,7 @@ and Sanitization, Output Validation and Sanitization, Red Teaming, Incident Resp
 Risk Governance). Use their titles as control names in the register where they fit; their own
 NIST AI RMF mappings (e.g. Agent Inventory Management to GOVERN-1.6 and MAP-3.4) are CoSAI's.
 
-## 3. Australian legal and governance risks (DDD, from the register)
+## 3. Australian legal and governance risks (the practice, from the register)
 
 The two catalogues above are security and harm lenses. Australian projects also carry these,
 which the seed script adds by flag:

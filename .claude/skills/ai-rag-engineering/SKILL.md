@@ -1,6 +1,6 @@
 ---
 name: ai-rag-engineering
-description: "Use when a client wants staff or customers to get answers from the company's own documents (policies, procedures, manuals, contracts, past work) and DDD must design, build or review the retrieval system. Covers the buy-first check (Microsoft 365 Copilot, Google Workspace assistants, vendor tools) before any custom build, ingestion from SharePoint/M365, Google Drive, Confluence and file shares, scanned PDFs and OCR, chunking and metadata, embeddings and vector store choice with Australian residency, hybrid retrieval and reranking, citations, permission-aware retrieval for M+ clients (query-time security trimming by the user's identity, ACL sync, revocation latency, deny-by-default, group expansion, audit), PII redaction with Presidio AU recognisers, and RAG evaluation including permission-leak tests."
+description: "Use when a client wants staff or customers to get answers from the company's own documents (policies, procedures, manuals, contracts, past work) and the practice must design, build or review the retrieval system. Covers the buy-first check (Microsoft 365 Copilot, Google Workspace assistants, vendor tools) before any custom build, ingestion from SharePoint/M365, Google Drive, Confluence and file shares, scanned PDFs and OCR, chunking and metadata, embeddings and vector store choice with Australian residency, hybrid retrieval and reranking, citations, permission-aware retrieval for M+ clients (query-time security trimming by the user's identity, ACL sync, revocation latency, deny-by-default, group expansion, audit), PII redaction with Presidio AU recognisers, and RAG evaluation including permission-leak tests."
 when_to_use: "company RAG, knowledge assistant, chat with our documents, search our SharePoint with AI, internal knowledge base AI, permission-aware retrieval, document level security AI, staff only see their documents, ACL sync, security trimming, vector database choice, embeddings, chunking, reranking, citations, RAG evaluation, permission leak test, Copilot vs custom RAG, Presidio redaction, scanned PDF ingestion, Confluence AI search, Google Drive AI search"
 trigger: "company RAG, knowledge assistant, chat with our documents, search our SharePoint with AI, internal knowledge base AI, permission-aware retrieval, document level security AI, staff only see their documents, ACL sync, security trimming, vector database choice, embeddings, chunking, reranking, citations, RAG evaluation, permission leak test, Copilot vs custom RAG, Presidio redaction, scanned PDF ingestion, Confluence AI search, Google Drive AI search"
 version: 0.1.0
@@ -230,7 +230,7 @@ Platform, embedding and store running costs are not hours: they go to the run-co
 
 - Bedrock Knowledge Bases and Vertex AI Search ACL support not verified (research pending 9).
 - Google Workspace assistant products, their ACL behaviour and AU processing not researched.
-- No first-party DDD code yet: the Azure sample is the only harvested end-to-end reference, so
+- No first-party the practice code yet: the Azure sample is the only harvested end-to-end reference, so
   non-Azure document-level designs rely on the generic metadata-filter pattern (llama_index,
   haystack per GitHub research) and need a sandbox proof before a quote is fixed.
 

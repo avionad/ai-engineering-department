@@ -12,7 +12,7 @@ Read `../_shared/engagement-conventions.md` first.
 
 # AI Optimisation and LLMOps (the monthly improvement loop)
 
-This is stage 8 (Run) of the engagement lifecycle and the engine of DDD's run-and-improve
+This is stage 8 (Run) of the engagement lifecycle and the engine of the practice's run-and-improve
 retainer. Its reason to exist is a research finding: MIT NANDA's 2025 study attributes the lack of
 measurable return from most GenAI pilots to learning, saying most systems "do not retain
 feedback, adapt to context, or improve over time" (web research headline 7; a pilot-to-P&L
@@ -103,7 +103,7 @@ Detail for every step: `references/monthly-loop.md`.
    queues, escalations, and user feedback and overrides (thumbs plus reason, edits to drafts,
    rejected suggestions). Tooling: `references/observability-stack.md` (Langfuse MIT core default
    self-hosted; Opik Apache-2.0 alternative; Phoenix ELv2, client self-host only, never resold by
-   DDD; platform-native logs).
+   the practice; platform-native logs).
 2. **Measure** against baseline and last month: quality (eval pass rates, faithfulness,
    escalation and override rates), cost per task (and per user, total), latency, volume, failure
    rate. Cost trend: `scripts/cost_trend.py` (below). Quality: `../ai-evals-security-testing/scripts/eval_compare.py`.
@@ -140,7 +140,7 @@ Reads `date, system, model, tasks, input_tokens, output_tokens, cached_input_tok
 and prints, per system and month: tasks, cost, cost per task, input and output tokens per task,
 token mix, cache share, model cost mix, month-on-month change, and flags. **It never prices
 tokens**: it only aggregates the `cost_aud` supplied in the data. The default flag (cost per task
-up more than 20% month on month) is a **DDD default, not an industry figure**; set it per client
+up more than 20% month on month) is a **House default, not an industry figure**; set it per client
 with `--flag-threshold`. Volume swings and model changes are flagged as context so a rise is not
 misread. Worked sample: `scripts/samples/`.
 
@@ -171,7 +171,7 @@ cost, stated.
 |---|---|
 | S | One or two automations; platform-native logs may be enough; quarterly cycle can suit if volume is low (agree with client) |
 | M | Langfuse or Opik self-hosted; monthly cycle; report to the department head |
-| L | Client IT runs the trace store; DDD reads exports; change sets go through client change control |
+| L | Client IT runs the trace store; the practice reads exports; change sets go through client change control |
 | XL | Per-system loops roll up to the AI council; drift and incidents feed the AI register and board reporting |
 
 ## Do not
@@ -180,7 +180,7 @@ cost, stated.
 - Do not stack several changes in one cycle and then credit one of them.
 - Do not present platform-attributed or model-reported metrics as business results without
   saying what they measure.
-- Do not offer Phoenix as a DDD-managed service (ELv2); do not harvest its code.
+- Do not offer Phoenix as a the practice-managed service (ELv2); do not harvest its code.
 - Do not quote a token price, discount or saving that is not in `references/cost-levers.md`
   with its source and date.
 
@@ -189,7 +189,7 @@ cost, stated.
 - Langfuse, Opik and Phoenix were not harvested; entries rest on the GitHub research (licences,
   activity). Feature details are `PENDING_VERIFICATION` at deployment.
 - Phoenix licence: GitHub research (API) says Elastic Licence 2.0; the harvested Orchestra how-to
-  says Apache 2.0 and MIT in different places. DDD treats it as ELv2 until the live LICENSE file
+  says Apache 2.0 and MIT in different places. The practice treats it as ELv2 until the live LICENSE file
   is checked.
 - Pricing statements cover Anthropic's direct API only (research B6). Bedrock, Azure and Vertex
   pricing for the same levers is `PENDING_VERIFICATION`.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compare two AI eval result CSVs (baseline vs current) and return a verdict.
 
-Part of the DDD ai-evals-security-testing skill, v0.1.0, 2026-11-08. Standard library only.
+Part of the practice ai-evals-security-testing skill, v0.1.0, 2026-11-08. Standard library only.
 
 Input CSVs need columns: test_id, category, passed (true/false; also yes/no, 1/0, pass/fail).
 Optional column: score (0 to 1). Extra columns are ignored. One row per test_id.

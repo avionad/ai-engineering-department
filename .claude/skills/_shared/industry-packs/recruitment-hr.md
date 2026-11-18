@@ -15,8 +15,8 @@ Screening and shortlisting are likely "significant" decisions under ADM (AU-8).
 | 3 | Interview scheduling | 2 | Candidate PI; no judgement |
 | 4 | Candidate Q&A | 2 | Candidate-facing; accuracy |
 | 5 | HR policy chatbot | 2 | Employee PI in questions; wrong-answer risk on entitlements |
-| 6 | Interview note summarisation `[DDD addition]` | 2 to 3 | Recording consent; summaries feed hiring decisions |
-| 7 | Rostering and workload allocation `[DDD addition]` | 3 when NSW DWS duties commence | Digital work system affecting workers (AU-21) |
+| 6 | Interview note summarisation `[House addition]` | 2 to 3 | Recording consent; summaries feed hiring decisions |
+| 7 | Rostering and workload allocation `[House addition]` | 3 when NSW DWS duties commence | Digital work system affecting workers (AU-21) |
 
 ## Key risks
 

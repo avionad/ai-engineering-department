@@ -22,5 +22,5 @@ from the Internal web research file, not from OWASP pages.
 | Source | Used for |
 |---|---|
 | Internal web research 2026-11-08, sections B1 and B5 | HITL tiers, least-agency control list, ADM note on human approval, Gartner agentic cancellation prediction |
-| `DDD Clients/Projects/ai-receptionist/CLAUDE.md` (DDD's own build, verified 2026-08-13) | Hosted-platform option, SIP import, call-loop rule, platform-neutral prompt and knowledge base |
-| `n8n/n8n-architect` (live DDD skill) | Hand-off target; its assess-mode signals informed `process-selection.md` section 1 |
+| `the practice Clients/Projects/ai-receptionist/CLAUDE.md` (the practice's own build, verified 2026-08-13) | Hosted-platform option, SIP import, call-loop rule, platform-neutral prompt and knowledge base |
+| `n8n/n8n-architect` (live the practice skill) | Hand-off target; its assess-mode signals informed `process-selection.md` section 1 |

@@ -25,7 +25,7 @@ Shape of a config (see the two templates in `../templates/`):
   user role), `frameworks` (filter reporting to `owasp:llm`, `owasp:agentic`, `mitre:atlas`),
   `maxCharsPerMessage`, `language`.
 - Custom rules: `policy` plugins, one rule each ("Do not disclose another customer's order").
-- Severity overrides per plugin to match the DDD table in `red-team-catalogue.md`.
+- Severity overrides per plugin to match the practice table in `red-team-catalogue.md`.
 
 Commands (from the harvested docs): `promptfoo redteam init`, `promptfoo redteam run`
 (generate + eval), `promptfoo redteam report`; tag runs with `--tag key=value` (e.g. engagement,

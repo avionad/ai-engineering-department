@@ -157,7 +157,7 @@ Collect for `ai-proposal-pricing`, each later priced from the vendor's current p
 monthly requests and tokens per request (input and output), model tier mix, batch-eligible share,
 cacheable prompt share, embedding volume and re-index frequency, search or vector store tier,
 GPU hours (always-on vs scale-to-zero), storage and log retention, network egress, guardrail
-calls, support plan, and DDD's run hours. Research B6 cost levers (Anthropic, verify on the pricing
+calls, support plan, and the practice's run hours. Research B6 cost levers (Anthropic, verify on the pricing
 page before use): Batch API 50% off tokens within a 24-hour window; prompt caching reads at 10% of
 the base input rate; plus routing small tasks to smaller models, output length limits and
 retrieval trimming.
@@ -186,7 +186,7 @@ retrieval trimming.
   ACL features: `PENDING_VERIFICATION` (research pending items 9, 11).
 - Vendor doc URLs for model-by-region pages are not in the research; `references/verify-live.md`
   names the pages to find and record, without inventing URLs.
-- No Australian-region reference architecture exists in repo form (GitHub research area 5): DDD's
+- No Australian-region reference architecture exists in repo form (GitHub research area 5): the practice's
   own landing-zone notes will need a sandbox build to mature.
 
 Provenance and licences: `references/vendored-provenance.md`.

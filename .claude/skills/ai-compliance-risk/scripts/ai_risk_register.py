@@ -2,7 +2,7 @@
 # MIT License
 #
 # Copyright (c) 2025 Alireza Rezvani
-# Copyright (c) 2026 Design Data Dynamics (modifications)
+# Copyright (c) 2026 the practice (modifications)
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -25,15 +25,15 @@
 # Attribution: adapted from alirezarezvani/claude-skills,
 #   ra-qm-team/skills/iso42001-specialist/scripts/ai_risk_register_builder.py
 #   at commit 8f082544116fc0d014188e521ca40304cdfc86b0 (MIT).
-# What DDD changed: DDD rating scale aligned to the department's risk tiers;
+# What the practice changed: the practice rating scale aligned to the department's risk tiers;
 #   per-risk owner, residual likelihood/impact and residual rating; tier-minimum
 #   control check from engagement-conventions.md section 6; seed mode that
 #   proposes starter risks from the CoSAI risk map (Apache-2.0, risk IDs and
 #   titles only) and NIST AI 600-1's 12 GenAI risks; CSV and Markdown output;
 #   ISO 42001 Annex A control catalogue removed (two harvested sources number
-#   Annex A differently, so DDD does not cite Annex A IDs until verified against
+#   Annex A differently, so the practice does not cite Annex A IDs until verified against
 #   the purchased standard).
-"""ai_risk_register.py -- per-project AI risk register for the DDD ai-automation department.
+"""ai_risk_register.py -- per-project AI risk register for this AI automation department.
 
 Stdlib only. Two modes.
 
@@ -328,7 +328,7 @@ def load(path: str) -> Dict[str, Any]:
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description="DDD per-project AI risk register (seed or build).")
+    p = argparse.ArgumentParser(description="the practice per-project AI risk register (seed or build).")
     sub = p.add_subparsers(dest="cmd", required=True)
     ps = sub.add_parser("seed", help="propose starter risks from architecture flags")
     ps.add_argument("project")

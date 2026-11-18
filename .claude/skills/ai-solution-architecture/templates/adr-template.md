@@ -9,7 +9,7 @@ delete an ADR; supersede it. -->
 |---|---|
 | Status | Proposed / Accepted / Superseded by ADR-{nnn} / Deprecated |
 | Date | {YYYY-MM-DD} |
-| Decided by | {client role} on DDD's recommendation |
+| Decided by | {client role} on the practice's recommendation |
 | Engagement / use case | {name} |
 | Risk tier | {n} |
 

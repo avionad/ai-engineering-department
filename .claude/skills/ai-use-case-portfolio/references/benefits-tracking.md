@@ -1,6 +1,6 @@
 # Baseline and benefits tracking
 
-*v0.1.0, 2026-11-08. DDD's method. Measurement principles taken from research B1 step 7
+*v0.1.0, 2026-11-08. The practice's method. Measurement principles taken from research B1 step 7
 ("task-level time saved (sampled, not self-reported only), quality and error rates, cost per
 task, and business KPIs per use case") and the communication-style rules on decision-focused
 reporting.*

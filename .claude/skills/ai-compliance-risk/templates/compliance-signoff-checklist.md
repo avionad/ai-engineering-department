@@ -5,7 +5,7 @@ created/docs/security/compliance-signoff-{project-slug}-{YYYY-MM-DD}.md -->
 
 *v0.1.0, 2026-11-08. Mode (h). Stage 6 exit gate in `engagement-conventions.md`: no go-live
 without an eval baseline and this sign-off. Run by the `ai-compliance-officer` agent; the client's
-accountable owner gives the go-live approval at stage 7, not DDD.*
+accountable owner gives the go-live approval at stage 7, not the practice.*
 
 **Project:** {name} | **Client:** {client} | **Tier:** {1-4} | **Date:** {YYYY-MM-DD}
 
@@ -44,7 +44,7 @@ tier's column blocks sign-off.**
 
 | Role | Name | Decision | Date |
 |---|---|---|---|
-| DDD compliance (ai-compliance-officer run, reviewed by the practice owner) | | Ready / Not ready | |
+| Practice compliance (ai-compliance-officer run, reviewed by the practice owner) | | Ready / Not ready | |
 | Client accountable owner (go-live approval, stage 7) | | Approve / Reject | |
 
 Open items and conditions: {list}

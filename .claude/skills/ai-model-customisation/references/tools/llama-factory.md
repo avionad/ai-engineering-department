@@ -10,7 +10,7 @@ research area 4 (LlamaFactory: Apache-2.0, "100+ models, web UI; good for client
   scripts.
 - Quick comparison of several base models with the same dataset.
 
-## DDD rules
+## House rules
 
 - The web UI must not be exposed beyond the private network; it can start jobs and read datasets.
 - Handover includes the exact config exported from the UI, the dataset card and the eval harness,

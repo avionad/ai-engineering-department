@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""readiness_score.py -- DDD AI readiness scorecard and Go/Wait gate.
+"""readiness_score.py -- the practice AI readiness scorecard and Go/Wait gate.
 
 Stdlib only. Reads a JSON assessment (see ../templates/readiness-input-template.json), validates
 it, and writes a markdown scorecard with:

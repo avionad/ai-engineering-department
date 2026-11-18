@@ -1,6 +1,6 @@
 # ai-compliance-risk
 
-Project-level compliance and risk for DDD's ai-automation department, Australia first. Screens the project into a risk tier (1 Low to 4 Stop) with a scored questionnaire, lists applicable obligations with status and source from the regulatory register and industry pack, runs the APP 1.7-1.9 automated decision-making check (10 Dec 2026), builds a per-project risk register seeded from CoSAI and NIST AI 600-1, structures an AI impact assessment, threat-models against OWASP LLM and Agentic Top 10 and MITRE ATLAS, issues a vendor due diligence questionnaire, and runs the pre-go-live compliance sign-off. Identifies obligations for the client's legal adviser; never gives legal advice.
+Project-level compliance and risk for this AI automation department, Australia first. Screens the project into a risk tier (1 Low to 4 Stop) with a scored questionnaire, lists applicable obligations with status and source from the regulatory register and industry pack, runs the APP 1.7-1.9 automated decision-making check (10 Dec 2026), builds a per-project risk register seeded from CoSAI and NIST AI 600-1, structures an AI impact assessment, threat-models against OWASP LLM and Agentic Top 10 and MITRE ATLAS, issues a vendor due diligence questionnaire, and runs the pre-go-live compliance sign-off. Identifies obligations for the client's legal adviser; never gives legal advice.
 
 **When to use:** Use when any AI or automation project needs to know what rules apply and how risky it is.
 
@@ -40,6 +40,6 @@ Project-level compliance and risk for DDD's ai-automation department, Australia 
 
 | File | What it holds |
 |---|---|
-| `scripts/ai_risk_register.py` | **!/usr/bin/env python3.** """ai_risk_register.py -- per-project AI risk register for the DDD ai-automation department. |
+| `scripts/ai_risk_register.py` | **!/usr/bin/env python3.** """ai_risk_register.py -- per-project AI risk register for this AI automation department. |
 
 *Skill version 0.1.1. Start with `SKILL.md`; it reads the shared conventions in `../_shared/` first.*

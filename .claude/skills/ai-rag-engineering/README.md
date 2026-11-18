@@ -2,7 +2,7 @@
 
 Covers the buy-first check (Microsoft 365 Copilot, Google Workspace assistants, vendor tools) before any custom build, ingestion from SharePoint/M365, Google Drive, Confluence and file shares, scanned PDFs and OCR, chunking and metadata, embeddings and vector store choice with Australian residency, hybrid retrieval and reranking, citations, permission-aware retrieval for M+ clients (query-time security trimming by the user's identity, ACL sync, revocation latency, deny-by-default, group expansion, audit), PII redaction with Presidio AU recognisers, and RAG evaluation including permission-leak tests.
 
-**When to use:** Use when a client wants staff or customers to get answers from the company's own documents (policies, procedures, manuals, contracts, past work) and DDD must design, build or review the retrieval system.
+**When to use:** Use when a client wants staff or customers to get answers from the company's own documents (policies, procedures, manuals, contracts, past work) and the practice must design, build or review the retrieval system.
 
 **Trigger phrases:** company RAG, knowledge assistant, chat with our documents, search our SharePoint with AI, internal knowledge base AI, permission-aware retrieval, document level security AI, staff only see their documents, ACL sync, security trimming, vector database choice, embeddings, chunking, reranking, citation...
 

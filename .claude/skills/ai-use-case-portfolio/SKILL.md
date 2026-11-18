@@ -1,6 +1,6 @@
 ---
 name: ai-use-case-portfolio
-description: "Use when an organisation has more than one AI or automation idea and needs to decide what to do next, prove what the live ones are worth, or stop the ones that are not working. Runs the organisation-level AI use-case portfolio for DDD's ai-automation department: staff idea intake, scoring with the discovery qualification rules (value, feasibility, risk tier, time to value), prioritisation and sequencing, baseline measurement before any build, monthly benefits tracking after go-live (planned vs actual), kill and scale decisions, and a portfolio register linked to the AI register. Ships portfolio.py, which ranks a CSV and flags unsourced values, tier 4 stops, unscreened tier 3 items and missing baselines. No invented values."
+description: "Use when an organisation has more than one AI or automation idea and needs to decide what to do next, prove what the live ones are worth, or stop the ones that are not working. Runs the organisation-level AI use-case portfolio for this AI automation department: staff idea intake, scoring with the discovery qualification rules (value, feasibility, risk tier, time to value), prioritisation and sequencing, baseline measurement before any build, monthly benefits tracking after go-live (planned vs actual), kill and scale decisions, and a portfolio register linked to the AI register. Ships portfolio.py, which ranks a CSV and flags unsourced values, tier 4 stops, unscreened tier 3 items and missing baselines. No invented values."
 when_to_use: "ai use case portfolio, prioritise ai ideas, which ai project next, ai backlog, ai idea intake, staff ai ideas form, ai roadmap of use cases, rank ai use cases, ai benefits tracking, ai roi tracking, planned vs actual ai benefit, is the ai worth it, baseline before build, kill or scale ai project, ai portfolio review, ai value realisation, quarterly ai portfolio"
 trigger: "ai use case portfolio, prioritise ai ideas, which ai project next, ai backlog, ai idea intake, staff ai ideas form, ai roadmap of use cases, rank ai use cases, ai benefits tracking, ai roi tracking, planned vs actual ai benefit, is the ai worth it, baseline before build, kill or scale ai project, ai portfolio review, ai value realisation, quarterly ai portfolio"
 version: 0.1.0
@@ -132,8 +132,8 @@ Template: `templates/benefits-review-template.md`.
 | Above plan by a wide margin | Check the measurement first; then scale | Portfolio owner |
 | Risk incident or tier change | Pause; back to `ai-compliance-risk` | Accountable owner |
 
-"Two consecutive reviews" is DDD's v0.1 default, not a sourced rule; agree the window with the
-client at portfolio set-up. DDD recommends; the client's accountable owner decides and the
+"Two consecutive reviews" is the practice's v0.1 default, not a sourced rule; agree the window with the
+client at portfolio set-up. The practice recommends; the client's accountable owner decides and the
 decision is recorded in the register.
 
 ## Script: `scripts/portfolio.py`

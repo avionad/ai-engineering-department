@@ -2,11 +2,11 @@
 
 *v0.1.0, 2026-11-08. Builders, civil and commercial contractors, and trade service businesses
 (plumbing, electrical, HVAC, carpentry, landscaping). Added after a review found the Sydney SMB
-market DDD sells into is largely construction and trades, and the twelve original packs had no
+market the practice sells into is largely construction and trades, and the twelve original packs had no
 row for it. Rules point at `../regulatory-register.md`.*
 
 **No construction row exists in the research industry matrix,** so every use case here is
-`[DDD addition]` (practitioner synthesis, not a sourced ROI claim) and the governing rules are the
+`[House addition]` (practitioner synthesis, not a sourced ROI claim) and the governing rules are the
 general ones plus the overlays named below. The sector's own rules (licensing, the National
 Construction Code, security of payment, home building contracts and warranties) are **not in our
 register**: see the governing rules table.
@@ -21,14 +21,14 @@ quote, a programme date or a compliance claim binds the business whether a perso
 
 | # | Use case | Typical tier | Why that tier |
 |---|---|---|---|
-| 1 | Quote and estimate drafting from plans, specifications and a rate file `[DDD addition]` | 1 to 2 | 1 where it assembles scope text only and prices come from the client's own rate rules; 2 once customer or site-owner personal information is in the inputs. Prices come from rules, never from the model |
-| 2 | Tender, EOI and prequalification response drafting `[DDD addition]` | 1 | Organisational content; commercial-in-confidence pricing pushes it to 2 (floor F6) |
-| 3 | Drawing, specification and RFI assistant for site staff `[DDD addition]` | 2 | Answers must cite the current revision; a wrong revision is a rework and safety event. Confidential client documents (floor F6) |
-| 4 | Site diary, variation and defect report drafting from photos and voice notes `[DDD addition]` | 2 | Site photos and audio capture workers and bystanders (personal information); variations have contractual effect, so a person signs them |
-| 5 | Subcontractor invoice and progress claim capture into the accounting system `[DDD addition]` | 2 | Sole-trader subcontractor data is personal information; financial effect, so it never initiates a payment |
-| 6 | Safety documentation drafting: SWMS, toolbox talks, induction material `[DDD addition]` | 2, and 3 where the output determines the controls for high-risk construction work | A SWMS is a work health and safety control document. A competent person owns it, reviews it and signs it; AI drafts, never decides |
-| 7 | Scheduling, delivery and trade-confirmation follow-up automation `[DDD addition]` | 2 | Supplier and sole-trader personal information; outbound messages in the business's name |
-| 8 | Inbound enquiry handling and job booking for a trade services business `[DDD addition]` | 2 | Customer personal information; chatbot statements about price, timing and warranty bind the business (AU-22) |
+| 1 | Quote and estimate drafting from plans, specifications and a rate file `[House addition]` | 1 to 2 | 1 where it assembles scope text only and prices come from the client's own rate rules; 2 once customer or site-owner personal information is in the inputs. Prices come from rules, never from the model |
+| 2 | Tender, EOI and prequalification response drafting `[House addition]` | 1 | Organisational content; commercial-in-confidence pricing pushes it to 2 (floor F6) |
+| 3 | Drawing, specification and RFI assistant for site staff `[House addition]` | 2 | Answers must cite the current revision; a wrong revision is a rework and safety event. Confidential client documents (floor F6) |
+| 4 | Site diary, variation and defect report drafting from photos and voice notes `[House addition]` | 2 | Site photos and audio capture workers and bystanders (personal information); variations have contractual effect, so a person signs them |
+| 5 | Subcontractor invoice and progress claim capture into the accounting system `[House addition]` | 2 | Sole-trader subcontractor data is personal information; financial effect, so it never initiates a payment |
+| 6 | Safety documentation drafting: SWMS, toolbox talks, induction material `[House addition]` | 2, and 3 where the output determines the controls for high-risk construction work | A SWMS is a work health and safety control document. A competent person owns it, reviews it and signs it; AI drafts, never decides |
+| 7 | Scheduling, delivery and trade-confirmation follow-up automation `[House addition]` | 2 | Supplier and sole-trader personal information; outbound messages in the business's name |
+| 8 | Inbound enquiry handling and job booking for a trade services business `[House addition]` | 2 | Customer personal information; chatbot statements about price, timing and warranty bind the business (AU-22) |
 
 ## Key risks
 
@@ -63,7 +63,7 @@ quote, a programme date or a compliance claim binds the business whether a perso
 | ASD ACSC guidance and Essential Eight | AU-23 | Voluntary for most businesses | Agent service accounts and credentials inherit these controls |
 | Guidance for AI Adoption | AU-4 | Voluntary | Governance baseline; the free policy and register templates suit this sector's budget |
 | SOCI Act and critical infrastructure risk management | Overlay | Named in the research, no register row | Only where the client works on or owns a critical infrastructure asset |
-| **Building and trade licensing, the National Construction Code, security of payment legislation, home building contract and statutory warranty rules, and state workplace surveillance Acts** | **No register row. Not researched** | `PENDING_VERIFICATION` | These very likely bear on AI-drafted quotes, contracts, claims, certificates and site monitoring, but DDD holds no verified position on any of them. Identify them as questions and send them to the client's legal adviser. Do not state any of them as an AI requirement, and do not invent a rule to fill the gap |
+| **Building and trade licensing, the National Construction Code, security of payment legislation, home building contract and statutory warranty rules, and state workplace surveillance Acts** | **No register row. Not researched** | `PENDING_VERIFICATION` | These very likely bear on AI-drafted quotes, contracts, claims, certificates and site monitoring, but the practice holds no verified position on any of them. Identify them as questions and send them to the client's legal adviser. Do not state any of them as an AI requirement, and do not invent a rule to fill the gap |
 
 ## Controls
 

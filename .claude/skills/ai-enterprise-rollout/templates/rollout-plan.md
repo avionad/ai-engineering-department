@@ -5,7 +5,7 @@ commitments. Effort and price come from ai-proposal-pricing, never from this pla
 
 # AI rollout plan: {Client}
 
-*Prepared by Design Data Dynamics, {date}. Size band {L/XL}. Staff in scope {n} across {sites}.
+*Prepared by {your practice}, {date}. Size band {L/XL}. Staff in scope {n} across {sites}.
 Accountable executive {name}. Program owner {name}.*
 
 ## What this plan does
@@ -75,5 +75,5 @@ the approach (phased, governed by risk tier, workflow redesign), and how success
 ---
 
 *Adapted, with changes, from "How to build an AI-powered workforce: GitHub's playbook", GitHub,
-licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for DDD's
-engagement stages, Australian regulatory obligations added, DDD measurement and RACI added.*
+licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: re-sequenced for the practice's
+engagement stages, Australian regulatory obligations added, the practice measurement and RACI added.*

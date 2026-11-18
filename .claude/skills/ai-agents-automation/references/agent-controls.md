@@ -2,8 +2,8 @@
 
 *v0.1.0, 2026-11-08. Control set from the Internal web research B5 (OWASP Agentic Top 10 2026, ACSC
 "Careful adoption of agentic AI services" May 2026) and `ai-compliance-risk/references/threat-model.md`.
-OWASP lists are CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): **IDs only are cited here**, in DDD's own words. Essential Eight mapping
-is DDD interpretation (research A1), not a quoted ASD position.*
+OWASP lists are CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): **IDs only are cited here**, in the practice's own words. Essential Eight mapping
+is the practice interpretation (research A1), not a quoted ASD position.*
 
 "Least agency" is the unifying principle of the OWASP Agentic Top 10 (register INT-10): an agent
 gets the smallest set of tools, permissions and autonomy that does the job, and nothing more.
@@ -18,7 +18,7 @@ gets the smallest set of tools, permissions and autonomy that does the job, and 
 | C4 | Human approval | Required for irreversible, financial or customer-facing actions (payments, sends, deletions, public statements, record status changes that trigger downstream effects) | LLM03:2026, ASI09 |
 | C5 | Approver protection | The approval screen shows the raw facts (amounts, recipients, the source document), not only the agent's summary, so an approver cannot be talked into a bad action | ASI09 |
 | C6 | Spend, rate and loop caps | Per-run and per-day caps on tokens, cost, tool calls, records changed and loop iterations; breach stops the run and alerts | LLM06:2026, ASI08 |
-| C7 | Kill switch | One documented action, usable by the client without DDD, that stops the agent immediately (disable the workflow, revoke the credential) and is tested before go-live | ASI10 |
+| C7 | Kill switch | One documented action, usable by the client without the practice, that stops the agent immediately (disable the workflow, revoke the credential) and is tested before go-live | ASI10 |
 | C8 | Untrusted input handling | Email bodies, documents, web pages and retrieved text are data, never instructions; they cannot change the agent's goal or the allow-list | ASI01, LLM01:2026 |
 | C9 | Output handling | Model output is validated against a schema before any system uses it; never executed or rendered as HTML unchecked | LLM10:2026, ASI05 |
 | C10 | Sandboxed execution | Any generated code runs in an isolated sandbox with no credentials and no network beyond what is needed | ASI05 |
@@ -38,7 +38,7 @@ the full set plus a red-team in `ai-evals-security-testing`.
 ## 2. Essential Eight touchpoints (interpretation)
 
 Agent service accounts fall under restricting administrative privileges; agent hosts under
-patching and application control; DDD and client admin access to the automation platform under
+patching and application control; the practice and client admin access to the automation platform under
 MFA; workflow definitions and configuration under regular backups. A security review maps agent
 permissions to the client's target E8 maturity level.
 

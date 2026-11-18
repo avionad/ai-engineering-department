@@ -1,6 +1,6 @@
 # Staff idea intake form
 
-*v0.1.0, 2026-11-08. DDD's own design. Build it in the client's own form tool (Microsoft Forms,
+*v0.1.0, 2026-11-08. The practice's own design. Build it in the client's own form tool (Microsoft Forms,
 Google Forms, their intranet or service desk) so the data stays in their tenancy. Questions are
 written for any member of staff, not for IT.*
 

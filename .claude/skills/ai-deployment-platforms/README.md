@@ -25,7 +25,7 @@ Compares AWS Bedrock (au.* cross-region inference between Sydney and Melbourne, 
 
 | File | What it holds |
 |---|---|
-| `references/data-class-matrix.md` | **Data class to platform matrix.** v0.1.0, 2026-11-08. DDD default positions, built from research B2 and B4, the client FAQ and the. |
+| `references/data-class-matrix.md` | **Data class to platform matrix.** v0.1.0, 2026-11-08. House default positions, built from research B2 and B4, the client FAQ and the. |
 | `references/platforms.md` | **Platform detail.** v0.2.0, 2026-11-08. Sources: research B2, B4, B6 (`ai-dept-web-research-2026-11-08.md`), GitHub. |
 | `references/security-baseline.md` | **Security baseline per platform.** v0.1.0, 2026-11-08. Sources: research B4, B5 and the ACSC agentic AI guidance it cites (register. |
 | `references/vendored-provenance.md` | **Vendored provenance: ai-deployment-platforms.** v0.1.0, 2026-11-08. Harvested files this skill read or adapted, with repo, licence and pinned commit. |

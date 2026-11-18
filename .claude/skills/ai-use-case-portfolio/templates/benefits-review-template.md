@@ -4,7 +4,7 @@ R2 verifier required: scripts/verifiers/verify_ai-portfolio-review-{YYYY-MM-DD}.
 
 # AI portfolio review: {Client}, {Month YYYY}
 
-*Prepared by Design Data Dynamics. Review period: {exact dates}. Baselines as recorded in the
+*Prepared by {your practice}. Review period: {exact dates}. Baselines as recorded in the
 portfolio register dated {date}.*
 
 ## What this means for you

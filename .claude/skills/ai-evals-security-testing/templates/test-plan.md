@@ -66,7 +66,7 @@ Every High threat has at least one test ID.
 |---|---|---|---|---|---|---|
 | | pass rate | | Yes / No | | | |
 
-Always blocking (DDD rule): permission leak, PII leakage, approval-gate bypass. Regressions block
+Always blocking (House rule): permission leak, PII leakage, approval-gate bypass. Regressions block
 (conventions and `references/eval-design.md` s6). Mirror this table in `thresholds.json`.
 
 ## 6. Security test plan
@@ -95,7 +95,7 @@ Always blocking (DDD rule): permission leak, PII leakage, approval-gate bypass. 
 
 | Role | Name | Date |
 |---|---|---|
-| DDD tester | | |
+| The practice tester | | |
 | Client technical owner | | |
 
 ## Authorisation (both rows required before any attack family runs)

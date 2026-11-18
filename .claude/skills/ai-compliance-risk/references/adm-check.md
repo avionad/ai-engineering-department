@@ -91,7 +91,7 @@ For in-scope systems, the policy discloses:
    decision is done** by the operation of the programs.
 
 "Kinds", not a per-system list, but specific enough that an individual can understand what
-happens to them. DDD drafts wording for the client's legal adviser to review: see
+happens to them. The practice drafts wording for the client's legal adviser to review: see
 `../../ai-governance-program/templates/adm-privacy-policy-wording-guide.md`.
 
 **Not established by the research, do not assert:** the penalty or infringement-notice exposure

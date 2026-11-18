@@ -12,7 +12,7 @@ across all agents leads to failure, so govern by risk tier.*
 
 | Band | Structure | Members | Meets | Decides |
 |---|---|---|---|---|
-| S | **Owner + one reviewer** | Owner (accountable); one trusted reviewer (staff member, adviser, or DDD under engagement) | When a new tool or use case comes up; review quarterly | Owner approves all; reviewer checks Tier 2+ |
+| S | **Owner + one reviewer** | Owner (accountable); one trusted reviewer (staff member, adviser, or the practice under engagement) | When a new tool or use case comes up; review quarterly | Owner approves all; reviewer checks Tier 2+ |
 | M | **AI working group** | Accountable executive; operations; privacy/compliance lead; IT; one business owner per active use case | Monthly | Tier 1 by system owner; Tier 2 by working group; Tier 3 by accountable executive |
 | L | **AI council** | Accountable executive (chair); risk; legal/privacy; security; HR; data; business owners | Monthly, plus out-of-cycle for Tier 3 | Tier 1 self-serve with register entry; Tier 2 by council delegate; Tier 3 by council; Tier 4 never |
 | XL | **Cross-functional AI council reporting to the board risk committee**, plus system owners and a champions network | As L, plus internal audit (observer), change management, union or staff representative where relevant | Monthly; quarterly management review; board report quarterly | As L; board sets AI risk appetite (APRA AI letter expects an AI risk appetite for APRA-regulated entities, AU-15) |
@@ -66,7 +66,7 @@ updated). {Mirror the engagement lifecycle in `engagement-conventions.md` s2.}
 
 ### 8. Standing agenda
 Register changes; new requests by tier; incidents and near misses; monitoring exceptions;
-regulatory changes (from DDD's regulatory register); training status; actions.
+regulatory changes (from the practice's regulatory register); training status; actions.
 
 ### 9. Management review (quarterly)
 Inputs: register, risk register changes, incidents, monitoring results, audit findings, objective

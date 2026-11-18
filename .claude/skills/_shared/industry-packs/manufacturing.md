@@ -15,8 +15,8 @@ for telcos, least agency).
 | 2 | Quality inspection vision | 2 | Product safety; drift on sensor data |
 | 3 | SOP and maintenance assistant | 2 | Wrong procedure can injure; grounded in controlled documents only |
 | 4 | Supplier document processing | 1 to 2 | Commercial data; supplier PI if sole traders |
-| 5 | Production scheduling recommendations `[DDD addition]` | 2 | Operational impact; human approves |
-| 6 | Agent with write access to OT or control systems `[DDD addition]` | 3 | Autonomous action with physical effect; often should not be built |
+| 5 | Production scheduling recommendations `[House addition]` | 2 | Operational impact; human approves |
+| 6 | Agent with write access to OT or control systems `[House addition]` | 3 | Autonomous action with physical effect; often should not be built |
 
 ## Key risks
 

@@ -1,6 +1,6 @@
 # Answering end-customer technical questions
 
-*v0.1.0, 2026-11-08. DDD method. Standing answers live in `../../_shared/client-faq.md`; this file
+*v0.1.0, 2026-11-08. House method. Standing answers live in `../../_shared/client-faq.md`; this file
 is how to answer anything, including questions not in the FAQ.*
 
 ## 1. Format

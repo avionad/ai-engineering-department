@@ -2,7 +2,7 @@
 # MIT License
 #
 # Copyright (c) 2025 Alireza Rezvani
-# Copyright (c) 2026 Design Data Dynamics (modifications)
+# Copyright (c) 2026 the practice (modifications)
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -25,16 +25,16 @@
 # Attribution: adapted from alirezarezvani/claude-skills,
 #   ra-qm-team/skills/iso42001-specialist/scripts/aims_gap_analyzer.py
 #   at commit 8f082544116fc0d014188e521ca40304cdfc86b0 (MIT).
-# What DDD changed: reframed from "certification audit severity" to readiness
-#   priority (DDD prepares, it cannot certify: only ISO/IEC 42006 bodies can);
-#   added the DDD artefact that closes each gap and its Guidance for AI Adoption
+# What the practice changed: reframed from "certification audit severity" to readiness
+#   priority (the practice prepares, it cannot certify: only ISO/IEC 42006 bodies can);
+#   added the House artefact that closes each gap and its Guidance for AI Adoption
 #   practice; Markdown output; size-band note. Sub-clause numbers and titles are
 #   the upstream author's and have NOT been verified against the purchased
 #   ISO/IEC 42001:2023 text: verify before citing them to a client.
-"""iso42001_readiness_gap.py -- ISO/IEC 42001 readiness gap (Clauses 4-10) for DDD clients.
+"""iso42001_readiness_gap.py -- ISO/IEC 42001 readiness gap (Clauses 4-10) for the practice clients.
 
 Stdlib only. Scores each requirement as documented / partial / missing from an evidence
-inventory and outputs a prioritised list with the DDD artefact that closes each gap.
+inventory and outputs a prioritised list with the House artefact that closes each gap.
 
 Usage:
   python3 iso42001_readiness_gap.py evidence.json [--md out.md]
@@ -53,7 +53,7 @@ import json
 import sys
 from typing import Any, Dict
 
-# key: (sub-clause per upstream, title per upstream, upstream priority, DDD artefact, GfAA practice)
+# key: (sub-clause per upstream, title per upstream, upstream priority, House artefact, GfAA practice)
 REQS: Dict[str, tuple] = {
     "4.1_context_external": ("4.1", "External and internal context", "minor", "Regulatory register extract + context note", "2"),
     "4.2_interested_parties": ("4.2", "Interested parties", "minor", "Stakeholder list in governance charter", "2"),
@@ -118,13 +118,13 @@ def md(r: Dict[str, Any]) -> str:
     c = r["counts"]
     out = [f"# ISO/IEC 42001 readiness gap: {r['org']}", "",
            f"Size band: {r['band']} | Date: {r['date']} | Scope: {r['scope']}", "",
-           "Readiness assessment only. Design Data Dynamics prepares organisations for ISO/IEC 42001; "
+           "Readiness assessment only. The practice prepares organisations for ISO/IEC 42001; "
            "certification is performed only by accredited certification bodies (ISO/IEC 42006). "
            "This is not an audit and does not predict audit findings.", "",
            f"Weighted readiness: {r['readiness_pct']}% across {r['total']} requirements "
            f"(documented {c['documented']}, partial {c['partial']}, missing {c['missing']}). "
            "Weights: critical 4, major 2, minor 1 (heuristic from the adapted upstream tool).", "",
-           "| Priority | Clause | Requirement | Status | DDD artefact that closes it | GfAA practice |",
+           "| Priority | Clause | Requirement | Status | House artefact that closes it | GfAA practice |",
            "|---|---|---|---|---|---|"]
     for g in r["gaps"]:
         out.append(f"| {g['priority']} | {g['clause']} | {g['title']} | {g['status']} | {g['artefact']} | {g['practice']} |")
@@ -135,7 +135,7 @@ def md(r: Dict[str, Any]) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="DDD ISO/IEC 42001 readiness gap (Clauses 4-10).")
+    ap = argparse.ArgumentParser(description="the practice ISO/IEC 42001 readiness gap (Clauses 4-10).")
     ap.add_argument("evidence", nargs="?")
     ap.add_argument("--md", "--out")
     a = ap.parse_args()

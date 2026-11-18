@@ -27,7 +27,7 @@ lm_eval --model hf \
 The source also shows running the harness through vLLM for speed and tracking checkpoints during
 training.
 
-## DDD rules
+## House rules
 
 - Freeze the task list and harness version in `eval/drift-suite.yaml`; never change it between the
   baseline and the checkpoint run.

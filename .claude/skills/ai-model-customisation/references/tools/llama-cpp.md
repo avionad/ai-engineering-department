@@ -38,7 +38,7 @@ python convert_hf_to_gguf.py <local-model-dir>
 
 Any quantised export is re-evaluated on the eval slice before use.
 
-## DDD rules
+## House rules
 
 - The huggingface-local-models skill pulls GGUFs from the public Hub: download only from the
   official or a reviewed repository, pin the exact file, record its checksum.

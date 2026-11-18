@@ -25,7 +25,7 @@ Speed and memory-saving percentages in the sources omitted.*
 | `random_state` | fixed | Reproducibility |
 | Target modules, alpha, rank, learning rate | See `../method-selection.md` s4 | |
 
-## DDD rules
+## House rules
 
 - Train inside the approved environment for the data class; never in a notebook service that has
   not been verified for residency.

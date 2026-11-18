@@ -4,9 +4,8 @@ A complete, self-contained AI consulting and engineering department for Claude C
 5 specialist agents and a shared knowledge base covering the full lifecycle of an AI engagement,
 from the first discovery call to a running, monitored, compliant system.
 
-Built and used in production by [Design Data Dynamics](https://designdatadynamics.com.au)
-(Aditya Anand) for AI automation consulting with Australian small businesses through to 500+ staff
-enterprises. Shared as a working toolkit: open it in Claude Code and it works as-is.
+Built and used in production by Aditya Anand for AI automation consulting with Australian small
+businesses through to 500+ staff enterprises. Shared as a working toolkit: open it in Claude Code and it works as-is.
 
 ## Quick start
 
@@ -85,6 +84,6 @@ whose facts are older than 60 days so stale claims never reach a client.
 
 ## Licence and provenance
 
-(c) Design Data Dynamics. Shared publicly for evaluation and use in your own practice; not for resale or republication as a product.
+(c) Aditya Anand. Shared publicly for evaluation and use in your own practice; not for resale or republication as a product.
 Vendored third-party material is listed per skill in `references/vendored-provenance.md` files with
 upstream repos and licences; all of it was adapted and rewritten rather than copied at length.

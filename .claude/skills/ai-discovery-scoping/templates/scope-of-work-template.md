@@ -9,7 +9,7 @@ identical; the R2 verifier compares them.*
 | Field | Value |
 |---|---|
 | Client, size band, industry | |
-| Channel (DDD direct / Telco ICT referred) | |
+| Channel (the practice direct / Telco ICT referred) | |
 | Use case(s) and pattern(s) | |
 | Risk tier (provisional / confirmed, date) | |
 | Deployment choice and region | |

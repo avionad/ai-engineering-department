@@ -5,7 +5,7 @@ created/docs/security/applicable-obligations-{project-slug}-{YYYY-MM-DD}.md -->
 
 **Client:** {Client} | **Industry pack:** {pack} | **Size band:** {S/M/L/XL} |
 **Risk tier:** {1-4} (screen dated {YYYY-MM-DD}) | **Jurisdictions considered:** Australia{, EU, NZ, UK}
-**Prepared by:** Design Data Dynamics | **Date:** {YYYY-MM-DD} | **Register version:** {regulatory-register.md change-log date}
+**Prepared by:** the practice | **Date:** {YYYY-MM-DD} | **Register version:** {regulatory-register.md change-log date}
 
 > This assessment identifies regulatory considerations for review by your legal adviser. It is
 > not legal advice.

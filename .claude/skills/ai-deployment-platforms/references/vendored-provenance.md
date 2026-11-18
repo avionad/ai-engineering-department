@@ -2,7 +2,7 @@
 
 *v0.1.0, 2026-11-08. Harvested files this skill read or adapted, with repo, licence and pinned commit
 (SHAs from `ai-kb/vendor/_harvest-manifest-2026-11-08.json`). Department-wide list:
-`../../_shared/VENDORED.md`. This skill is mostly built from the research files and DDD's own method;
+`../../_shared/VENDORED.md`. This skill is mostly built from the research files and the practice's own method;
 harvested material supplied specific platform patterns.*
 
 | Used in (this skill) | Harvested file (upstream, under `ai-kb/vendor/`) | Repo | Licence | Commit SHA | How used |

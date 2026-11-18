@@ -12,7 +12,7 @@ deletions, metadata), sync schedule, throttling limits, and who at the client gr
 | Connector type | When | Watch for |
 |---|---|---|
 | Platform-native connector or indexer (cloud search service pulls from the source) | Source and search service are in the same cloud and the connector captures ACLs | Whether ACLs and deletions are actually captured; region of any intermediate processing |
-| Our own API-based sync job (scheduled, in the client's or DDD's AU environment) | Mixed sources, ACL capture the native connector lacks, or residency control | Rate limits, delta queries, retry and back-off, credential scope (read-only, least privilege) |
+| Our own API-based sync job (scheduled, in the client's or the practice's AU environment) | Mixed sources, ACL capture the native connector lacks, or residency control | Rate limits, delta queries, retry and back-off, credential scope (read-only, least privilege) |
 | Export drop (client exports to a storage location we index) | Source has no usable API; low-change archives | Permissions usually lost in export: access model A or B only unless ACLs are exported too |
 | Third-party connector product | Many sources, client accepts the vendor | Vendor due diligence (`ai-compliance-risk` mode g); residency of the connector's processing |
 

@@ -9,7 +9,7 @@ Mandatory for Tier 3 (conventions s6). Re-run on material change. -->
 
 **Alignment note.** This template is aligned in structure to ISO/IEC 42005:2025, AI system impact
 assessment (register INT-3: published May 2025, voluntary, covers when and how to assess across
-the lifecycle and how to document it, for any size of organisation). DDD has not verified the
+the lifecycle and how to document it, for any size of organisation). The practice has not verified the
 standard's clause numbering against the purchased text, so **no ISO 42005 clause numbers are
 cited**; the sections below are described generically. It also borrows question themes from the
 Government of Canada AIA (MIT, see `references/vendored-provenance.md`) and, for Commonwealth
@@ -18,7 +18,7 @@ agencies, should be read alongside the DTA AI impact assessment tool (AU-17).
 | Field | Value |
 |---|---|
 | Client / system owner | |
-| Assessment lead (DDD) | |
+| Assessment lead (the practice) | |
 | Version / date | v1 / {YYYY-MM-DD} |
 | Risk tier and screen date | |
 | Lifecycle stage at assessment | Design / Build / Pre-go-live / In operation |
@@ -64,7 +64,7 @@ Residual harms after measures; who accepts them; go / go with conditions / do no
 |---|---|---|---|
 | Client accountable owner | | | |
 | Client privacy officer or legal adviser (reviewed) | | | |
-| DDD assessment lead | | | |
+| The practice assessment lead | | | |
 
 ## 9. Monitoring and review
 What is monitored, by whom, how often; what result reopens this assessment; where the record is

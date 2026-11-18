@@ -5,11 +5,11 @@ files sit at `ai-kb/vendor/alirezarezvani__claude-skills/c-level-advisor/skills/
 (`references/model_buildvsbuy_strategy.md`, `references/ai_cost_economics.md`,
 `scripts/model_buildvsbuy_calculator.py` -- upstream paths, none of them files in this skill) in
 alirezarezvani/claude-skills, MIT (c) 2025 Alireza Rezvani, commit
-`8f082544116fc0d014188e521ca40304cdfc86b0`. What DDD kept: compare paths on multi-year total cost
+`8f082544116fc0d014188e521ca40304cdfc86b0`. What the practice kept: compare paths on multi-year total cost
 of ownership from the workload profile; count the hidden costs on both sides; decide only after
-an eval set exists. What DDD dropped: every price, threshold and capability figure in the
+an eval set exists. What the practice dropped: every price, threshold and capability figure in the
 harvested files (illustrative USD prices, "monthly cost" and "tokens per month" thresholds,
-benchmark gaps, team-size rules), because none are sourced for DDD's clients. DDD's paths are the
+benchmark gaps, team-size rules), because none are sourced for the practice's clients. The practice's paths are the
 ladder rungs, not the harvested API / fine-tune / pre-train split.*
 
 ## 1. The options to compare (pick at most three)
@@ -22,7 +22,7 @@ ladder rungs, not the harvested API / fine-tune / pre-train split.*
 | Build self-hosted | Open-weight model on a VPS or on-premises GPU | Build effort, hardware or GPU rental, MLOps, on-call, upgrades |
 | Customise a model | Fine-tune or distil, then host | Data preparation, training compute, eval, hosting, retraining |
 
-Pre-training a model from scratch is never a DDD option.
+Pre-training a model from scratch is never a the practice option.
 
 ## 2. Eval first
 

@@ -20,7 +20,7 @@ professional body, ask for that body's AI guidance and add it as a register row 
 | 5 | Ticket triage (IT services) | 2 | Customer data in tickets |
 | 6 | Knowledge-base agents (IT services) | 2 (3 if they act on client infrastructure) | Agent privilege on infrastructure |
 | 7 | Code assistants (IT services) | 2 | Insecure generated code; client code confidentiality |
-| 8 | Meeting summaries and action capture `[DDD addition]` | 2 | Recording consent; client confidential information |
+| 8 | Meeting summaries and action capture `[House addition]` | 2 | Recording consent; client confidential information |
 
 ## Key risks
 

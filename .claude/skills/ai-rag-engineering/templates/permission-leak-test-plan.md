@@ -94,6 +94,6 @@ Add cases for every source-specific permission feature found in discovery.
 
 | Role | Name | Date | Outcome |
 |---|---|---|---|
-| Tester (DDD) | | | |
+| Tester (the practice) | | | |
 | Reviewer (ai-compliance-officer) | | | |
 | Client owner acknowledgement | | | |

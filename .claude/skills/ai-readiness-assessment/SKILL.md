@@ -1,6 +1,6 @@
 ---
 name: ai-readiness-assessment
-description: Use when a client or prospect wants to know whether they are ready for AI, does not know where to start, or leadership asks for an AI strategy starting point. DDD's paid front-door product. Scores seven dimensions 1-5 with evidence (strategy and leadership, data, technology and infrastructure, people and skills, process, governance and risk, security and privacy), scores governance against the Guidance for AI Adoption six practices and the APP 1.7 automated decision-making duty, applies Go/Wait gates to the organisation and each candidate use case, and produces a readiness report with a ranked 90-day plan plus a one-page executive summary. Scales from a 2-hour owner interview (S) to a multi-week assessment with data sampling (XL).
+description: Use when a client or prospect wants to know whether they are ready for AI, does not know where to start, or leadership asks for an AI strategy starting point. The practice's paid front-door product. Scores seven dimensions 1-5 with evidence (strategy and leadership, data, technology and infrastructure, people and skills, process, governance and risk, security and privacy), scores governance against the Guidance for AI Adoption six practices and the APP 1.7 automated decision-making duty, applies Go/Wait gates to the organisation and each candidate use case, and produces a readiness report with a ranked 90-day plan plus a one-page executive summary. Scales from a 2-hour owner interview (S) to a multi-week assessment with data sampling (XL).
 when_to_use: "AI readiness, are we ready for AI, AI readiness assessment, AI maturity, where do we start with AI, AI audit of our business, AI strategy starting point, readiness scorecard, AI gap analysis, should we invest in AI yet, AI health check, readiness report, Go or Wait on AI"
 trigger: "AI readiness, are we ready for AI, AI readiness assessment, AI maturity, where do we start with AI, AI audit of our business, AI strategy starting point, readiness scorecard, AI gap analysis, should we invest in AI yet, AI health check, readiness report, Go or Wait on AI"
 version: 0.1.0
@@ -16,7 +16,7 @@ produces the readiness Go/Wait that the stage exit gate requires.
 The front-door product: a paid, evidence-based view of how ready an organisation is to use AI,
 what blocks it, and where to start. The research found no credible open-source readiness method
 for 20 to 500+ staff organisations tied to Australian obligations (GitHub research, gap 2); this
-is DDD's own, built on credited open-source pieces (`references/vendored-provenance.md`).
+is the practice's own, built on credited open-source pieces (`references/vendored-provenance.md`).
 
 ## Rules
 

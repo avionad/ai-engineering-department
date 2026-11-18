@@ -42,7 +42,7 @@ silently replaced, either of which invalidates the baseline.
    from memory.
 3. For Australian residency, also check the replacement is available in the required region or
    inference profile (research B4: newer models can reach US regions first).
-4. Flag in the report any retirement inside the planning horizon agreed with the client (DDD
+4. Flag in the report any retirement inside the planning horizon agreed with the client (the practice
    suggestion: raise it at least two cycles ahead so testing and approval fit).
 
 **Migration as a change set:**

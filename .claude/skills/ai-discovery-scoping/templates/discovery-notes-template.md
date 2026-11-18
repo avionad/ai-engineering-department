@@ -11,7 +11,7 @@ Numbers exactly as the client said them, with who said it. `PENDING` where unkno
 | Industry (pack used) | |
 | Decision-maker and signer | |
 | Internal owner (named) | |
-| Engagement channel | DDD direct / Telco ICT referred |
+| Engagement channel | The practice direct / Telco ICT referred |
 | Recording | Yes (consent given) / No |
 
 ## 1. The problem in their words

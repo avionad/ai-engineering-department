@@ -35,7 +35,7 @@ default.
   October 2026 **[secondary]**.
 - **Self-hosted (a VPS in an Australian data centre, or your own servers):** you control the
   location. We would procure Australian hosting for your engagement; we do not hold an Australian
-  VPS today, so do not read this as existing DDD infrastructure.
+  VPS today, so do not read this as existing the practice infrastructure.
 - The search index, logs and caches must sit in the same Australian region as the model, or the
   claim does not hold.
 

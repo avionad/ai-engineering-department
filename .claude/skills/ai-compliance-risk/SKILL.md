@@ -1,6 +1,6 @@
 ---
 name: ai-compliance-risk
-description: Use when any AI or automation project needs to know what rules apply and how risky it is. Project-level compliance and risk for DDD's ai-automation department, Australia first. Screens the project into a risk tier (1 Low to 4 Stop) with a scored questionnaire, lists applicable obligations with status and source from the regulatory register and industry pack, runs the APP 1.7-1.9 automated decision-making check (10 Dec 2026), builds a per-project risk register seeded from CoSAI and NIST AI 600-1, structures an AI impact assessment, threat-models against OWASP LLM and Agentic Top 10 and MITRE ATLAS, issues a vendor due diligence questionnaire, and runs the pre-go-live compliance sign-off. Identifies obligations for the client's legal adviser; never gives legal advice.
+description: Use when any AI or automation project needs to know what rules apply and how risky it is. Project-level compliance and risk for this AI automation department, Australia first. Screens the project into a risk tier (1 Low to 4 Stop) with a scored questionnaire, lists applicable obligations with status and source from the regulatory register and industry pack, runs the APP 1.7-1.9 automated decision-making check (10 Dec 2026), builds a per-project risk register seeded from CoSAI and NIST AI 600-1, structures an AI impact assessment, threat-models against OWASP LLM and Agentic Top 10 and MITRE ATLAS, issues a vendor due diligence questionnaire, and runs the pre-go-live compliance sign-off. Identifies obligations for the client's legal adviser; never gives legal advice.
 when_to_use: ai risk assessment, ai compliance check, what rules apply to this ai project, risk tier, ai screening, adm check, automated decision making disclosure, app 1.7, privacy policy adm, ai risk register, ai impact assessment, iso 42005, threat model ai, owasp llm, owasp agentic, mitre atlas, prompt injection risk, ai vendor due diligence, vendor questionnaire ai, cps 230 ai vendor, compliance sign-off, go-live sign-off ai, is this ai project high risk
 trigger: ai risk assessment, ai compliance check, what rules apply to this ai project, risk tier, ai screening, adm check, automated decision making disclosure, app 1.7, privacy policy adm, ai risk register, ai impact assessment, iso 42005, threat model ai, owasp llm, owasp agentic, mitre atlas, prompt injection risk, ai vendor due diligence, vendor questionnaire ai, cps 230 ai vendor, compliance sign-off, go-live sign-off ai, is this ai project high risk
 version: 0.1.1
@@ -66,7 +66,7 @@ autonomous action and regulated activity set Tier 3; personal data, customer-fac
 vulnerable users set Tier 2), then a 16-item impact score out of 54 for everything else. Final
 tier = highest of the three. Mitigation answers are recorded but **never lower the tier**:
 controls reduce residual risk in the register, the tier says which controls are mandatory.
-Bands are DDD v0.1 and uncalibrated: record every score so they can be tuned after five projects.
+Bands are the practice v0.1 and uncalibrated: record every score so they can be tuned after five projects.
 
 Tier 4 is not argued in the meeting. Record it, explain it plainly, offer a lawful alternative.
 
@@ -142,8 +142,8 @@ in the research, so never state them from memory.
 
 ### (h) Sign-off
 
-25-item checklist by tier. Any Open item in the tier's column blocks sign-off. DDD signs
-"ready / not ready"; **the client's accountable owner approves go-live** (stage 7), never DDD.
+25-item checklist by tier. Any Open item in the tier's column blocks sign-off. The practice signs
+"ready / not ready"; **the client's accountable owner approves go-live** (stage 7), never the practice.
 
 ## Output conventions
 

@@ -1,6 +1,6 @@
 # Process selection: what to automate, and with what
 
-*v0.1.0, 2026-11-08. DDD method. Builds on `ai-discovery-scoping/references/use-case-qualification.md`
+*v0.1.0, 2026-11-08. House method. Builds on `ai-discovery-scoping/references/use-case-qualification.md`
 (value, feasibility, gates) and `n8n/n8n-architect` assess mode (frequency, predictability, data,
 API access, complexity). This file adds the step-level decision: rules, AI, human or remove.*
 

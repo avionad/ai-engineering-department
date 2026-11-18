@@ -1,6 +1,6 @@
 # Data class to platform matrix
 
-*v0.1.0, 2026-11-08. DDD default positions, built from research B2 and B4, the client FAQ and the
+*v0.1.0, 2026-11-08. House default positions, built from research B2 and B4, the client FAQ and the
 regulatory register. They are **defaults for design discussion, not legal conclusions**: the
 client's own data classification policy, contracts, sector rules and legal advice override them
 (conventions s3 and s4). Every platform cell assumes the facts in `platforms.md` have been
@@ -69,7 +69,7 @@ review). **X** do not use. (The letter C is never used in cells: C is a data cla
   owner named.
 - **K8** As K7 (or client infrastructure), plus everything in K5 that applies to self-hosting, and
   the client accepts the operations burden in writing.
-- **K9** Client's security team designs and approves; DDD advises and builds in the client's
+- **K9** Client's security team designs and approves; the practice advises and builds in the client's
   environment only under the client's controls.
 
 ## 3. How to use it

@@ -2,7 +2,7 @@ Audience: client ({Client} owner / executive team / board). Passes a client-faci
 
 # AI readiness: executive summary
 
-**{Client} | {Month YYYY} | Design Data Dynamics**
+**{Client} | {Month YYYY} | The practice**
 
 ## Where you stand
 

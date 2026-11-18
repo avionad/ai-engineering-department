@@ -56,7 +56,7 @@ or send to arbitrary recipients.
 ## 6. Kill switch
 
 - Action: {exactly what to click or run, e.g. deactivate workflow X; revoke key Y}
-- Who can use it: {client role(s) and DDD}
+- Who can use it: {client role(s) and the practice}
 - Tested on: {date, by whom, result}
 - After use: {what happens to in-flight items; how to restart safely}
 

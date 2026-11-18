@@ -21,7 +21,7 @@ services lag the platform on private networking or customer-managed keys).*
 | B8 | Least agency (agents) | Allow-listed tools, scoped short-lived credentials, human approval for irreversible or external actions, spend and rate caps, kill switch, full action log (conventions s2; research B5; ACSC agentic guidance) |
 | B9 | Model and version pinning | Exact model IDs, inference profiles or deployments pinned; retirement dates tracked; changes trigger eval re-runs |
 | B10 | Cost controls | Budgets and alerts; per-application quotas at the gateway |
-| B11 | Environments | Separate sandbox, staging and production; DDD builds in sandbox or staging only (conventions s2) |
+| B11 | Environments | Separate sandbox, staging and production; the practice builds in sandbox or staging only (conventions s2) |
 | B12 | Incident readiness | Who is notified, how a key is revoked, how the kill switch is pulled, vendor incident notification terms (vendor due diligence gate) |
 
 ## 2. Per-platform mapping

@@ -1,6 +1,6 @@
 # Integration design
 
-*v0.1.0, 2026-11-08. DDD method. Pairs with `ai-agents-automation/references/agent-controls.md`
+*v0.1.0, 2026-11-08. House method. Pairs with `ai-agents-automation/references/agent-controls.md`
 (idempotency, retries, error queues) and the `n8n-architect` build skill.*
 
 ## 1. Entity map: one system of record per entity
@@ -40,9 +40,9 @@ and its fragility as an effort driver and a risk.
 | Target system down | Connection error, timeout | Retry with backoff; queue; alert after {n} | Process owner |
 | Validation rejected by target | API error response | Error queue with the payload and the reason | Process owner |
 | Duplicate event | Idempotency key already seen | Skip and log | n/a |
-| Partial multi-step write | Step failure mid-run | Staging then commit, or compensating action defined per step | DDD design |
+| Partial multi-step write | Step failure mid-run | Staging then commit, or compensating action defined per step | The practice design |
 | Credential expired or revoked | Auth error | Stop, alert, do not retry | Client IT |
-| Schema change upstream | Unexpected fields or types | Fail closed to error queue; alert | DDD support |
+| Schema change upstream | Unexpected fields or types | Fail closed to error queue; alert | practice support |
 
 ## 5. Data minimisation at each hop
 

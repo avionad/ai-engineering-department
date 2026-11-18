@@ -11,7 +11,7 @@ dev"). Commands are intentionally not given: read the Ollama docs at the version
   weight is not justified.
 - Not for multi-user production APIs at M+ scale: use vLLM.
 
-## DDD rules
+## House rules
 
 - Bind to localhost or a private interface; put an authenticating proxy with TLS in front if any
   other machine calls it.

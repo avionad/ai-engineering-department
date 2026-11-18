@@ -15,7 +15,7 @@ are deliberately generic: verify each vendor's current capability before naming 
 | Champions (advocates) | Volunteers in each team | Local help, use-case discovery, feedback, co-lead training |
 | Function leads | Department heads | Own workflow redesign and benefits in their area |
 | IT and security | Client IT | Identity, DLP, labels, logging, tool configuration |
-| DDD | Consultancy | Method, design, build of automations, measurement, training content, reporting; recommends, never decides |
+| The practice | Consultancy | Method, design, build of automations, measurement, training content, reporting; recommends, never decides |
 
 ## 2. Sanctioned tool tiers by data class
 
@@ -28,7 +28,7 @@ confidential company and customer data; **Tier 2** unvetted public and consumer 
 non-sensitive data only. "If a tool isn't on the fully vetted list, treat it as public and use
 only public data."
 
-DDD extension for L/XL (needed where sensitive or regulated data exists):
+The practice extension for L/XL (needed where sensitive or regulated data exists):
 
 | Tool tier | Example of what sits here | Data classes allowed | Conditions |
 |---|---|---|---|

@@ -14,8 +14,8 @@ where the client is EU-facing (EU-1, Annex III from 2 Dec 2027).
 | 2 | Lesson planning | 1 | Teacher-facing, no student PI |
 | 3 | Student support chat | 2 (3 with child users or wellbeing topics) | Customer-facing; child privacy; age-appropriate content |
 | 4 | Admin automation (enrolment paperwork, timetabling, parent comms) | 2 | Student and parent PI |
-| 5 | Policy and procedure assistant for staff `[DDD addition]` | 1 | Internal documents |
-| 6 | Course content drafting for RTO units `[DDD addition]` | 1 to 2 | Accuracy against training package requirements |
+| 5 | Policy and procedure assistant for staff `[House addition]` | 1 | Internal documents |
+| 6 | Course content drafting for RTO units `[House addition]` | 1 to 2 | Accuracy against training package requirements |
 
 ## Key risks
 

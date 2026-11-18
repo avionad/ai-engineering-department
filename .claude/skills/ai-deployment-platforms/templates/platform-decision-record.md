@@ -10,7 +10,7 @@ time checked, or `PENDING_VERIFICATION` (and then it does not go to the client).
 |---|---|
 | Status | Proposed / Accepted / Superseded by ____ |
 | Date | |
-| Decided by (DDD) | |
+| Decided by (the practice) | |
 | Approved by (client accountable owner) | |
 | Risk tier and date (`ai-compliance-risk`) | |
 | Size band, industry pack | |

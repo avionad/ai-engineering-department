@@ -1,8 +1,8 @@
 # Workflow optimisation (not only the AI)
 
-*v0.1.0, 2026-11-08. The AI step is often not where the time goes. the practice owner's brief for this skill:
-optimise "the AI and workflow with time". DDD's payoff language is hours removed, manual steps
-eliminated and systems connected (conventions s1). Method is DDD's own; process mapping style
+*v0.1.0, 2026-11-08. The AI step is often not where the time goes. The practice owner's brief for this skill:
+optimise "the AI and workflow with time". The practice's payoff language is hours removed, manual steps
+eliminated and systems connected (conventions s1). Method is the practice's own; process mapping style
 follows `../../ai-agents-automation/references/process-selection.md`.*
 
 ## 1. Map the real flow once a quarter (or when overrides spike)

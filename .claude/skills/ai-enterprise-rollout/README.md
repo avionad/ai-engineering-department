@@ -1,6 +1,6 @@
 # ai-enterprise-rollout
 
-Runs the phased rollout for DDD's ai-automation department: Microsoft adoption phases (get ready, onboard and engage, deliver impact, extend and optimise), sanctioned tool tiers by data class, SSO, RBAC and SCIM, DLP and sensitivity labels, shadow AI replacement, AI champions network, role-based training including the board, communications plan, union consultation and NSW digital work systems considerations, adoption and value measurement without invented productivity multipliers, governing agents by risk tier, and workflow redesign. Ships 90-day and 12-month plan, RACI and adoption scorecard templates.
+Runs the phased rollout for this AI automation department: Microsoft adoption phases (get ready, onboard and engage, deliver impact, extend and optimise), sanctioned tool tiers by data class, SSO, RBAC and SCIM, DLP and sensitivity labels, shadow AI replacement, AI champions network, role-based training including the board, communications plan, union consultation and NSW digital work systems considerations, adoption and value measurement without invented productivity multipliers, governing agents by risk tier, and workflow redesign. Ships 90-day and 12-month plan, RACI and adoption scorecard templates.
 
 **When to use:** Use when an organisation of roughly 200 to 500+ staff (size band L or XL) is rolling out AI across the business, replacing shadow AI with sanctioned tools, or deploying an enterprise assistant or agents at scale.
 
@@ -32,6 +32,6 @@ Runs the phased rollout for DDD's ai-automation department: Microsoft adoption p
 |---|---|
 | `templates/adoption-scorecard.md` | **AI adoption scorecard: {Client}, {Month YYYY}.** Period: {exact dates}. Compared with: {exact comparison period}. Sources: {admin report export. |
 | `templates/raci.md` | **AI rollout RACI: {Client}.** Notes:. |
-| `templates/rollout-plan.md` | **AI rollout plan: {Client}.** Prepared by Design Data Dynamics, {date}. Size band {L/XL}. Staff in scope {n} across {sites}. |
+| `templates/rollout-plan.md` | **AI rollout plan: {Client}.** Prepared by {your practice}, {date}. Size band {L/XL}. Staff in scope {n} across {sites}. |
 
 *Skill version 0.1.0. Start with `SKILL.md`; it reads the shared conventions in `../_shared/` first.*

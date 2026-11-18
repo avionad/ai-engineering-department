@@ -1,7 +1,7 @@
 # Go/Wait gates
 
 *v0.1.0, 2026-11-08. Use-case gate adapted from anthropics/financial-services `ai-readiness`
-(Apache-2.0). Organisation gate and thresholds are DDD's own. Implemented in
+(Apache-2.0). Organisation gate and thresholds are the practice's own. Implemented in
 `scripts/readiness_score.py`; change both together.*
 
 ## Organisation gate

@@ -35,7 +35,7 @@ sequencing for the rollout:
 | Executive and board | Oversight duties, risk appetite, what to ask, how benefits and incidents are reported | Board briefing | Annual refresher; APRA's AI letter flags board AI literacy for regulated entities (AU-15) |
 
 GitHub's playbook advice to curate excellent external content rather than build training that
-dates quickly applies here; DDD builds only the client-specific parts (their tools, their data
+dates quickly applies here; the practice builds only the client-specific parts (their tools, their data
 rules, their workflows).
 
 ## 3. Communications plan

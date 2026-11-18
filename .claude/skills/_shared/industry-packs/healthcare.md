@@ -15,9 +15,9 @@ default expectation (research matrix).
 | 2 | Referral and discharge letter drafting | 3 | Clinical content; clinician must verify |
 | 3 | Appointment and triage chat | 3 if it triages clinically; 2 if booking only | Triage affects access to care |
 | 4 | Clinical coding and billing | 2 | Sensitive PI; financial accuracy; human review |
-| 5 | Practice admin automation (reminders, intake forms) `[DDD addition]` | 2 | Patient PI; no clinical judgement |
-| 6 | Internal policy and procedure assistant for staff `[DDD addition]` | 1 if public or non-confidential internal documents only; 2 once the corpus holds confidential, HR or board material (floor F6) | Becomes 3 if clinicians use answers to decide care for a specific patient (clinical-care floor); scope that out explicitly and test the refusal |
-| 7 | Referral intake into the practice management system `[DDD addition]` | 3 | Health information written into the patient record; if it sets urgency, priority or routing it shapes access to care and meets the ADM limbs (AU-8) |
+| 5 | Practice admin automation (reminders, intake forms) `[House addition]` | 2 | Patient PI; no clinical judgement |
+| 6 | Internal policy and procedure assistant for staff `[House addition]` | 1 if public or non-confidential internal documents only; 2 once the corpus holds confidential, HR or board material (floor F6) | Becomes 3 if clinicians use answers to decide care for a specific patient (clinical-care floor); scope that out explicitly and test the refusal |
+| 7 | Referral intake into the practice management system `[House addition]` | 3 | Health information written into the patient record; if it sets urgency, priority or routing it shapes access to care and meets the ADM limbs (AU-8) |
 
 ## Key risks
 

@@ -2,7 +2,7 @@
 
 Designs the eval suite (golden set from the client's real examples, masked; test types per pattern for RAG, extraction, agents and chat; pass thresholds set with the client and recorded; baseline; regression rule), red-teams it against OWASP LLM and Agentic Top 10 IDs and MITRE ATLAS 2026.10 (prompt injection, leakage, PII, jailbreak, excessive agency, unbounded consumption, output handling, supply chain), compares guardrail options, runs promptfoo as the default harness, and writes the PASS / PASS WITH CONDITIONS / FAIL test report. Written authorisation first, always.
 
-**When to use:** Use when an AI system DDD built or is authorised to test needs proving before go-live, after a material change, or in the monthly loop.
+**When to use:** Use when an AI system the practice built or is authorised to test needs proving before go-live, after a material change, or in the monthly loop.
 
 **Trigger phrases:** eval the AI, test the chatbot, red team the AI, AI security test, prompt injection test, jailbreak test, pre-launch AI test, golden set, eval baseline, regression test the prompt, permission leak test, PII leakage test, guardrails, NeMo Guardrails, Bedrock Guardrails, promptfoo, garak, PyRIT, OWASP ...
 

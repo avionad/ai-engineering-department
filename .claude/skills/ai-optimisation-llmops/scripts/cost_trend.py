@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Monthly AI cost and usage trend per system, from a usage CSV.
 
-Part of the DDD ai-optimisation-llmops skill, v0.1.0, 2026-11-08. Standard library only.
+Part of the practice ai-optimisation-llmops skill, v0.1.0, 2026-11-08. Standard library only.
 
 It NEVER prices tokens. All money figures are sums of the cost_aud column supplied in the data
 (billing export, trace store export or automation run log). Token counts are reported as volumes.
@@ -16,8 +16,8 @@ Output per system and month: tasks, cost, cost per task, input and output tokens
 mix (input vs output share of all tokens), cache share (cached / all input tokens), model cost mix,
 month-on-month change in cost per task, and flags:
   COST/TASK UP    cost per task rose more than --flag-threshold vs the previous month
-                  (default 0.20 = 20%: a DDD default, not an industry figure; set per client)
-  VOLUME SWING    tasks changed more than --volume-threshold vs previous month (context, default 0.30, DDD default)
+                  (default 0.20 = 20%: a House default, not an industry figure; set per client)
+  VOLUME SWING    tasks changed more than --volume-threshold vs previous month (context, default 0.30, House default)
   MODEL CHANGE    a model appeared or disappeared vs the previous month (context)
   PARTIAL MONTH   the latest month's data stops before the month's last day (volume swing
                   is not flagged for a partial month; cost per task still compared)
@@ -185,8 +185,8 @@ def render(report, src, flag_threshold, volume_threshold, markdown=False):
     lines.append(("# " if markdown else "") + "AI cost and usage trend")
     lines.append("")
     lines.append(f"Source: {src}. Money = sums of the cost_aud column as supplied; no token prices applied.")
-    lines.append(f"Flag threshold: cost per task up >{flag_threshold:.0%} month on month (DDD default 20%, "
-                 f"set per client). Volume swing context flag: >{volume_threshold:.0%} (DDD default).")
+    lines.append(f"Flag threshold: cost per task up >{flag_threshold:.0%} month on month (House default 20%, "
+                 f"set per client). Volume swing context flag: >{volume_threshold:.0%} (House default).")
     lines.append("")
     head = ["System", "Month", "Tasks", "Cost AUD", "Cost/task", "MoM cost/task", "MoM tasks",
             "In tok/task", "Out tok/task", "Mix in/out", "Cache share", "Top model (cost share)", "Flags"]
@@ -226,9 +226,9 @@ def main():
     ap.add_argument("usage_csv")
     ap.add_argument("--system", help="only this system")
     ap.add_argument("--flag-threshold", type=float, default=0.20,
-                    help="flag cost per task rises above this fraction month on month (DDD default 0.20)")
+                    help="flag cost per task rises above this fraction month on month (House default 0.20)")
     ap.add_argument("--volume-threshold", type=float, default=0.30,
-                    help="context flag for task volume swings (DDD default 0.30)")
+                    help="context flag for task volume swings (House default 0.30)")
     ap.add_argument("--cached-separate", action="store_true",
                     help="cached_input_tokens are NOT included in input_tokens in this export")
     ap.add_argument("--md", "--out", help="write a Markdown copy")

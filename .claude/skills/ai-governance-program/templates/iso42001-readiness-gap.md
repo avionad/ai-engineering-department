@@ -3,8 +3,8 @@ created/docs/security/iso42001-readiness-gap-{client}-{YYYY-MM-DD}.md -->
 
 # ISO/IEC 42001 readiness gap: method and report frame
 
-*v0.1.0, 2026-11-08. ISO/IEC 42001:2023 is voluntary and certifiable (INT-1). **DDD does readiness;
-DDD cannot certify.** Certification is done only by bodies meeting ISO/IEC 42006:2025 (INT-4),
+*v0.1.0, 2026-11-08. ISO/IEC 42001:2023 is voluntary and certifiable (INT-1). **The practice does readiness;
+The practice cannot certify.** Certification is done only by bodies meeting ISO/IEC 42006:2025 (INT-4),
 for example the certification bodies the research names (BSI, Intertek SAI Global, A-Good
 Certification Group). Enterprise tenders increasingly ask for 42001; this is why clients want a
 gap view.*
@@ -26,10 +26,10 @@ gap view.*
 2. **Evidence inventory.** For each Clause 4-10 requirement, collect evidence and mark
    documented / partial / missing. Interview the owner of each.
 3. **Score.** `python3 scripts/iso42001_readiness_gap.py evidence.json --md out.md`. Weighted
-   readiness percentage plus a prioritised gap list with the DDD artefact that closes each gap.
+   readiness percentage plus a prioritised gap list with the House artefact that closes each gap.
    Weights (critical 4, major 2, minor 1) are a heuristic from the adapted upstream tool, not
    from ISO.
-4. **Annex A.** Review against the client's own copy of the standard's Annex A controls. DDD
+4. **Annex A.** Review against the client's own copy of the standard's Annex A controls. The practice
    does not quote Annex A control IDs from harvested sources (they disagree with each other).
    Ask the client for their licensed copy, or have their certification body confirm.
 5. **Roadmap.** Sequence gaps into the governance program: policy and charter first (Clause 5),

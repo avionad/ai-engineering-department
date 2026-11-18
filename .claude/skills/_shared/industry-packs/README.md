@@ -5,7 +5,7 @@
 (AU-8, EU-1 ...). If a pack and the register disagree, the register wins and the pack is fixed.
 Where a rule has no register row, the pack says so in the Register column (`Overlay` for a rule
 the research named, `No register row` for one it did not) and marks it `PENDING_VERIFICATION`.
-A rule with no row is identified as a question for the client's legal adviser, never stated by DDD
+A rule with no row is identified as a question for the client's legal adviser, never stated by the practice
 as a requirement, a threshold or a deadline, and never filled in from memory.*
 
 ## Packs
@@ -30,7 +30,7 @@ as a requirement, a threshold or a deadline, and never filled in from memory.*
 ## How every pack is structured
 
 1. **High-ROI use cases** (5 to 8) with a **typical risk tier** (conventions section 6). Use cases
-   from the research matrix are unmarked; anything DDD added is tagged `[DDD addition]` and is
+   from the research matrix are unmarked; anything the practice added is tagged `[House addition]` and is
    practitioner synthesis, not a sourced ROI claim. The research itself says its use cases are
    practitioner synthesis, not sourced ROI figures, so never quote a saving from a pack: get the
    client's own numbers in discovery.
@@ -62,11 +62,11 @@ as a requirement, a threshold or a deadline, and never filled in from memory.*
   table (section A3); finance enriched from retired `ai-engineer-finance` material, re-checked
   against the research.
 - 2026-11-08 v0.2.0: **14 packs.** `construction-trades.md` and `aged-care-ndis.md` added after a
-  review found the two largest segments of the Sydney SMB market DDD sells into had no pack.
-  Neither has a row in the research industry matrix, so both carry `[DDD addition]` on every use
+  review found the two largest segments of the Sydney SMB market the practice sells into had no pack.
+  Neither has a row in the research industry matrix, so both carry `[House addition]` on every use
   case. The aged care and NDIS pack carries a standing warning at the top: the sector's own rules
   are not in the register and are `PENDING_VERIFICATION`, so they go to the client's legal adviser
-  rather than being stated by DDD. Rows for both were added to
+  rather than being stated by the practice. Rows for both were added to
   `../../ai-agents-automation/references/industry-use-case-library.md`.
 
 

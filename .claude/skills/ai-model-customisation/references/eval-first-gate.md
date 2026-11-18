@@ -4,7 +4,7 @@
 and `agents/llm-finetuning-architect.md` (MIT, SHA in `vendored-provenance.md`). The structure (gate
 token, flywheel, golden building, one grader per failure bucket, judge calibration, directory
 contract, exit checklist) is theirs; the client-engagement framing, the prompting-plus-RAG baseline
-and DDD's sign-off are ours. Numeric floors below are wshobson's working conventions, not research
+and the practice's sign-off are ours. Numeric floors below are wshobson's working conventions, not research
 findings: treat them as defaults to adjust with evidence.*
 
 ## 1. Why the gate exists
@@ -14,7 +14,7 @@ regressions, and no labelled data to train on. "The model seems better" is not a
 client engagement the gate also protects the client from paying for training that a better prompt
 or retrieval would have made unnecessary.
 
-**DDD rule:** the baseline is run on the **strongest practical non-customised option**, not just
+**House rule:** the baseline is run on the **strongest practical non-customised option**, not just
 the untuned open-weight base model: (a) a capable hosted model in the approved region with the best
 prompt we can write, and (b) the same plus retrieval or tools where the gap is knowledge. Only if
 both miss the client's agreed target does customisation proceed. Then the untuned open-weight base
@@ -87,7 +87,7 @@ runs/
 5. Drift suite frozen.
 6. Baselines written for hosted+prompt, hosted+RAG (where relevant) and the untuned base model.
 7. **Target agreed in writing with the client owner, and the baseline shows the non-customised
-   options miss it.** (DDD addition.)
+   options miss it.** (House addition.)
 
 Missing any item: the gate is closed. Record it in the go/no-go template.
 
@@ -104,7 +104,7 @@ Adapted from wshobson `checkpoint-promotion`. A checkpoint ships only after:
    prompts (position-randomised if judged). A held-out win that loses the paired comparison does
    not ship.
 4. **Canary** for production traffic: a small stratified share with automatic rollback.
-5. **Client owner approval** of the comparison report (DDD addition; stage 7 rule).
+5. **Client owner approval** of the comparison report (House addition; stage 7 rule).
 
 Terminal verdict: PROMOTE or REJECT, with evidence and one top remediation on REJECT. Forgetting
 mitigation (general-data replay, lower learning rate, fewer epochs, smaller rank) and the reasoning

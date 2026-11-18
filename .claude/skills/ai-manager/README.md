@@ -2,7 +2,7 @@
 
 Runs the engagement lifecycle (intake, discovery, readiness, compliance and risk, solution design, quote, build, verify, go-live, run), enforces the stage gates, assigns the size band and risk tier, and routes to the department's skills and specialist agents (ai-architect, ai-compliance-officer, ai-engineer, ai-security-tester, ai-optimiser). Covers every industry and organisation size from sole trader to 500+ staff, cloud (AWS, Azure, Google Cloud), VPS and on-prem. Australian regulation first.
 
-**When to use:** Use when ANY task involves an AI automation, AI implementation, AI governance or AI compliance engagement for a DDD client or prospect -- the entry point and router for the ai-automation department.
+**When to use:** Use when ANY task involves an AI automation, AI implementation, AI governance or AI compliance engagement for a the practice client or prospect -- the entry point and router for the ai-automation department.
 
 **Trigger phrases:** AI project, AI automation for a client, AI consulting, implement AI, roll out AI, AI strategy for a business, AI governance, AI compliance, AI risk, client wants AI, AI for enterprise, custom AI, RAG for a company, private LLM, AI agent for a business, AI department, /ai-manager, where are we with t...
 

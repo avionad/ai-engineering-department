@@ -13,7 +13,7 @@ Confirm with the project owner before stage 2 is marked complete.*
 
 | Source | What we took | What we did not take |
 |---|---|---|
-| Government of Canada Algorithmic Impact Assessment questionnaire, `canada-ca/aia-eia-js` `src/survey-enfr.json` (MIT, commit b62573389db4946b4d70b7fa62c4ca8d9990dba3) | The structure: separate **raw impact** questions (each answer carries points) from **mitigation** questions; the impact dimensions (reversibility, duration, rights, equality/dignity/privacy/autonomy, health and wellbeing, economic interests); data questions (personal information, multiple sources, third-party collection); system questions (judgement or discretion, full vs partial automation, continued learning, explainability) | Canadian-government specifics (TBS review, GBA Plus, Open Government Portal, Protected A/B/C classifications, legislative authority chain). Canada's level thresholds are computed in the tool's code, which was not harvested, so **our bands are DDD's own (v0.1, uncalibrated)** |
+| Government of Canada Algorithmic Impact Assessment questionnaire, `canada-ca/aia-eia-js` `src/survey-enfr.json` (MIT, commit b62573389db4946b4d70b7fa62c4ca8d9990dba3) | The structure: separate **raw impact** questions (each answer carries points) from **mitigation** questions; the impact dimensions (reversibility, duration, rights, equality/dignity/privacy/autonomy, health and wellbeing, economic interests); data questions (personal information, multiple sources, third-party collection); system questions (judgement or discretion, full vs partial automation, continued learning, explainability) | Canadian-government specifics (TBS review, GBA Plus, Open Government Portal, Protected A/B/C classifications, legislative authority chain). Canada's level thresholds are computed in the tool's code, which was not harvested, so **our bands are the practice's own (v0.1, uncalibrated)** |
 | Australian Guidance for AI Adoption AI screening tool (NAIC, Oct 2025; register row AU-4) | Its purpose as described in the research: decide the governance level per use case before a full risk assessment | Its question content. The tool's .docx could not be retrieved on 2026-11-08 (site timed out); alignment of our questions to it is `PENDING_VERIFICATION` |
 | `engagement-conventions.md` section 6 | The four tiers and their minimum controls | - |
 | POLA Act APP 1.7 to 1.9 (AU-8) | The three ADM limbs as a hard floor | - |
@@ -51,7 +51,7 @@ nearest lawful alternative if one exists.
 
 ## Step 3. Impact score (sets the tier when no floor applies, and ranks within a tier)
 
-Score each item. Points are DDD's calibration v0.1, informed by the AIA's point pattern (impact
+Score each item. Points are the practice's calibration v0.1, informed by the AIA's point pattern (impact
 dimensions on a 1 to 4 scale; binary risk flags at 1 to 4 points).
 
 | # | Question | Points |

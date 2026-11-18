@@ -12,8 +12,8 @@ Marketing is one use case among many here, never the frame (conventions section 
 | 3 | Demand forecasting | 1 | Aggregate data; internal decisions |
 | 4 | Review summarisation | 1 to 2 | Reviewer PI is minimal; misleading summary risk |
 | 5 | Personalised email | 2 | Customer PI; Spam Act consent |
-| 6 | Order, returns and stock automation across systems `[DDD addition]` | 2 | Customer PI; actions with financial effect need limits |
-| 7 | Dynamic pricing or buy-now-pay-later eligibility `[DDD addition]` | 3 | ADM candidate where it significantly affects individuals (research names pricing and credit) |
+| 6 | Order, returns and stock automation across systems `[House addition]` | 2 | Customer PI; actions with financial effect need limits |
+| 7 | Dynamic pricing or buy-now-pay-later eligibility `[House addition]` | 3 | ADM candidate where it significantly affects individuals (research names pricing and credit) |
 
 ## Key risks
 
