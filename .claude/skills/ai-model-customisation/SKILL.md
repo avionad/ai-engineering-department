@@ -122,7 +122,7 @@ Data shape picks the method, not the other way round (wshobson method router, ad
 | Unpaired thumbs up/down | KTO |
 | Automatic pass/fail check exists (schema, code runs, maths) | GRPO with verifiable rewards, only after the model already succeeds sometimes |
 | A large model does the task well; cost or latency is the constraint | Distillation to a smaller open-weight model |
-| Large stable domain corpus and nothing else works | Continued pretraining, guidance only; very rare for our clients, needs Aditya's approval |
+| Large stable domain corpus and nothing else works | Continued pretraining, guidance only; very rare for our clients, needs the practice owner's approval |
 | No eval harness yet | Stop. Build it first |
 
 Detail, volume thresholds and worked examples: `references/method-selection.md`.

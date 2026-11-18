@@ -1,13 +1,12 @@
 <!-- Audience: client decision-maker (via the proposal) and internal. Save as
 {client}/created/docs/strategy/ai-retainer-scope-{YYYY-MM-DD}.md
-SCOPE ONLY. The monthly fee is produced by ai-proposal-pricing (run-ongoing bucket, its
-estimator; prices end in 100/300/600/700/800) and approved by Aditya. Never write a price here. -->
+SCOPE ONLY. The monthly fee is produced by ai-proposal-pricing (run-ongoing bucket) and approved by the practice owner. Never write a price here. -->
 
 # Run and improve retainer: scope
 
 *Template v0.1.0 (ai-optimisation-llmops), 2026-11-08.*
 
-**Client:** {client} | **Start:** {date} | **Term and notice:** {set with Aditya} |
+**Client:** {client} | **Start:** {date} | **Term and notice:** {set with the practice owner} |
 **Fee:** see the quote from ai-proposal-pricing ({path}), not this document
 
 ## 1. What the retainer is for
@@ -28,7 +27,7 @@ instead of standing still after launch.
 | Response time for incidents | {set with the client; not a guarantee until agreed in writing} |
 | Model deprecation watch and migration planning | Included for systems in scope; the migration build itself counts as a change set |
 
-Unused hours: {policy set with Aditya: PENDING}.
+Unused hours: {policy set : PENDING}.
 
 ## 3. Systems in scope
 

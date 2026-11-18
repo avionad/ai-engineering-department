@@ -77,5 +77,5 @@ inspect_ai (MIT, credible for government clients per `ai-rag-engineering`), raga
 
 Red-team runs make many calls: (plugins x numTests x strategies x contexts) generated tests, each
 calling the target, plus attacker and grader calls. Estimate before running, set `numTests` low
-for the first pass, run in sandbox with a spend cap, and get Aditya's approval for anything
+for the first pass, run in sandbox with a spend cap, and get the practice owner's approval for anything
 beyond the sandbox budget.

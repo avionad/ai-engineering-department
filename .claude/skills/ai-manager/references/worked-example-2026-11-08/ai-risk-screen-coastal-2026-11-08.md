@@ -59,4 +59,4 @@ ADM check (mode c, provisional): System = referral intake automation; decision t
 | n/a | AU-22 ACL | AU-22 | In force | Not for internal tools | No consumer-facing output |
 | n/a | EU-1/2/3 | | | No EU users (assumed) | |
 
-Flags: professional indemnity cover for AI governance advice is PENDING_VERIFICATION (raise with Aditya). All rows checked 2026-11-08, within the 60-day window.
+Flags: professional indemnity cover for AI governance advice is PENDING_VERIFICATION (raise with the practice owner). All rows checked 2026-11-08, within the 60-day window.

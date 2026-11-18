@@ -22,6 +22,8 @@ and `.claude/agents/*` into `~/.claude/agents/`.
 
 ## What is inside
 
+Every skill folder, the shared knowledge base and the agents folder carry their own `README.md` describing what each file does.
+
 ### The engagement lifecycle (skills, in the order an engagement uses them)
 
 | Stage | Skill | What it does |
@@ -83,6 +85,6 @@ whose facts are older than 60 days so stale claims never reach a client.
 
 ## Licence and provenance
 
-Shared privately for evaluation and use in your own practice; not for resale or republication.
+(c) Design Data Dynamics. Shared publicly for evaluation and use in your own practice; not for resale or republication as a product.
 Vendored third-party material is listed per skill in `references/vendored-provenance.md` files with
 upstream repos and licences; all of it was adapted and rewritten rather than copied at length.

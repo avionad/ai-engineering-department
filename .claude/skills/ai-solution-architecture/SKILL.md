@@ -12,7 +12,7 @@ Read `../_shared/engagement-conventions.md` first.
 
 # AI Solution Architecture (method)
 
-The `ai-architect` agent (`~/.claude/agents/ai-architect.md`) holds the role, the rules and the
+The `ai-architect` agent (`.claude/agents/ai-architect.md`) holds the role, the rules and the
 output contract. This skill holds the depth it works from. Stage 3 (Design) of the lifecycle:
 the exit gate is an architecture and data-flow diagram, a platform choice with residency, a
 build-vs-buy decision and at least one ADR. The output is a design, never a build.

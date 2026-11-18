@@ -21,7 +21,7 @@
 | 1 Discover | Not started; paid discovery proposed | No: no client numbers (hours, volumes), no readiness Go/Wait | scope CSV (draft) | |
 | 2 Govern (risk tier: PROVISIONAL assistant T2, referral T3) | Provisional prep only | No: answers assumed, not confirmed with project owner | ai-risk-screen-coastal-2026-11-08.md | 2026-11-08 |
 | 3 Design | PROVISIONAL outline for call prep | No | ai-solution-design-outline-coastal-2026-11-08.md | 2026-11-08 |
-| 4 Quote | INTERNAL DRAFT only | No (unconfirmed hours 83%; Aditya approval not sought) | quote-breakdown-coastal-2026-11-08.md | 2026-11-08 |
+| 4 Quote | INTERNAL DRAFT only | No (unconfirmed hours 83%; the practice owner approval not sought) | quote-breakdown-coastal-2026-11-08.md | 2026-11-08 |
 | 5-8 | Not started | | | |
 
 ## Use cases
@@ -48,7 +48,7 @@
 
 ## Next action
 
-- Aditya reviews the internal draft; decide whether to propose discovery-only ($18,600 + GST draft) or discovery plus pilot ($60,700 + GST draft). Owner: Aditya.
+- The owner reviews the internal draft; decide whether to propose discovery-only ([figure removed]) or discovery plus pilot ([figure removed]). Owner: practice owner.
 
 ## Agent notes
 

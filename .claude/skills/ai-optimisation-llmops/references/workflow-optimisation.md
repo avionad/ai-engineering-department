@@ -1,6 +1,6 @@
 # Workflow optimisation (not only the AI)
 
-*v0.1.0, 2026-11-08. The AI step is often not where the time goes. Aditya's brief for this skill:
+*v0.1.0, 2026-11-08. The AI step is often not where the time goes. the practice owner's brief for this skill:
 optimise "the AI and workflow with time". DDD's payoff language is hours removed, manual steps
 eliminated and systems connected (conventions s1). Method is DDD's own; process mapping style
 follows `../../ai-agents-automation/references/process-selection.md`.*

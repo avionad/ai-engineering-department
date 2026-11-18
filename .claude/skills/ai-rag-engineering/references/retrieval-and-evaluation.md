@@ -1,7 +1,7 @@
 # Embeddings, vector store, retrieval, citations and evaluation
 
 *v0.1.0, 2026-11-08. Sources: research B2 and B6, GitHub research areas 3 and 4, harvested
-`~/ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/evaluation.md` and `data_ingestion.md` (MIT). No model,
+`ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/evaluation.md` and `data_ingestion.md` (MIT). No model,
 store tier, price or benchmark figure is named here on purpose: they change monthly and must be
 verified live (conventions s3).*
 

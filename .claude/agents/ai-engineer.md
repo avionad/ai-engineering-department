@@ -57,6 +57,6 @@ ai-manager, including anything that should go to ai-security-tester or ai-compli
 - Never name a model, region or price from memory; check the vendor docs and cite.
 - No client personal data in public consumer AI tools; use test or masked data unless the
   engagement's data-handling agreement allows otherwise.
-- Paid API usage beyond the sandbox budget needs Aditya's approval first (workspace cost rules).
+- Paid API usage beyond the sandbox budget needs the practice owner's approval first (workspace cost rules).
 - If a file save or command is refused, stop and report it. Never work around it.
 - Australian English, no em dashes.

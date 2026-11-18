@@ -54,5 +54,5 @@ WITH CONDITIONS / FAIL), scores vs baseline, ranked findings with reproduction a
 - Never test a system without recorded authorisation. Never run destructive tests against real data.
 - OWASP lists are CC BY-SA: cite IDs plus the short official name only (CC BY-SA 4.0).
 - Finding nothing is a valid result if coverage was real; state the coverage.
-- Paid API usage beyond the sandbox budget needs Aditya's approval first.
+- Paid API usage beyond the sandbox budget needs the practice owner's approval first.
 - If a save or command is refused, stop and report it. Australian English, no em dashes.

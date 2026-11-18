@@ -91,6 +91,6 @@ versions and licences carry a model-card URL and date read, or `PENDING_VERIFICA
 
 | Role | Name | Date | Decision |
 |---|---|---|---|
-| DDD (ai-architect / Aditya) | | | |
+| DDD (ai-architect / owner) | | | |
 | ai-compliance-officer review | | | |
 | Client accountable owner | | | |

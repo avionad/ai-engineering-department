@@ -1,13 +1,13 @@
 # Vendored and adapted open-source material -- ai-automation department
 
-*Harvested 2026-11-08 into `~/ai-kb/vendor/` at pinned commits (manifest:
-`~/ai-kb/vendor/_harvest-manifest-2026-11-08.json`). Downloaded as raw text via the GitHub API;
+*Harvested 2026-11-08 into `ai-kb/vendor/` at pinned commits (manifest:
+`ai-kb/vendor/_harvest-manifest-2026-11-08.json`). Downloaded as raw text via the GitHub API;
 nothing cloned, installed or executed during harvest. The file counts in the tables below were
 counted from disk on 2026-11-08 and reconciled against the manifest; they sum to 692.*
 
 ## Security scan (re-run and re-counted from disk, 2026-11-08)
 
-**Scope: 692 files across 17 repo folders** in `~/ai-kb/vendor/` (693 counting the harvest
+**Scope: 692 files across 17 repo folders** in `ai-kb/vendor/` (693 counting the harvest
 manifest itself). The earlier "547 files" figure was the Phase 1 scope only; the Phase 2/3 harvest
 added six repos (promptfoo, garak, Presidio, azure-search-openai-demo, huggingface/skills,
 Orchestra-Research) and the mitre-atlas v6 re-harvest added two files.
@@ -24,7 +24,7 @@ to an agent.
 | | Where they live | Count | Imports | Do we run them |
 |---|---|---|---|---|
 | DDD scripts we run | in the department itself, not in the vendor folder | 8 | stdlib only: `argparse`, `calendar`, `collections`, `csv`, `datetime`, `json`, `math`, `os`, `re`, `sys`, `typing`. No network, no `subprocess`, nothing to install | Yes |
-| Upstream reference files | `~/ai-kb/vendor/` | 23 | 18 (all under `alirezarezvani__claude-skills/`) import stdlib only: `argparse`, `json`, `sys`, `textwrap`, `typing`. The other 5 are upstream Presidio recogniser modules under `data-privacy-stack__presidio/presidio-analyzer/.../country_specific/australia/`: four import `presidio_analyzer` and `__init__.py` relative-imports those four, so they cannot run without Presidio installed | **No, never** |
+| Upstream reference files | `ai-kb/vendor/` | 23 | 18 (all under `alirezarezvani__claude-skills/`) import stdlib only: `argparse`, `json`, `sys`, `textwrap`, `typing`. The other 5 are upstream Presidio recogniser modules under `data-privacy-stack__presidio/presidio-analyzer/.../country_specific/australia/`: four import `presidio_analyzer` and `__init__.py` relative-imports those four, so they cannot run without Presidio installed | **No, never** |
 
 The 8 DDD scripts are `_shared/check_freshness.py` plus one each in `ai-proposal-pricing`,
 `ai-compliance-risk`, `ai-readiness-assessment`, `ai-governance-program`,
@@ -32,7 +32,7 @@ The 8 DDD scripts are `_shared/check_freshness.py` plus one each in `ai-proposal
 (`engagement-conventions.md` s6b lists them with their exit codes). The Presidio recognisers are
 reference material for entity names and detection approach only; a client build installs Presidio
 from its published package, never from these files. Vendored code is not executed on this box
-without a quarantine review (`~/ai-kb/README.md`).
+without a quarantine review (`ai-kb/README.md`).
 
 ## Phase 1 harvest
 
@@ -74,7 +74,7 @@ and `https://api.github.com/repos/data-privacy-stack/presidio` (`"fork": false`,
 source). Licence MIT (c) Presidio Contributors, read from the repo LICENSE file,
 https://github.com/data-privacy-stack/presidio/blob/main/LICENSE.
 
-We harvested from `~/ai-kb/vendor/data-privacy-stack__presidio/` at the pinned SHA above (SHA
+We harvested from `ai-kb/vendor/data-privacy-stack__presidio/` at the pinned SHA above (SHA
 unchanged). Asked whose PII library DDD uses, the correct answer is "Microsoft's Presidio, now
 maintained in the `data-privacy-stack` organisation". Nothing was copied from it, so there is no
 licence exposure either way.

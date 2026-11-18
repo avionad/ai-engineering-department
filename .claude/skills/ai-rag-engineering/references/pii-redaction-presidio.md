@@ -5,7 +5,7 @@
 `data-privacy-stack/presidio`: same repository, GitHub repository ID 132129752, old path serves a
 permanent redirect, not a fork (verified against the GitHub API 2026-11-08; detail in
 `../../_shared/VENDORED.md`). Harvested files under
-`~/ai-kb/vendor/data-privacy-stack__presidio/presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/`.
+`ai-kb/vendor/data-privacy-stack__presidio/presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/`.
 Pinned SHA in `vendored-provenance.md`. We read the recogniser code; we do not vendor it into this
 skill and we never execute it.*
 

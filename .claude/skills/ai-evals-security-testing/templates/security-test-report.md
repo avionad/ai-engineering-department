@@ -1,6 +1,6 @@
 <!-- Audience: client accountable owner and technical owner; internal copy to ai-manager and
 ai-compliance-officer. Save as {client}/created/docs/security/ai-security-test-report-{YYYY-MM-DD}.md
-Matches the Output section of ~/.claude/agents/ai-security-tester.md. Client-facing version passes
+Matches the Output section of .claude/agents/ai-security-tester.md. Client-facing version passes
 client-ops/client-voice. More than 3 numbers: R2 verifier in scripts/verifiers/. -->
 
 # AI security and evaluation test report: {system name}

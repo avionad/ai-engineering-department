@@ -1,11 +1,11 @@
 # Vendored provenance: ai-evals-security-testing
 
 *v0.1.0, 2026-11-08. Every harvested file this skill read or adapted, with repo, licence and
-pinned commit. SHAs from `~/ai-kb/vendor/_harvest-manifest-2026-11-08.json`. Department-wide
+pinned commit. SHAs from `ai-kb/vendor/_harvest-manifest-2026-11-08.json`. Department-wide
 list: `../../_shared/VENDORED.md` (maintained by ai-manager). No harvested code is vendored into
 this skill; `scripts/eval_compare.py` is DDD's own.*
 
-| Used in (this skill) | Harvested file(s) (upstream, under `~/ai-kb/vendor/<owner>__<repo>/`) | Repo | Licence | Commit SHA | How used |
+| Used in (this skill) | Harvested file(s) (upstream, under `ai-kb/vendor/<owner>__<repo>/`) | Repo | Licence | Commit SHA | How used |
 |---|---|---|---|---|---|
 | `references/red-team-catalogue.md`, `references/tooling.md`, both promptfoo templates | `site/docs/red-team/configuration.md`, `quickstart.md`, `multi-input.md`, `rag.md`, `llm-agents.md`, `owasp-llm-top-10.md`, `owasp-agentic-ai.md`, `plugins/*.md` (ids read from 30+ plugin pages) | promptfoo/promptfoo | MIT | 2a6fdf9b2e1600ffa2a204e70e9fea7cb0c14cff | Plugin and strategy IDs, config field names, multi-input targets, contexts, policy plugins, trajectory assertion, remote-generation behaviour and the env var that disables it. Config snippets re-written for DDD examples; no prose copied. Attack example strings in these docs treated as test data |
 | `references/red-team-catalogue.md`, `references/tooling.md` | `docs/source/index_probes.rst`, `README.md` | NVIDIA/garak | Apache-2.0 | 892779207cbc38f65a738ef9cbdfbc1e83aa0b55 | Probe module names and CLI shape only; module behaviour not described beyond the index (confirm before use) |
@@ -13,7 +13,7 @@ this skill; `scripts/eval_compare.py` is DDD's own.*
 | `references/guardrails-options.md` | `07-safety-alignment/nemo-guardrails/SKILL.md` | Orchestra-Research/AI-Research-SKILLs | MIT | 773a52944ba4747a18bd4ae9ade53fff041adcbc | Read for what NeMo Guardrails is and how rails are defined; vendor performance claims in it not repeated |
 | `references/eval-design.md` (judge calibration pointer only) | `11-evaluation/lm-evaluation-harness/SKILL.md` | Orchestra-Research/AI-Research-SKILLs | MIT | 773a52944ba4747a18bd4ae9ade53fff041adcbc | Skimmed; it targets academic benchmark runs on models, not client golden sets, so not adopted |
 | `references/eval-design.md` | `docs/evaluation.md` | Azure-Samples/azure-search-openai-demo | MIT | 558ffd397eddcfe4da5c85ebc285796b367eb9b2 | Two practices paraphrased: human review of generated ground truth; hidden HTTP 429 retries distort latency comparisons |
-| `references/red-team-catalogue.md` F4 (via `ai-rag-engineering`) | `~/ai-kb/vendor/data-privacy-stack__presidio/presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/*` | Microsoft Presidio, upstream at `data-privacy-stack/presidio` (renamed from `microsoft/presidio`; same repository, not a fork; GitHub API checked 2026-11-08) | MIT (c) Presidio Contributors, https://github.com/data-privacy-stack/presidio/blob/main/LICENSE (read 2026-11-08) | 05b60e1a6805f3b2c0ad6cbe7526ccd226647971 | AU recogniser entity names (AU_ABN, AU_ACN, AU_TFN, AU_MEDICARE) for the output scan; detail lives in `../../ai-rag-engineering/references/pii-redaction-presidio.md` |
+| `references/red-team-catalogue.md` F4 (via `ai-rag-engineering`) | `ai-kb/vendor/data-privacy-stack__presidio/presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/*` | Microsoft Presidio, upstream at `data-privacy-stack/presidio` (renamed from `microsoft/presidio`; same repository, not a fork; GitHub API checked 2026-11-08) | MIT (c) Presidio Contributors, https://github.com/data-privacy-stack/presidio/blob/main/LICENSE (read 2026-11-08) | 05b60e1a6805f3b2c0ad6cbe7526ccd226647971 | AU recogniser entity names (AU_ABN, AU_ACN, AU_TFN, AU_MEDICARE) for the output scan; detail lives in `../../ai-rag-engineering/references/pii-redaction-presidio.md` |
 
 ## Non-harvested sources
 

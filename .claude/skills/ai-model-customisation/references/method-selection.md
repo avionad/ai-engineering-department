@@ -20,7 +20,7 @@ the client's eval harness.*
 
 ```
 New FACTS?     changing        -> RAG
-               stable + huge   -> continued pretraining (guidance only, needs Aditya's approval)
+               stable + huge   -> continued pretraining (guidance only, needs the practice owner's approval)
 New BEHAVIOUR? still shifting  -> prompt engineering
                stable, and you have:
                  demonstrations (input -> ideal output)   -> SFT with LoRA / QLoRA
@@ -69,7 +69,7 @@ From wshobson `lora-qlora-recipes` ("LoRA Without Regret" convention as cited th
 
 Memory feasibility is estimated as weights + optimiser state + gradients + activations for the
 chosen precision and method (worked worksheets in the harvested upstream file
-`~/ai-kb/vendor/wshobson__agents/plugins/llm-finetuning/skills/finetuning-method-selection/references/memory-math.md`,
+`ai-kb/vendor/wshobson__agents/plugins/llm-finetuning/skills/finetuning-method-selection/references/memory-math.md`,
 not a file in this skill). Confirm GPU
 availability in the approved region before promising a size class.
 
@@ -86,6 +86,6 @@ model) is fine-tuned on it; both are compared on the same harness. Rules:
 
 ## 6. Continued pretraining and pretraining
 
-Continued pretraining on a very large stable domain corpus is guidance-only here and needs Aditya's
+Continued pretraining on a very large stable domain corpus is guidance-only here and needs the practice owner's
 approval as a scope exception. Pretraining a model from scratch is out of scope for every DDD
 client: the data, compute and expertise required are outside any engagement we sell.

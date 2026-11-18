@@ -1,7 +1,7 @@
 # Build vs buy
 
 *v0.1.0, 2026-11-08. Approach adapted from the upstream `chief-ai-officer-advisor` skill, whose
-files sit at `~/ai-kb/vendor/alirezarezvani__claude-skills/c-level-advisor/skills/chief-ai-officer-advisor/`
+files sit at `ai-kb/vendor/alirezarezvani__claude-skills/c-level-advisor/skills/chief-ai-officer-advisor/`
 (`references/model_buildvsbuy_strategy.md`, `references/ai_cost_economics.md`,
 `scripts/model_buildvsbuy_calculator.py` -- upstream paths, none of them files in this skill) in
 alirezarezvani/claude-skills, MIT (c) 2025 Alireza Rezvani, commit

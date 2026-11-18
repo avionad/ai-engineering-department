@@ -1,9 +1,9 @@
 # Vendored provenance: ai-agents-automation
 
-*v0.1.0, 2026-11-08. SHAs from `~/ai-kb/vendor/_harvest-manifest-2026-11-08.json`.
+*v0.1.0, 2026-11-08. SHAs from `ai-kb/vendor/_harvest-manifest-2026-11-08.json`.
 Department-wide list: `../../_shared/VENDORED.md`.*
 
-| Used in (this skill) | Source file (upstream, under `~/ai-kb/vendor/<owner>__<repo>/`) | Repo | Licence | Commit SHA | How used |
+| Used in (this skill) | Source file (upstream, under `ai-kb/vendor/<owner>__<repo>/`) | Repo | Licence | Commit SHA | How used |
 |---|---|---|---|---|---|
 | `references/agent-controls.md` section 3 (failure handling: recoverable vs fatal, idempotent re-runnable steps, leave state consistent on abort) | `categories/09-meta-orchestration/multi-agent-coordinator.md` | VoltAgent/awesome-claude-code-subagents | MIT | ed74d115b7fb7026a22a4f816a8e3250f425e3b4 | **Ideas adapted**, rewritten for business automations; no text copied |
 | Build options named in `references/voice-agents.md` | pipecat-ai/pipecat (not harvested, nothing copied) | pipecat-ai/pipecat | **BSD-2-Clause, verified live 2026-11-08** from the repo LICENSE file, https://github.com/pipecat-ai/pipecat/blob/main/LICENSE (SPDX `BSD-2-Clause` returned by https://api.github.com/repos/pipecat-ai/pipecat/license) | n/a (not harvested, no commit pinned) | Named as an option only; no code or text used |

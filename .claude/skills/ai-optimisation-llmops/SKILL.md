@@ -29,7 +29,7 @@ managed service (gap 6). This skill is that loop, for AI **and** the workflow ar
 | `ai-engineer` agent | Implements the approved change set in staging |
 | `ai-security-tester` agent / `ai-evals-security-testing` | Re-runs the golden set and the relevant red-team families on every change set; `../ai-evals-security-testing/scripts/eval_compare.py` gives the verdict; a regression blocks |
 | `ai-compliance-officer` / `ai-compliance-risk` | Material changes (new model or vendor, new data, more autonomy, new user group) go back for a tier re-check and, if needed, a sign-off refresh |
-| `ai-proposal-pricing` | **All retainer pricing lives there** (run-ongoing bucket, prices end in 100/300/600/700/800 via its estimator). This skill defines the scope fences only |
+| `ai-proposal-pricing` | **All retainer pricing lives there** (run-ongoing bucket, price endings per your own pricing policy via its estimator). This skill defines the scope fences only |
 | `ai-rag-engineering`, `ai-agents-automation` | Own the designs this loop tunes (retrieval settings, agent controls, human-in-the-loop tier) |
 
 ## Hard rules

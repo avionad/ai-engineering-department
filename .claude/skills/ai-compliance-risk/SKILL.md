@@ -184,6 +184,6 @@ in the research, so never state them from memory.
 
 - Screening bands uncalibrated; the Australian AI screening tool's questions could not be
   retrieved (site timeout), so alignment to it is `PENDING_VERIFICATION`.
-- ATLAS: `~/ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` re-harvested 2026-11-08 at the pinned commit (sha256 ac41ee9f...142d).
+- ATLAS: `ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` re-harvested 2026-11-08 at the pinned commit (sha256 ac41ee9f...142d).
 
 Provenance and licences: `references/vendored-provenance.md`.

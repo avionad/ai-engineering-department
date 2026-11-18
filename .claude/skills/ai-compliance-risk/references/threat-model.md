@@ -74,7 +74,7 @@ Unifying principle from OWASP's agentic list, and conventions section 2: **least
 
 **Data provenance.** The harvested `mitre-atlas/atlas-data` snapshot (commit
 f56c1468731d6428e5bf875263b4643b46d67437) contained only a symlink file pointing to
-`v6/ATLAS-2026.10.yaml`; the `v6/` folder IS harvested: `~/ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` (sha256 ac41ee9f...142d, verified 2026-11-08). The names below were read on
+`v6/ATLAS-2026.10.yaml`; the `v6/` folder IS harvested: `ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` (sha256 ac41ee9f...142d, verified 2026-11-08). The names below were read on
 2026-11-08 from that same file fetched at the **same pinned commit** from GitHub
 (`dist/v6/ATLAS-2026.10.yaml`, collection version 2026.10, modified 2026-10-28; sha256
 ac41ee9f99a47084ba5fdfc77ae83a28687e12390240fffeb37df7914ffe142d). No re-harvest needed.

@@ -19,7 +19,7 @@ manual steps eliminated, systems connected and risk controlled.
 | 1. Discover | `ai-discovery-scoping`, `ai-readiness-assessment` | Discovery notes with the client's own numbers (hours, volumes, error costs); readiness Go/Wait |
 | 2. Govern | `ai-compliance-risk`, `ai-governance-program` | Risk tier assigned; applicable obligations listed; ADM (APP 1.7) check done |
 | 3. Design | `ai-architect` agent following `ai-solution-architecture` | Architecture + data-flow diagram, platform choice with residency, build-vs-buy, ADR |
-| 4. Quote | `ai-proposal-pricing` | Effort model + package price, Aditya-approved, R2 verifier PASS |
+| 4. Quote | `ai-proposal-pricing` | Effort model + package price, owner-approved, R2 verifier PASS |
 | 5. Build | `ai-engineer` agent with `ai-rag-engineering`, `ai-agents-automation`, `ai-model-customisation`, `ai-deployment-platforms` | Built in sandbox/staging only; never on client production |
 | 6. Verify | `ai-evals-security-testing` (`ai-security-tester` agent) | Baseline eval + security tests passed; compliance sign-off by `ai-compliance-officer` |
 | 7. Go-live | `ai-manager` | Human approval from the client's accountable owner, recorded |

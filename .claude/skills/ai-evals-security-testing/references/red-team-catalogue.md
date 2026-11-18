@@ -5,7 +5,7 @@
 **Licensing and provenance.** OWASP Top 10 for LLM Applications 2025 and OWASP Top 10 for
 Agentic Applications 2026 are CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): this file cites **IDs and names only** (names as listed
 in the Internal web research file) and every description here is DDD's own. MITRE ATLAS IDs are from
-`~/ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` (Apache-2.0, sha256
+`ai-kb/vendor/mitre-atlas__atlas-data/dist/v6/ATLAS-2026.10.yaml` (Apache-2.0, sha256
 ac41ee9f...142d); every ID below was checked against that file on 2026-11-08. promptfoo plugin
 and strategy IDs are from the harvested promptfoo red-team docs (MIT, commit 2a6fdf9b). garak
 module names are from the harvested probe index (Apache-2.0, commit 89277920): confirm what each
@@ -14,10 +14,10 @@ module does with `garak --list_probes` and its module docs before relying on it.
 > **Edition note (re-verified 2026-11-09).** The LLM IDs below are the **2026 edition**
 > (`LLMnn:2026`), re-mapped on 2026-11-09 against the official OWASP GenAI LLM Top 10 2026 PDF
 > (https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/; local evidence copy
-> `~/ai-kb/docs/owasp-genai-llm-top-10-2026-downloaded-2026-11-09.pdf`). 2025's LLM07 System
+> `ai-kb/docs/owasp-genai-llm-top-10-2026-downloaded-2026-11-09.pdf`). 2025's LLM07 System
 > Prompt Leakage maps to LLM08:2026 Hidden Context Exposure (the 2026 text says hidden context
 > "typically includes the system prompt"). ASI01-ASI10 names verified the same day against the
-> official Agentic Top 10 PDF (`~/ai-kb/docs/owasp-agentic-top-10-2026-downloaded-2026-11-09.pdf`).
+> official Agentic Top 10 PDF (`ai-kb/docs/owasp-agentic-top-10-2026-downloaded-2026-11-09.pdf`).
 > Still open: OWASP's new **Agent Control Standard** has not been reviewed; assess it before the
 > next agentic engagement.
 

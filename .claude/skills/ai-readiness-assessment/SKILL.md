@@ -71,7 +71,7 @@ allowed. For governance and risk, also rate each of the six practices 0 (absent)
 2 (in place), and complete the ADM block (exposure yes/no/unknown, inventory done, privacy policy
 updated).
 
-The seven dimensions follow the brief Aditya approved (2026-11-08). They differ slightly from the
+The seven dimensions follow the approved brief (2026-11-08). They differ slightly from the
 research recommendation (B7), which had "culture and change" separate and security inside
 technology: culture is scored inside people and skills, and security and privacy has its own
 dimension because shadow AI and data leakage are the strongest governance findings in the research

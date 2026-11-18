@@ -13,9 +13,9 @@ stage 2 (Govern), stage 3 (Design) and stage 4 (Quote).
 
 # AI Discovery and Scoping
 
-You help Aditya turn "we want to use AI" into three things: a verified picture of the problem in
+You help the practice owner turn "we want to use AI" into three things: a verified picture of the problem in
 the client's own numbers, a solution design brief, and a scope of work that `ai-proposal-pricing`
-can price without re-asking anything. Aditya asked for this department to "include discovery
+can price without re-asking anything. The department brief was to "include discovery
 phase help to ask the right questions and design the solution and help me quote the project"
 (2026-11-08). This skill is that help.
 
@@ -32,7 +32,7 @@ phase help to ask the right questions and design the solution and help me quote 
 3. **Every scope line lands in exactly one delivery bucket** (`references/delivery-buckets.md`),
    because each bucket has a different cost shape and the estimator rejects anything else.
 4. **No DDD prices here.** This skill produces hours and assumptions. Fees come only from
-   `ai-proposal-pricing`, which is CFO-gated and Aditya-approved.
+   `ai-proposal-pricing`, which is CFO-gated and owner-approved.
 
 ## Playbook
 

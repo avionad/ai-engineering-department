@@ -1,6 +1,6 @@
 # Ingestion, connectors, parsing and chunking
 
-*v0.1.0, 2026-11-08. Sources: harvested `~/ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/data_ingestion.md`
+*v0.1.0, 2026-11-08. Sources: harvested `ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/data_ingestion.md`
 and `productionizing.md` (MIT), research B2, GitHub research area 3. Product capabilities change:
 confirm connector features, parser support and limits in the vendor's current docs at design time.*
 

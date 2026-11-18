@@ -1,7 +1,7 @@
 # Permission-aware retrieval (access model C)
 
 *v0.1.0, 2026-11-08. Sources: research B2 (`ai-dept-web-research-2026-11-08.md`), GitHub research
-area 3 and gap 4, harvested `~/ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/login_and_acl.md` (MIT,
+area 3 and gap 4, harvested `ai-kb/vendor/Azure-Samples__azure-search-openai-demo/docs/login_and_acl.md` (MIT,
 SHA in `vendored-provenance.md`). Source-system behaviours listed below are interrogation prompts
 for discovery: confirm each against the client's system and the vendor's current documentation
 before the design relies on it.*

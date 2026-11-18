@@ -44,7 +44,7 @@ tier's column blocks sign-off.**
 
 | Role | Name | Decision | Date |
 |---|---|---|---|
-| DDD compliance (ai-compliance-officer run, reviewed by Aditya) | | Ready / Not ready | |
+| DDD compliance (ai-compliance-officer run, reviewed by the practice owner) | | Ready / Not ready | |
 | Client accountable owner (go-live approval, stage 7) | | Approve / Reject | |
 
 Open items and conditions: {list}

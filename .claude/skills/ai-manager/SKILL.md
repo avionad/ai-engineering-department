@@ -85,7 +85,7 @@ flowchart LR
   I[Intake] --> D[Discover<br/>ai-discovery-scoping<br/>ai-readiness-assessment]
   D --> G[Govern<br/>ai-compliance-risk<br/>risk tier + ADM check]
   G --> A[Design<br/>ai-architect]
-  A --> Q[Quote<br/>ai-proposal-pricing<br/>Aditya approves]
+  A --> Q[Quote<br/>ai-proposal-pricing<br/>the owner approves]
   Q --> B[Build in sandbox]
   B --> V[Verify<br/>evals + compliance sign-off]
   V --> L[Go-live<br/>client owner approves]
@@ -99,7 +99,7 @@ flowchart LR
 - Risk tier assigned before design is finalised; tier 4 stops the engagement with a reason.
 - Tier 3: impact assessment, ADM disclosure plan, human review design and red-team are in scope
   and in the quote.
-- Quote approved by Aditya and verified (R2) before it goes out.
+- Quote approved by the practice owner and verified (R2) before it goes out.
 - No build outside sandbox/staging; no go-live without eval baseline + compliance sign-off +
   the client's accountable owner approving in writing.
 
@@ -114,7 +114,7 @@ flowchart LR
   retrieval the platform tie-break in `ai-deployment-platforms` applies (verified pattern wins;
   M365 clients test Copilot first).
 - Professional indemnity cover for AI governance advice is unconfirmed (PENDING_VERIFICATION)
-  -- flag on compliance-led engagements until Aditya confirms.
+  -- flag on compliance-led engagements until the owner confirms.
 
 ## Answering customer questions directly
 
@@ -129,7 +129,7 @@ days goes to the `ai-architect` agent or a live source check.
 | Blueprint and research | the department's original research files (internal, not included in this repo), `ai-dept-web-research-2026-11-08.md`, `ai-dept-github-research-2026-11-08.md` |
 | Shared rules, register, industry packs, FAQ, provenance | `../_shared/` |
 | What is defined where (risk tiers, size bands, severity, buckets, C and K and H and F schemes, the three scoring instruments) | `../_shared/DEFINITIONS.md`. Reference a definition, never restate it; if a scheme is not on that page it does not exist yet |
-| Harvested open-source material (pinned, scanned) | `~/ai-kb/vendor/` (README is at `~/ai-kb/README.md`) |
-| Agents | `~/.claude/agents/`: `ai-architect`, `ai-compliance-officer`, `ai-engineer`, `ai-security-tester`, `ai-optimiser` (promoted 2026-11-08; staging copy archived at `~/cto-ops/testing/skills-staging/_archive/ai-automation-promoted-2026-11-08/`) |
+| Harvested open-source material (pinned, scanned) | `ai-kb/vendor/` (README is at `ai-kb/README.md`) |
+| Agents | `.claude/agents/`: `ai-architect`, `ai-compliance-officer`, `ai-engineer`, `ai-security-tester`, `ai-optimiser` (promoted 2026-11-08; staging copy archived at `~/cto-ops/testing/skills-staging/_archive/ai-automation-promoted-2026-11-08/`) |
 | Worked example (fictional client, full lifecycle) | `references/worked-example-2026-11-08/` -- read its README first; every number in it is invented |
 | Log | your engagement activity log |

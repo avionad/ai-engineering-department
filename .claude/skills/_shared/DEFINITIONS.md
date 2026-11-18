@@ -67,7 +67,7 @@ Do not restate these either, and do not paraphrase them: cite the ID and the sou
 
 | Vocabulary | Owner | How we cite it |
 |---|---|---|
-| OWASP LLM and Agentic Top 10 IDs | OWASP (register INT-9, INT-10) | IDs only, edition-qualified (`LLMnn:2026`, ASI01 to ASI10), CC BY-SA. Re-mapped to the 2026 edition and verified against both official PDFs 2026-11-09 (evidence copies in `~/ai-kb/docs/`) |
+| OWASP LLM and Agentic Top 10 IDs | OWASP (register INT-9, INT-10) | IDs only, edition-qualified (`LLMnn:2026`, ASI01 to ASI10), CC BY-SA. Re-mapped to the 2026 edition and verified against both official PDFs 2026-11-09 (evidence copies in `ai-kb/docs/`) |
 | MITRE ATLAS tactics and techniques | MITRE (register INT-11) | `AML.T...` IDs against the pinned data version |
 | ISO 42001, 23894, 42005, 42006 | ISO (register INT-1 to INT-4) | Clause structure by reference. **DDD cites no Annex A control IDs**, because two harvested sources number them differently (`ai-compliance-risk/references/vendored-provenance.md`) |
 | NIST AI RMF and the Generative AI Profile | NIST (register INT-5, INT-6) | Function and risk names as published |

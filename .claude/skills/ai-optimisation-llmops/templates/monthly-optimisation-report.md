@@ -1,6 +1,6 @@
 <!-- Audience: client accountable owner (first screen), client technical owner (detail); internal
 copy to ai-manager. Save as {client}/reports/adhoc-report/ai-optimisation-{YYYY-MM}.md (or the
-client's agreed location). Matches the Output section of ~/.claude/agents/ai-optimiser.md. Client-facing
+client's agreed location). Matches the Output section of .claude/agents/ai-optimiser.md. Client-facing
 version passes client-ops/client-voice and is rendered with tools/report-renderer/render_report.py.
 More than 3 numbers: R2 verifier at scripts/verifiers/verify_ai-optimisation-{YYYY-MM}.py. -->
 
