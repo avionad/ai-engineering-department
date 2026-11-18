@@ -1,0 +1,9 @@
+line_item,bucket,assumption,low,likely,high,dependencies,risk,confirmed
+Docket intake workflow (email to queue),integration-workflow,Dockets arrive by email as PDF,4,6,10,Client mailbox access,Mixed delivery channels,no
+Extraction schema and prompts for supplier docket layouts,integration-workflow,Client supplies 10 real dockets per supplier layout,8,12,20,Sample dockets,More layouts than stated,no
+Validation rules and PO matching,integration-workflow,PO numbers appear on dockets,6,10,16,Read API to ERP,PO number often missing,no
+Write to purchase orders behind human approval,integration-workflow,ERP API allows receipt line updates via integration user,6,10,18,Integration user and test database,Write path needs custom work,no
+Eval baseline on held-out dockets,governance-compliance,Client confirms correct values for test set,4,6,10,Client SME time,Ground truth slow to arrive,no
+Risk tier screen and privacy check,governance-compliance,No personal information beyond supplier contacts,2,3,5,Compliance screen,Personal data found in dockets,no
+Staff training and runbook,change-training,One user group at one site,3,4,6,Training session booked,Extra sites,no
+Monthly monitoring and eval rerun,run-ongoing,Volume stays within the client's stated range,2,3,5,Monitoring access,Volume growth,no

@@ -1,0 +1,8 @@
+{
+  "client": "Sample Outdoor Retail Pty Ltd (fictional)",
+  "project": "Customer service agent with order lookup and capped refunds",
+  "date": "2026-11-08",
+  "risk_tier": 3,
+  "flags": ["genai", "third_party_model", "personal_data", "customer_facing", "rag", "agent"],
+  "project_controls": ["Acceptable use policy v1", "Register entry AI-003", "Privacy check 2026-11-06", "Logging of prompts and actions", "Access control via SSO"]
+}

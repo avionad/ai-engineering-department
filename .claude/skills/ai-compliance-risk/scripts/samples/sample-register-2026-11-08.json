@@ -1,0 +1,325 @@
+{
+  "client": "Sample Outdoor Retail Pty Ltd (fictional)",
+  "project": "Customer service agent with order lookup and capped refunds",
+  "date": "2026-11-08",
+  "risk_tier": 3,
+  "project_controls": [
+    "Acceptable use policy v1",
+    "Register entry AI-003",
+    "Privacy check 2026-11-06",
+    "Logging of prompts and actions",
+    "Access control via SSO"
+  ],
+  "seed_flags": [
+    "agent",
+    "customer_facing",
+    "genai",
+    "personal_data",
+    "rag",
+    "third_party_model"
+  ],
+  "risks": [
+    {
+      "id": "R-01",
+      "title": "Confabulation: confidently stated but false output relied on",
+      "category": "safety",
+      "source": "NIST AI 600-1 #2; CoSAI riskInsecureModelOutput; OWASP LLM09",
+      "likelihood": 3,
+      "impact": 3,
+      "controls": [
+        "Grounding in policy docs",
+        "Answer citations"
+      ],
+      "owner": "CX manager",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-02",
+      "title": "Human-AI configuration: automation bias or over-reliance by staff",
+      "category": "operational",
+      "source": "NIST AI 600-1 #7",
+      "likelihood": 3,
+      "impact": 2,
+      "controls": [
+        "Staff training"
+      ],
+      "owner": "CX manager",
+      "residual_likelihood": 2,
+      "residual_impact": 2
+    },
+    {
+      "id": "R-03",
+      "title": "Information security: model or integration widens attack surface",
+      "category": "security",
+      "source": "NIST AI 600-1 #9",
+      "likelihood": 3,
+      "impact": 4,
+      "controls": [
+        "Pen test before go-live",
+        "SSO"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-04",
+      "title": "Prompt injection (direct or indirect) changes system behaviour",
+      "category": "security",
+      "source": "CoSAI riskPromptInjection; OWASP LLM01; ATLAS AML.T0051",
+      "likelihood": 4,
+      "impact": 4,
+      "controls": [
+        "Input filtering",
+        "Tool allow-list",
+        "Output checks"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 2,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-05",
+      "title": "Insecure model output passed to downstream systems or users",
+      "category": "security",
+      "source": "CoSAI riskInsecureModelOutput; OWASP LLM05",
+      "likelihood": 3,
+      "impact": 3,
+      "controls": [
+        "Output encoding"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 2,
+      "residual_impact": 2
+    },
+    {
+      "id": "R-06",
+      "title": "Value chain: third-party model change, deprecation or opaque components",
+      "category": "third-party",
+      "source": "NIST AI 600-1 #12; APRA AI letter (AU-15) supplier risk",
+      "likelihood": 3,
+      "impact": 3,
+      "controls": [
+        "Pinned model version"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-07",
+      "title": "Supplier concentration with no tested exit or substitution plan",
+      "category": "third-party",
+      "source": "APRA AI letter (AU-15); CPS 230 (AU-13) where APRA-regulated",
+      "likelihood": 2,
+      "impact": 4,
+      "controls": [],
+      "owner": "Operations director",
+      "residual_likelihood": 0,
+      "residual_impact": 0
+    },
+    {
+      "id": "R-08",
+      "title": "Data privacy: leakage or unauthorised use or disclosure of personal information",
+      "category": "privacy",
+      "source": "NIST AI 600-1 #4; CoSAI riskSensitiveDataDisclosure; OWASP LLM02; Privacy Act (AU-6)",
+      "likelihood": 3,
+      "impact": 4,
+      "controls": [
+        "PII redaction in logs",
+        "No-training contract term"
+      ],
+      "owner": "Privacy officer",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-09",
+      "title": "Excessive data handling during inference (retention, logging, vendor reuse)",
+      "category": "privacy",
+      "source": "CoSAI riskExcessiveDataHandlingDuringInference; OAIC guidance (AU-11)",
+      "likelihood": 3,
+      "impact": 3,
+      "controls": [
+        "30-day log retention"
+      ],
+      "owner": "Privacy officer",
+      "residual_likelihood": 2,
+      "residual_impact": 2
+    },
+    {
+      "id": "R-10",
+      "title": "Personal information entered into public consumer AI tools (shadow AI)",
+      "category": "privacy",
+      "source": "OAIC guidance (AU-11); conventions s2",
+      "likelihood": 4,
+      "impact": 3,
+      "controls": [
+        "Sanctioned tool",
+        "AUP"
+      ],
+      "owner": "Operations director",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-11",
+      "title": "Misleading statements or promises by a customer-facing AI",
+      "category": "legal",
+      "source": "Australian Consumer Law (AU-22); OWASP LLM09",
+      "likelihood": 4,
+      "impact": 3,
+      "controls": [
+        "Policy-only answers",
+        "Human escalation"
+      ],
+      "owner": "CX manager",
+      "residual_likelihood": 2,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-12",
+      "title": "Harmful, hateful or abusive content shown to the public",
+      "category": "safety",
+      "source": "NIST AI 600-1 #3 and #11",
+      "likelihood": 2,
+      "impact": 3,
+      "controls": [
+        "Content filter"
+      ],
+      "owner": "CX manager",
+      "residual_likelihood": 1,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-13",
+      "title": "Unbounded consumption or denial of wallet from public traffic",
+      "category": "operational",
+      "source": "CoSAI riskEconomicDenialOfWallet, riskDenialOfMLService; OWASP LLM10",
+      "likelihood": 3,
+      "impact": 3,
+      "controls": [
+        "Rate limit",
+        "Spend cap"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 3
+    },
+    {
+      "id": "R-14",
+      "title": "Retrieval or vector store poisoning",
+      "category": "security",
+      "source": "CoSAI riskRetrievalVectorStorePoisoning; OWASP LLM08",
+      "likelihood": 2,
+      "impact": 4,
+      "controls": [
+        "Document integrity checks"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-15",
+      "title": "Permission leak: retrieval returns documents the user may not see",
+      "category": "privacy",
+      "source": "OWASP LLM08, LLM02; research B2 (permission-aware retrieval)",
+      "likelihood": 3,
+      "impact": 4,
+      "controls": [
+        "Customer-scoped lookups only"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-16",
+      "title": "Rogue actions: agent takes unintended actions with real effect",
+      "category": "security",
+      "source": "CoSAI riskRogueActions; OWASP LLM06; OWASP ASI02",
+      "likelihood": 3,
+      "impact": 5,
+      "controls": [
+        "Refund cap $100",
+        "Human approval above cap",
+        "Kill switch"
+      ],
+      "owner": "Operations director",
+      "residual_likelihood": 1,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-17",
+      "title": "Agent goal hijack via retrieved or tool content",
+      "category": "security",
+      "source": "OWASP ASI01; ATLAS AML.T0051.001, AML.T0080",
+      "likelihood": 3,
+      "impact": 4,
+      "controls": [
+        "Untrusted content isolation"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 2,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-18",
+      "title": "Identity and privilege abuse: over-scoped or shared agent credentials",
+      "category": "security",
+      "source": "OWASP ASI03; CoSAI riskAgenticDelegationConfusedDeputy, riskStaleAgentIdentityBinding",
+      "likelihood": 2,
+      "impact": 4,
+      "controls": [
+        "Scoped short-lived credentials",
+        "Separate service account"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-19",
+      "title": "Runaway agent tool loops and cascading failures",
+      "category": "operational",
+      "source": "CoSAI riskRunawayAgentToolLoops; OWASP ASI08",
+      "likelihood": 2,
+      "impact": 3,
+      "controls": [
+        "Step limit",
+        "Spend cap"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 2
+    },
+    {
+      "id": "R-20",
+      "title": "Tool source provenance: untrusted tool or MCP server",
+      "category": "security",
+      "source": "CoSAI riskToolSourceProvenance, riskZombieShadowMCPServers; OWASP ASI04",
+      "likelihood": 2,
+      "impact": 4,
+      "controls": [
+        "Approved tool list"
+      ],
+      "owner": "IT lead",
+      "residual_likelihood": 1,
+      "residual_impact": 4
+    },
+    {
+      "id": "R-21",
+      "title": "Memory and context poisoning across sessions",
+      "category": "security",
+      "source": "OWASP ASI06; ATLAS AML.T0080.000",
+      "likelihood": 2,
+      "impact": 3,
+      "controls": [],
+      "owner": "",
+      "residual_likelihood": 0,
+      "residual_impact": 0
+    }
+  ]
+}

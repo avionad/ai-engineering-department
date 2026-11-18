@@ -1,0 +1,15 @@
+id,title,category,source,likelihood,impact,inherent_score,inherent_rating,controls,owner,residual_likelihood,residual_impact,residual_rating,treatment_option,treatment_adequacy
+R-01,Confabulation: confidently stated but false output relied on,safety,NIST AI 600-1 #2; CoSAI riskInsecureModelOutput; OWASP LLM09,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-02,Human-AI configuration: automation bias or over-reliance by staff,operational,NIST AI 600-1 #7,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-03,Information security: model or integration widens attack surface,security,NIST AI 600-1 #9,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-04,Prompt injection (direct or indirect) changes system behaviour,security,CoSAI riskPromptInjection; OWASP LLM01; ATLAS AML.T0051,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-05,Insecure model output passed to downstream systems or users,security,CoSAI riskInsecureModelOutput; OWASP LLM05,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-06,"Value chain: third-party model change, deprecation or opaque components",third-party,NIST AI 600-1 #12; APRA AI letter (AU-15) supplier risk,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-07,Supplier concentration with no tested exit or substitution plan,third-party,APRA AI letter (AU-15); CPS 230 (AU-13) where APRA-regulated,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-08,Data privacy: leakage or unauthorised use or disclosure of personal information,privacy,NIST AI 600-1 #4; CoSAI riskSensitiveDataDisclosure; OWASP LLM02; Privacy Act (AU-6),0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-09,"Excessive data handling during inference (retention, logging, vendor reuse)",privacy,CoSAI riskExcessiveDataHandlingDuringInference; OAIC guidance (AU-11),0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-10,Personal information entered into public consumer AI tools (shadow AI),privacy,OAIC guidance (AU-11); conventions s2,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-11,Intellectual property: output replicates protected material,legal,NIST AI 600-1 #10,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-12,Information integrity: synthetic content mistaken for authentic,legal,NIST AI 600-1 #8; EU AI Act Art 50 if EU-facing (EU-1),0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-13,Retrieval or vector store poisoning,security,CoSAI riskRetrievalVectorStorePoisoning; OWASP LLM08,0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first
+R-14,Permission leak: retrieval returns documents the user may not see,privacy,"OWASP LLM08, LLM02; research B2 (permission-aware retrieval)",0,0,0,Not assessed,,UNASSIGNED,0,0,Not assessed,score first,score first

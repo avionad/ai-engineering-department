@@ -1,0 +1,2 @@
+id,name,owner,value_low,value_high,value_source,feasibility,risk_tier,time_to_value_weeks,status,baseline,actual,compliance_screen,ai_register_id,notes
+UC-01,Example: supplier invoice capture,PENDING,PENDING,PENDING,,PENDING,PENDING,PENDING,idea,,,,,Replace this row. value_* and baseline/actual are annual AUD from the client's own numbers; value_source names who said it and when.

@@ -1,0 +1,37 @@
+{
+ "status": "INTERNAL DRAFT -- not for clients",
+ "pending_config": [],
+ "errors": [],
+ "items": 9,
+ "expected_hours": 93.33,
+ "sd_hours": 13.33,
+ "quoted_hours": 106.67,
+ "rate_ex_gst": 150,
+ "overhead_pct": 0.15,
+ "fee_ex_gst": 18600,
+ "gst": 1860.0,
+ "fee_inc_gst": 20460.0,
+ "buckets": {
+  "governance-compliance": {
+   "items": 1,
+   "expected_hours": 8.33,
+   "sd_hours": 1.0
+  },
+  "discovery-measurement": {
+   "items": 8,
+   "expected_hours": 85.0,
+   "sd_hours": 12.33
+  }
+ },
+ "range_hours": [
+  60.0,
+  140.0
+ ],
+ "spread_vs_expected": 0.72,
+ "unconfirmed_hours_share": 1.0,
+ "unconfirmed_retainer_hours": 0,
+ "recommend_paid_discovery": true,
+ "run_cost_monthly_aud": 0,
+ "retainer_hours_monthly": 0,
+ "retainer_fee_monthly_ex_gst": 0
+}

@@ -1,0 +1,14 @@
+{
+  "_note": "SAMPLE ONLY. Fictional client. Real thresholds are set with the client's accountable owner and recorded in the test plan; none of these numbers is an industry standard.",
+  "agreed_by": "Jane Citizen, Head of People (fictional)",
+  "agreed_on": "2026-10-01",
+  "default_min_pass_rate": null,
+  "max_regressions": 0,
+  "categories": {
+    "retrieval-answer": {"min_pass_rate": 0.8, "max_mean_score_drop": 0.05},
+    "abstain": {"min_pass_rate": 0.75},
+    "citation": {"min_pass_rate": 0.75, "max_mean_score_drop": 0.05},
+    "permission-leak": {"blocking": true}
+  },
+  "accepted_regressions": {}
+}

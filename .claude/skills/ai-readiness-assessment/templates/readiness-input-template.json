@@ -1,0 +1,117 @@
+{
+  "_note": "FICTIONAL SAMPLE for testing readiness_score.py. Replace every value. Evidence type is 'seen' (document or system observed) or 'stated' (interview only). Values in use cases come from the client only, with value_source; otherwise null.",
+  "client": "Sample Co (fictional)",
+  "size_band": "M",
+  "assessment_date": "2026-11-08",
+  "assessor": "[CLAUDE_CODE:aditya]",
+  "dimensions": {
+    "strategy_leadership": {
+      "score": 3,
+      "confidence": "medium",
+      "evidence": [
+        {"item": "GM named as sponsor in kickoff email", "type": "seen"},
+        {"item": "Two priority problems named by GM", "type": "stated"}
+      ],
+      "actions": [
+        {"action": "Write a success measure and baseline for each priority use case", "impact": "high", "effort": "low"}
+      ]
+    },
+    "data": {
+      "score": 2.5,
+      "confidence": "medium",
+      "evidence": [
+        {"item": "CRM export reviewed: duplicate customer records present", "type": "seen"}
+      ],
+      "actions": [
+        {"action": "Name an owner for customer data and de-duplicate the CRM", "impact": "high", "effort": "medium"}
+      ]
+    },
+    "technology_infrastructure": {
+      "score": 3,
+      "confidence": "high",
+      "evidence": [
+        {"item": "Microsoft 365 with Entra ID SSO observed", "type": "seen"},
+        {"item": "ERP has a REST API (vendor docs)", "type": "seen"}
+      ],
+      "actions": [
+        {"action": "Arrange a sandbox copy of the ERP for pilot work", "impact": "medium", "effort": "low"}
+      ]
+    },
+    "people_skills": {
+      "score": 3,
+      "confidence": "medium",
+      "evidence": [
+        {"item": "Ops lead already uses AI for drafting", "type": "stated"}
+      ],
+      "actions": [
+        {"action": "Start a champions group of 3-5 staff", "impact": "medium", "effort": "low"}
+      ]
+    },
+    "process": {
+      "score": 3,
+      "confidence": "medium",
+      "evidence": [
+        {"item": "Quoting procedure document reviewed", "type": "seen"}
+      ],
+      "actions": []
+    },
+    "governance_risk": {
+      "score": 2,
+      "confidence": "high",
+      "evidence": [
+        {"item": "No AI policy or register exists (confirmed by GM)", "type": "stated"},
+        {"item": "Privacy policy reviewed: no ADM wording", "type": "seen"}
+      ],
+      "actions": [
+        {"action": "Publish an AI acceptable use policy from the NAIC template, tailored", "impact": "high", "effort": "low"},
+        {"action": "Start an AI register and screen each use case", "impact": "medium", "effort": "low"}
+      ]
+    },
+    "security_privacy": {
+      "score": 2,
+      "confidence": "medium",
+      "evidence": [
+        {"item": "Staff use personal ChatGPT accounts for customer emails", "type": "stated"}
+      ],
+      "actions": [
+        {"action": "Turn on MFA for the remaining admin accounts", "impact": "high", "effort": "low"}
+      ]
+    }
+  },
+  "governance_practices": {
+    "accountability": 1,
+    "impacts": 0,
+    "risk_management": 0,
+    "information_sharing": 1,
+    "test_monitor": 0,
+    "human_control": 1
+  },
+  "adm": {"exposure": "unknown", "inventory_done": false, "privacy_policy_updated": false},
+  "shadow_ai_with_personal_data": true,
+  "use_cases": [
+    {
+      "name": "Quote drafting from enquiry emails",
+      "data_ready": true,
+      "owner": "Ops lead",
+      "pilot_30_days": true,
+      "risk_tier": 1,
+      "compliance_screen_done": false,
+      "annual_value_aud": null,
+      "value_source": null,
+      "time_to_value_weeks": 4,
+      "unblock": ""
+    },
+    {
+      "name": "Credit check automation for trade accounts",
+      "data_ready": false,
+      "owner": null,
+      "pilot_30_days": false,
+      "risk_tier": null,
+      "compliance_screen_done": false,
+      "annual_value_aud": null,
+      "value_source": null,
+      "time_to_value_weeks": null,
+      "unblock": "Name an owner, screen with ai-compliance-risk (decisions about people, likely tier 3)"
+    }
+  ]
+}

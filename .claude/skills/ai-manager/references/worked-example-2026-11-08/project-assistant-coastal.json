@@ -1,0 +1,2 @@
+{"client": "Coastal Health Partners (fictional)", "project": "Staff knowledge assistant (PROVISIONAL)", "date": "2026-11-08", "risk_tier": 2,
+ "flags": ["genai", "third_party_model", "personal_data", "generates_content", "rag"], "project_controls": []}

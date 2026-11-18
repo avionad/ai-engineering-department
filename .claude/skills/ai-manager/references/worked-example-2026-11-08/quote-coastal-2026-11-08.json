@@ -1,0 +1,67 @@
+{
+ "status": "INTERNAL DRAFT -- not for clients",
+ "pending_config": [],
+ "errors": [],
+ "items": 27,
+ "expected_hours": 305.5,
+ "sd_hours": 45.83,
+ "quoted_hours": 351.33,
+ "rate_ex_gst": 150,
+ "overhead_pct": 0.15,
+ "fee_ex_gst": 60700,
+ "gst": 6070.0,
+ "fee_inc_gst": 66770.0,
+ "buckets": {
+  "config-saas": {
+   "items": 1,
+   "expected_hours": 12.67,
+   "sd_hours": 2.0
+  },
+  "integration-workflow": {
+   "items": 1,
+   "expected_hours": 11.0,
+   "sd_hours": 2.33
+  },
+  "rag-knowledge": {
+   "items": 4,
+   "expected_hours": 64.67,
+   "sd_hours": 10.67
+  },
+  "custom-agent-app": {
+   "items": 1,
+   "expected_hours": 25.33,
+   "sd_hours": 4.0
+  },
+  "governance-compliance": {
+   "items": 8,
+   "expected_hours": 86.17,
+   "sd_hours": 11.83
+  },
+  "change-training": {
+   "items": 3,
+   "expected_hours": 20.67,
+   "sd_hours": 2.67
+  },
+  "run-ongoing": {
+   "items": 1,
+   "expected_hours": 10.33,
+   "sd_hours": 1.0
+  },
+  "discovery-measurement": {
+   "items": 8,
+   "expected_hours": 85.0,
+   "sd_hours": 12.33
+  }
+ },
+ "range_hours": [
+  199.0,
+  474.0
+ ],
+ "spread_vs_expected": 0.912,
+ "unconfirmed_hours_share": 0.821,
+ "unconfirmed_retainer_hours": 10.33,
+ "recommend_paid_discovery": true,
+ "run_cost_monthly_aud": 0,
+ "retainer_hours_monthly": 11.33,
+ "retainer_fee_monthly_ex_gst": 2100
+}

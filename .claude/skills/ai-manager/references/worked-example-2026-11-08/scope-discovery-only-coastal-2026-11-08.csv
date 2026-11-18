@@ -1,0 +1,10 @@
+line_item,bucket,assumption,low,likely,high,dependencies,risk,confirmed
+Stakeholder interviews (CIO; privacy officer; clinical governance; HR; IT security; procurement; two clinic managers),discovery-measurement,Eight interviews of 45 min each booked within two weeks,10,14,20,Client scheduling,Stakeholders unavailable or more functions added,no
+Discovery workshops x2 (assistant; referral intake) incl prep and notes,discovery-measurement,Two 90 min workshops with the right people in the room,6,8,12,Client SME time,Second workshop needed per clinic type,no
+Baseline: time to find a policy answer sampled at three clinics,discovery-measurement,Client staff log 2 weeks of lookups using our sheet,6,10,16,Clinic manager support,Low logging compliance,no
+Baseline: referral intake volume and minutes per referral and rework rate,discovery-measurement,Client supplies 2 weeks of referral counts and a timed sample,6,10,16,Admin team lead,Referrals arrive by many channels (fax; email; portal),no
+Source and permission inventory (SharePoint sites; legacy file share; ACL patterns; identity sync),discovery-measurement,Read-only admin report access granted by client IT,8,12,20,Client IT access,File share ACLs undocumented or AD not synced to Entra,no
+PMS integration feasibility (API; test environment; vendor terms),discovery-measurement,PMS vendor offers a documented API and a test tenant,4,8,16,PMS vendor contact,No write API or vendor charges for access,no
+Buy-first comparison: golden subset against Microsoft 365 Copilot,discovery-measurement,Client supplies trial licences for 5 test users,6,8,12,Copilot trial licences,No trial available,no
+Use-case qualification; pilot selection; discovery report and solution design brief,discovery-measurement,Two use cases only,8,12,16,Outputs above,Scope creep to further use cases,yes
+Risk screens confirmed with owner; applicable obligations; ADM check for referral intake,governance-compliance,Client project owner available for one 60 min session per use case,6,8,12,Project owner,Referral intake found to triage clinically,no
